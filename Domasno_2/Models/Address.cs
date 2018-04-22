@@ -14,6 +14,7 @@ namespace Domasno_2.Models
 
         public string LastName { get; set; }
 
+        [Display(Name = "adresa linija 1")]
         public string Address1 { get; set; }
 
         [Display(Name = "adresa 2")]
