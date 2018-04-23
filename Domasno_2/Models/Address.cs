@@ -16,6 +16,7 @@ namespace Domasno_2.Models
 
         public string Address1 { get; set; }
 
+        [Display(Name = "adresa 2")]
         public string Address2 { get; set; }
 
         public string City { get; set; }
