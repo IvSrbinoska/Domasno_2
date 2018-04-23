@@ -21,7 +21,7 @@ namespace Domasno_2.Models
         public string City { get; set; }
 
         [Display(Name = "Zip")]
-        
-        public int PostalCode { get; set; }
+        [MinLength(5)]
+        public string PostalCode { get; set; }
     }
 }

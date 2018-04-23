@@ -38,7 +38,7 @@ namespace Domasno_2.Controllers
                     Address1 = "23 NW 13th St",
                     Address2 = "#134",
                     City = "Miami",
-                    PostalCode = 22431 },
+                    PostalCode = "22431" },
                 new Address
                 {
                     FirstName = "Phil",
@@ -46,7 +46,7 @@ namespace Domasno_2.Controllers
                     Address1 = "25 NW 20th St",
                     Address2 = "#200",
                     City = "Texas",
-                    PostalCode = 34521
+                    PostalCode = "34521"
                 },
 
                 new Address
@@ -56,7 +56,7 @@ namespace Domasno_2.Controllers
                     Address1 = "Leninova",
                     Address2 = "#250",
                     City = "Skopje",
-                    PostalCode = 1000
+                    PostalCode = "1000"
                 }
             };
            // adrress.ForEach(d => context.Movies.Add(d));
