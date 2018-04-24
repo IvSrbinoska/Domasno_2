@@ -17,5 +17,13 @@ namespace Domasno_2.Models
         public DbSet<Domasno_2.Models.Address> Address { get; set; }
 
         public DbSet<Domasno_2.Models.Customer> Customer { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Customer>()
+                .HasMany(c => c.Addresses)
+                .WithOne(a => a.Customer);
+        }
+
     }
 }

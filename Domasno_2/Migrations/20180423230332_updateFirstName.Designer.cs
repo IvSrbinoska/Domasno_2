@@ -11,9 +11,10 @@ using System;
 namespace Domasno_2.Migrations
 {
     [DbContext(typeof(Domasno_2Context))]
-    partial class Domasno_2ContextModelSnapshot : ModelSnapshot
+    [Migration("20180423230332_updateFirstName")]
+    partial class updateFirstName
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -31,20 +32,15 @@ namespace Domasno_2.Migrations
 
                     b.Property<string>("City");
 
-                    b.Property<int?>("CustomerID");
-
                     b.Property<string>("FirstName")
                         .HasMaxLength(35);
 
                     b.Property<string>("LastName")
                         .HasMaxLength(15);
 
-                    b.Property<string>("PostalCode")
-                        .HasMaxLength(10);
+                    b.Property<string>("PostalCode");
 
                     b.HasKey("ID");
-
-                    b.HasIndex("CustomerID");
 
                     b.ToTable("Address");
                 });
@@ -65,13 +61,6 @@ namespace Domasno_2.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("Customer");
-                });
-
-            modelBuilder.Entity("Domasno_2.Models.Address", b =>
-                {
-                    b.HasOne("Domasno_2.Models.Customer", "Customer")
-                        .WithMany("Addresses")
-                        .HasForeignKey("CustomerID");
                 });
 #pragma warning restore 612, 618
         }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -14,9 +15,11 @@ namespace Domasno_2.Models
 
         public string Gender { get; set; }
 
-        [Range(18, 88)]
+        [Range(10, 40)]
         public int  Age { get; set; }
 
         public Boolean Active { get; set; }
+        public ICollection<Address> Addresses { get; set; }
     }
+
 }

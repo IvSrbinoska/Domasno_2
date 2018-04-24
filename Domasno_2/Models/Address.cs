@@ -9,8 +9,10 @@ namespace Domasno_2.Models
     public class Address
     {
         public int ID { get; set; }
-        
+
+        [StringLength(maximumLength: 35)]
         public string FirstName { get; set; }
+
         [StringLength(maximumLength: 15)]
         public string LastName { get; set; }
 
@@ -22,7 +24,9 @@ namespace Domasno_2.Models
         public string City { get; set; }
 
         [Display(Name = "Zip")]
-        [MinLength(5)]
+        [StringLength(10, MinimumLength =5)]
         public string PostalCode { get; set; }
+
+        public Customer Customer { get; set; }
     }
 }
