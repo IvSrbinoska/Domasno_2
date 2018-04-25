@@ -32,6 +32,11 @@ namespace Domasno_2
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+
+            string tst = Configuration["Common:WebSiteUrl"];
+            string tst2= Configuration["testiranje"];
+
+
             if (env.IsDevelopment())
             {
                 app.UseBrowserLink();

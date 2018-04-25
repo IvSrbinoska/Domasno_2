@@ -6,16 +6,19 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Domasno_2.Models;
+using Microsoft.Extensions.Configuration;
 
 namespace Domasno_2.Controllers
 {
     public class AdresaController : Controller
     {
         private readonly Domasno_2Context _context;
-
-        public AdresaController(Domasno_2Context context)
+        private readonly IConfiguration _configuration;
+        
+        public AdresaController(Domasno_2Context context, IConfiguration configuration)
         {
             _context = context;
+            _configuration = configuration;
         }
 
         // GET: Adresa
@@ -31,6 +34,8 @@ namespace Domasno_2.Controllers
             {
                 return NotFound();
             }
+            var tmp = _configuration["Common:WebSiteUrl"];
+            string tst2 = _configuration["testiranje"];
 
             var address = await _context.Address
                 .SingleOrDefaultAsync(m => m.ID == id);
