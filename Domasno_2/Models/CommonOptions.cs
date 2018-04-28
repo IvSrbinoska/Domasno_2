@@ -7,5 +7,8 @@ namespace Domasno_2.Models
 {
     public class CommonOptions
     {
+        public string WebSiteUrl { get; set; }
+        public int CustomersOnPage { get; set; }
+        public bool SeedDb { get; set; }
     }
 }

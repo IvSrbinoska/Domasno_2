@@ -51,10 +51,12 @@ namespace Domasno_2
 
             app.UseMvc(routes =>
             {
+                //routes.MapRoute("title", "title/{*index}",defaults: new { controller = "Title", action = "Index" });
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+            //app.UseMvcWithDefaultRoute();
         }
     }
 }

@@ -1,0 +1,18 @@
+﻿@model Domasno_2.Models.MarketData
+
+@{
+    ViewData["Title"] = "Show";
+}
+
+<h2>Show</h2>
+
+<p>
+
+    @*@ViewBag.price*@
+    @*@Model.PriceClose*@
+
+    @Html.DisplayNameFor(model => model.PriceClose)
+    <br/>
+    @Html.DisplayFor(model => model.PriceClose)
+
+</p>

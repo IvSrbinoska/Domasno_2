@@ -6,80 +6,65 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Domasno_2.Models;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 
 namespace Domasno_2.Controllers
 {
-    public class AdresaController : Controller
+    public class TitleController : Controller
     {
         private readonly Domasno_2Context _context;
-        private readonly IConfiguration _configuration;
-        private readonly ILogger<AdresaController> _logger;
-        private readonly CommonOptions _options;
-        public AdresaController(Domasno_2Context context, IConfiguration configuration, 
-            ILogger<AdresaController> logger, IOptions<CommonOptions> options)
+
+        public TitleController(Domasno_2Context context)
         {
             _context = context;
-            _configuration = configuration;
-            _logger = logger;
-            _options = options.Value;
         }
 
-        // GET: Adresa
+        // GET: Title
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Address.ToListAsync());
+            return View(await _context.Title.ToListAsync());
         }
 
-        // GET: Adresa/Details/5
+        // GET: Title/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
-            var tmp = _configuration["Common:WebSiteUrl"];
-            string tst2 = _configuration["testiranje"];
-            _logger.LogError("********************   proba za logiranje vo fajl");
-            
 
-            var address = await _context.Address
+            var title = await _context.Title
                 .SingleOrDefaultAsync(m => m.ID == id);
-            if (address == null)
+            if (title == null)
             {
                 return NotFound();
             }
 
-            return View(address);
+            return View(title);
         }
 
-        // GET: Adresa/Create
+        // GET: Title/Create
         public IActionResult Create()
         {
-            //_logger.LogInformation("info proba za logiranje vo fajl");
-            _logger.LogDebug("debug proba za logiranje vo fajl");
             return View();
         }
 
-        // POST: Adresa/Create
+        // POST: Title/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,FirstName,LastName,Address1,Address2,City,PostalCode")] Address address)
+        public async Task<IActionResult> Create([Bind("ID,TitleName,PublicationYear")] Title title)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(address);
+                _context.Add(title);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(address);
+            return View(title);
         }
 
-        // GET: Adresa/Edit/5
+        // GET: Title/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -87,22 +72,22 @@ namespace Domasno_2.Controllers
                 return NotFound();
             }
 
-            var address = await _context.Address.SingleOrDefaultAsync(m => m.ID == id);
-            if (address == null)
+            var title = await _context.Title.SingleOrDefaultAsync(m => m.ID == id);
+            if (title == null)
             {
                 return NotFound();
             }
-            return View(address);
+            return View(title);
         }
 
-        // POST: Adresa/Edit/5
+        // POST: Title/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,FirstName,LastName,Address1,Address2,City,PostalCode")] Address address)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,TitleName,PublicationYear")] Title title)
         {
-            if (id != address.ID)
+            if (id != title.ID)
             {
                 return NotFound();
             }
@@ -111,12 +96,12 @@ namespace Domasno_2.Controllers
             {
                 try
                 {
-                    _context.Update(address);
+                    _context.Update(title);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!AddressExists(address.ID))
+                    if (!TitleExists(title.ID))
                     {
                         return NotFound();
                     }
@@ -127,10 +112,10 @@ namespace Domasno_2.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(address);
+            return View(title);
         }
 
-        // GET: Adresa/Delete/5
+        // GET: Title/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -138,35 +123,30 @@ namespace Domasno_2.Controllers
                 return NotFound();
             }
 
-            var address = await _context.Address
+            var title = await _context.Title
                 .SingleOrDefaultAsync(m => m.ID == id);
-            if (address == null)
+            if (title == null)
             {
                 return NotFound();
             }
 
-            return View(address);
+            return View(title);
         }
 
-        // POST: Adresa/Delete/5
+        // POST: Title/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var address = await _context.Address.SingleOrDefaultAsync(m => m.ID == id);
-            _context.Address.Remove(address);
+            var title = await _context.Title.SingleOrDefaultAsync(m => m.ID == id);
+            _context.Title.Remove(title);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool AddressExists(int id)
+        private bool TitleExists(int id)
         {
-            return _context.Address.Any(e => e.ID == id);
+            return _context.Title.Any(e => e.ID == id);
         }
-
-        
-
-
-
     }
 }

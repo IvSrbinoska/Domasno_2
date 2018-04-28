@@ -1,0 +1,534 @@
+2018-04-28 01:07:38.006 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-04-28 01:07:39.268 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-04-28 01:07:39.859 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-28 01:07:44.350 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-04-28 01:07:44.954 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 5253.5272ms
+2018-04-28 01:07:45.004 +02:00 [Information] Request finished in 5756.1883ms 200 text/html; charset=utf-8
+2018-04-28 01:08:28.957 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Index  
+2018-04-28 01:08:29.014 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-28 01:08:29.263 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Index.cshtml".
+2018-04-28 01:08:29.289 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Index (Domasno_2)" in 309.5906ms
+2018-04-28 01:08:29.325 +02:00 [Information] Request finished in 345.1268ms 200 text/html; charset=utf-8
+2018-04-28 01:10:56.433 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show  
+2018-04-28 01:10:56.770 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments ([""]) - ModelState is Valid
+2018-04-28 01:11:52.711 +02:00 [Error] Get stock data failed
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.<GetWebResponseTaskAsync>d__112.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Net.WebClient.<DownloadBitsAsync>d__150.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Domasno_2.Controllers.TestWebApiController.<Show>d__10.MoveNext() in C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Controllers\TestWebApiController.cs:line 118
+2018-04-28 01:11:52.741 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Index.cshtml".
+2018-04-28 01:11:52.748 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 56066.3323ms
+2018-04-28 01:11:52.754 +02:00 [Information] Request finished in 56323.8035ms 200 text/html; charset=utf-8
+2018-04-28 01:12:03.374 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/show?symbol=aapl  
+2018-04-28 01:12:03.415 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments ([""]) - ModelState is Valid
+2018-04-28 01:12:33.640 +02:00 [Error] Get stock data failed
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.<GetWebResponseTaskAsync>d__112.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Net.WebClient.<DownloadBitsAsync>d__150.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Domasno_2.Controllers.TestWebApiController.<Show>d__10.MoveNext() in C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Controllers\TestWebApiController.cs:line 118
+2018-04-28 01:12:33.656 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Index.cshtml".
+2018-04-28 01:12:33.662 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 30279.7493ms
+2018-04-28 01:12:33.674 +02:00 [Information] Request finished in 30296.9053ms 200 text/html; charset=utf-8
+2018-04-28 01:14:11.012 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/show?stockSymbol=aapl  
+2018-04-28 01:14:11.270 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-04-28 01:35:14.121 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-04-28 01:35:15.015 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-04-28 01:35:15.418 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-28 01:35:18.579 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-04-28 01:35:19.111 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3769.7365ms
+2018-04-28 01:35:19.147 +02:00 [Information] Request finished in 4136.1793ms 200 text/html; charset=utf-8
+2018-04-28 01:35:21.884 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Index  
+2018-04-28 01:35:21.921 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-28 01:35:22.060 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Index.cshtml".
+2018-04-28 01:35:22.074 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Index (Domasno_2)" in 178.0794ms
+2018-04-28 01:35:22.081 +02:00 [Information] Request finished in 197.5672ms 200 text/html; charset=utf-8
+2018-04-28 01:35:28.408 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show  
+2018-04-28 01:35:28.509 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments ([""]) - ModelState is Valid
+2018-04-28 01:35:30.118 +02:00 [Error] Get stock data failed
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.<GetWebResponseTaskAsync>d__112.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Net.WebClient.<DownloadBitsAsync>d__150.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Domasno_2.Controllers.TestWebApiController.<Show>d__10.MoveNext() in C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Controllers\TestWebApiController.cs:line 118
+2018-04-28 01:35:30.393 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Show.cshtml".
+2018-04-28 01:35:30.613 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 2142.5864ms
+2018-04-28 01:35:30.637 +02:00 [Information] Request finished in 2216.61ms 200 text/html; charset=utf-8
+2018-04-28 01:36:27.611 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-04-28 01:36:28.379 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-04-28 01:36:28.774 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-28 01:36:31.974 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-04-28 01:36:32.548 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3857.7826ms
+2018-04-28 01:36:32.594 +02:00 [Information] Request finished in 4237.4948ms 200 text/html; charset=utf-8
+2018-04-28 01:36:36.245 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Index  
+2018-04-28 01:36:36.280 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-28 01:36:36.521 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Index.cshtml".
+2018-04-28 01:36:36.541 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Index (Domasno_2)" in 282.3878ms
+2018-04-28 01:36:36.554 +02:00 [Information] Request finished in 308.3997ms 200 text/html; charset=utf-8
+2018-04-28 01:36:38.242 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show  
+2018-04-28 01:36:38.340 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments ([""]) - ModelState is Valid
+2018-04-28 01:36:39.472 +02:00 [Error] Get stock data failed
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.<GetWebResponseTaskAsync>d__112.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Net.WebClient.<DownloadBitsAsync>d__150.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Domasno_2.Controllers.TestWebApiController.<Show>d__10.MoveNext() in C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Controllers\TestWebApiController.cs:line 118
+2018-04-28 01:36:39.758 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Show.cshtml".
+2018-04-28 01:36:39.863 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 1557.2424ms
+2018-04-28 01:36:39.889 +02:00 [Information] Request finished in 1628.1046ms 200 text/html; charset=utf-8
+2018-04-28 01:37:21.727 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-04-28 01:37:22.667 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-04-28 01:37:23.039 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-28 01:37:26.397 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-04-28 01:37:26.897 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3927.0572ms
+2018-04-28 01:37:26.948 +02:00 [Information] Request finished in 4287.7747ms 200 text/html; charset=utf-8
+2018-04-28 01:37:47.507 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/show?symbol=aapl  
+2018-04-28 01:37:47.611 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments ([""]) - ModelState is Valid
+2018-04-28 01:37:48.815 +02:00 [Error] Get stock data failed
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.<GetWebResponseTaskAsync>d__112.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Net.WebClient.<DownloadBitsAsync>d__150.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Domasno_2.Controllers.TestWebApiController.<Show>d__10.MoveNext() in C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Controllers\TestWebApiController.cs:line 118
+2018-04-28 01:37:49.135 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Show.cshtml".
+2018-04-28 01:37:49.235 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 1668.4727ms
+2018-04-28 01:37:49.258 +02:00 [Information] Request finished in 1745.1697ms 200 text/html; charset=utf-8
+2018-04-28 01:38:26.887 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-04-28 01:38:27.779 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-04-28 01:38:28.190 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-28 01:38:31.498 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-04-28 01:38:31.958 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3872.6285ms
+2018-04-28 01:38:32.002 +02:00 [Information] Request finished in 4222.3751ms 200 text/html; charset=utf-8
+2018-04-28 01:38:44.738 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/show?symbol=aapl  
+2018-04-28 01:38:44.849 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments ([""]) - ModelState is Valid
+2018-04-28 01:39:13.582 +02:00 [Error] Get stock data failed
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.<GetWebResponseTaskAsync>d__112.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Net.WebClient.<DownloadBitsAsync>d__150.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Domasno_2.Controllers.TestWebApiController.<Show>d__10.MoveNext() in C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Controllers\TestWebApiController.cs:line 118
+2018-04-28 01:39:47.340 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-04-28 01:39:48.127 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-04-28 01:39:48.505 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-28 01:39:51.768 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-04-28 01:39:52.379 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3964.9934ms
+2018-04-28 01:39:52.431 +02:00 [Information] Request finished in 4304.8728ms 200 text/html; charset=utf-8
+2018-04-28 01:40:03.633 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/show?symbol=aapl  
+2018-04-28 01:40:03.727 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments ([""]) - ModelState is Valid
+2018-04-28 01:40:33.237 +02:00 [Error] Get stock data failed
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.<GetWebResponseTaskAsync>d__112.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Net.WebClient.<DownloadBitsAsync>d__150.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Domasno_2.Controllers.TestWebApiController.<Show>d__10.MoveNext() in C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Controllers\TestWebApiController.cs:line 118
+2018-04-28 01:41:06.883 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-04-28 01:41:07.730 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-04-28 01:41:08.111 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-28 01:41:11.241 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-04-28 01:41:11.737 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3711.6122ms
+2018-04-28 01:41:11.760 +02:00 [Information] Request finished in 4032.0614ms 200 text/html; charset=utf-8
+2018-04-28 01:41:55.691 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-04-28 01:41:56.640 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-04-28 01:41:57.026 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-28 01:42:00.275 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-04-28 01:42:00.754 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3821.4229ms
+2018-04-28 01:42:00.813 +02:00 [Information] Request finished in 4168.1607ms 200 text/html; charset=utf-8
+2018-04-28 01:42:05.467 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Index  
+2018-04-28 01:42:05.520 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-28 01:42:05.701 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Index.cshtml".
+2018-04-28 01:42:05.718 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Index (Domasno_2)" in 229.2789ms
+2018-04-28 01:42:05.744 +02:00 [Information] Request finished in 264.061ms 200 text/html; charset=utf-8
+2018-04-28 01:42:10.385 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/show?symbol=aapl  
+2018-04-28 01:42:10.493 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments ([""]) - ModelState is Valid
+2018-04-28 01:42:29.872 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-04-28 01:42:30.615 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-04-28 01:42:31.079 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-28 01:42:34.273 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-04-28 01:42:34.951 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3961.4283ms
+2018-04-28 01:42:34.984 +02:00 [Information] Request finished in 4371.5369ms 200 text/html; charset=utf-8
+2018-04-28 01:42:56.815 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/show?stockSymbol=aapl  
+2018-04-28 01:42:56.936 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-04-28 01:43:38.654 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Show.cshtml".
+2018-04-28 01:43:39.624 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 42757.0877ms
+2018-04-28 01:43:39.634 +02:00 [Information] Request finished in 42820.4754ms 200 text/html; charset=utf-8
+2018-04-28 01:44:12.753 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-04-28 01:44:13.767 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-04-28 01:44:14.132 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-28 01:44:17.935 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-04-28 01:44:18.539 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 4494.886ms
+2018-04-28 01:44:18.577 +02:00 [Information] Request finished in 4818.3267ms 200 text/html; charset=utf-8
+2018-04-28 01:44:23.115 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/show?stockSymbol=aapl  
+2018-04-28 01:44:23.236 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-04-28 01:44:34.803 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Show.cshtml".
+2018-04-28 01:44:34.842 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 11669.951ms
+2018-04-28 01:44:34.866 +02:00 [Information] Request finished in 11738.4567ms 200 text/html; charset=utf-8
+2018-04-28 01:46:59.252 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-04-28 01:47:00.064 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-04-28 01:47:00.476 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-28 01:47:03.983 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-04-28 01:47:04.501 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 4129.2853ms
+2018-04-28 01:47:04.556 +02:00 [Information] Request finished in 4484.3395ms 200 text/html; charset=utf-8
+2018-04-28 01:47:17.738 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/show?stockSymbol=aapl  
+2018-04-28 01:47:17.858 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-04-28 01:47:19.189 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Show.cshtml".
+2018-04-28 01:47:19.233 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 1435.5273ms
+2018-04-28 01:47:19.253 +02:00 [Information] Request finished in 1504.8815ms 200 text/html; charset=utf-8
+2018-04-28 01:47:27.596 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/show?stockSymbol=dia  
+2018-04-28 01:47:27.636 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["dia"]) - ModelState is Valid
+2018-04-28 01:47:28.386 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Show.cshtml".
+2018-04-28 01:47:28.399 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 788.2374ms
+2018-04-28 01:47:28.429 +02:00 [Information] Request finished in 810.8399ms 200 text/html; charset=utf-8
+2018-04-28 01:47:35.464 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/show?stockSymbol=fb  
+2018-04-28 01:47:35.498 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["fb"]) - ModelState is Valid
+2018-04-28 01:47:36.259 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Show.cshtml".
+2018-04-28 01:47:36.269 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 795.8909ms
+2018-04-28 01:47:36.281 +02:00 [Information] Request finished in 815.4345ms 200 text/html; charset=utf-8
+2018-04-28 17:18:53.923 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-04-28 17:18:55.243 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-04-28 17:18:55.820 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-28 17:18:59.255 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-04-28 17:18:59.758 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 4054.179ms
+2018-04-28 17:18:59.782 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/css/site.css  
+2018-04-28 17:18:59.783 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/bootstrap/dist/css/bootstrap.css  
+2018-04-28 17:18:59.788 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/jquery/dist/jquery.js  
+2018-04-28 17:18:59.875 +02:00 [Information] Request finished in 4608.2715ms 200 text/html; charset=utf-8
+2018-04-28 17:18:59.881 +02:00 [Information] The file "/css/site.css" was not modified
+2018-04-28 17:18:59.885 +02:00 [Information] The file "/lib/jquery/dist/jquery.js" was not modified
+2018-04-28 17:18:59.891 +02:00 [Information] The file "/lib/bootstrap/dist/css/bootstrap.css" was not modified
+2018-04-28 17:18:59.920 +02:00 [Information] Request finished in 116.2793ms 304 application/javascript
+2018-04-28 17:18:59.946 +02:00 [Information] Request finished in 118.6682ms 304 text/css
+2018-04-28 17:18:59.953 +02:00 [Information] Request finished in 118.6682ms 304 text/css
+2018-04-28 17:18:59.996 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/images/banner2.svg  
+2018-04-28 17:19:00.024 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/images/banner1.svg  
+2018-04-28 17:19:00.050 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/js/site.js?v=ji3-IxbEzYWjzzLCGkF1KDjrT2jLbbrSYXw-AhMPNIA  
+2018-04-28 17:19:00.076 +02:00 [Information] The file "/js/site.js" was not modified
+2018-04-28 17:19:00.105 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/images/banner3.svg  
+2018-04-28 17:19:00.118 +02:00 [Information] The file "/images/banner2.svg" was not modified
+2018-04-28 17:19:00.131 +02:00 [Information] Request finished in 98.6167ms 304 application/javascript
+2018-04-28 17:19:00.135 +02:00 [Information] Request finished in 130.4384ms 304 image/svg+xml
+2018-04-28 17:19:00.187 +02:00 [Information] The file "/images/banner3.svg" was not modified
+2018-04-28 17:19:00.211 +02:00 [Information] The file "/images/banner1.svg" was not modified
+2018-04-28 17:19:00.300 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-04-28 17:19:00.308 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/bootstrap/dist/js/bootstrap.js  
+2018-04-28 17:19:00.311 +02:00 [Information] Request finished in 305.049ms 304 image/svg+xml
+2018-04-28 17:19:00.337 +02:00 [Information] Request finished in 324.6176ms 304 image/svg+xml
+2018-04-28 17:19:00.408 +02:00 [Information] The file "/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" was not modified
+2018-04-28 17:19:00.411 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/images/banner4.svg  
+2018-04-28 17:19:00.434 +02:00 [Information] The file "/lib/bootstrap/dist/js/bootstrap.js" was not modified
+2018-04-28 17:19:00.448 +02:00 [Information] Request finished in 176.2633ms 304 font/woff2
+2018-04-28 17:19:00.505 +02:00 [Information] Request finished in 240.5759ms 304 application/javascript
+2018-04-28 17:19:00.518 +02:00 [Information] The file "/images/banner4.svg" was not modified
+2018-04-28 17:19:00.529 +02:00 [Information] Request finished in 154.0278ms 304 image/svg+xml
+2018-04-28 17:19:19.943 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-04-28 17:19:19.975 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-28 17:19:19.980 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-04-28 17:19:19.988 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 36.9594ms
+2018-04-28 17:19:20.000 +02:00 [Information] Request finished in 53.0866ms 200 text/html; charset=utf-8
+2018-04-28 17:19:20.118 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/favicon.ico  
+2018-04-28 17:19:20.148 +02:00 [Information] Sending file. Request path: '"/favicon.ico"'. Physical path: '"C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\wwwroot\favicon.ico"'
+2018-04-28 17:19:20.208 +02:00 [Information] Request finished in 89.1618ms 200 image/x-icon
+2018-04-28 17:19:37.518 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/show?stockSymbol=aapl  
+2018-04-28 17:19:37.800 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-04-28 17:19:39.202 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Show.cshtml".
+2018-04-28 17:19:39.472 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 1889.0829ms
+2018-04-28 17:19:39.580 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore._Views_TestWebApi_Show_cshtml.<ExecuteAsync>d__0.MoveNext() in C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Views\TestWebApi\Show.cshtml:line 12
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderPageCoreAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderPageAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.<ExecuteAsync>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.<ExecuteAsync>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewResult.<ExecuteResultAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResultFilterAsync>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-04-28 17:19:39.827 +02:00 [Information] Request finished in 2305.3782ms 500 text/html; charset=utf-8
+2018-04-28 17:22:54.043 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-04-28 17:22:54.943 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-04-28 17:22:55.316 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-28 17:22:58.325 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-04-28 17:22:58.914 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3698.1547ms
+2018-04-28 17:22:58.954 +02:00 [Information] Request finished in 4027.1076ms 200 text/html; charset=utf-8
+2018-04-28 17:23:12.305 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/show?stockSymbol=aapl  
+2018-04-28 17:23:12.442 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-04-28 17:23:13.914 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Show.cshtml".
+2018-04-28 17:23:14.061 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 1676.4661ms
+2018-04-28 17:23:14.070 +02:00 [Information] Request finished in 1768.7307ms 200 text/html; charset=utf-8
+2018-04-28 17:23:24.510 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/show?stockSymbol=FB  
+2018-04-28 17:23:24.551 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["FB"]) - ModelState is Valid
+2018-04-28 17:23:25.289 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Show.cshtml".
+2018-04-28 17:23:25.299 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 778.551ms
+2018-04-28 17:23:25.321 +02:00 [Information] Request finished in 796.2283ms 200 text/html; charset=utf-8
+2018-04-28 17:24:49.952 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-04-28 17:24:50.815 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-04-28 17:24:51.198 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-28 17:24:54.167 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-04-28 17:24:54.689 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3593.2753ms
+2018-04-28 17:24:54.747 +02:00 [Information] Request finished in 3931.7865ms 200 text/html; charset=utf-8
+2018-04-28 17:25:04.457 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/show?stockSymbol=aapl  
+2018-04-28 17:25:04.570 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-04-28 17:25:06.027 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Show.cshtml".
+2018-04-28 17:25:06.088 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 1574.7769ms
+2018-04-28 17:25:06.161 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Decimal', but this ViewDataDictionary instance requires a model item of type 'Domasno_2.Models.MarketData'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderPageCoreAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderPageAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.<ExecuteAsync>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.<ExecuteAsync>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewResult.<ExecuteResultAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResultFilterAsync>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-04-28 17:25:06.362 +02:00 [Information] Request finished in 1906.3099ms 500 text/html; charset=utf-8
+2018-04-28 17:26:09.950 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-04-28 17:26:10.853 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-04-28 17:26:11.233 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-28 17:26:14.225 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-04-28 17:26:14.699 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3550.3566ms
+2018-04-28 17:26:14.736 +02:00 [Information] Request finished in 3889.344ms 200 text/html; charset=utf-8
+2018-04-28 17:26:27.095 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/show?stockSymbol=aapl  
+2018-04-28 17:26:27.219 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-04-28 17:26:28.424 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Show.cshtml".
+2018-04-28 17:26:28.538 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 1378.2712ms
+2018-04-28 17:26:28.598 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore._Views_TestWebApi_Show_cshtml.<ExecuteAsync>d__0.MoveNext() in C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Views\TestWebApi\Show.cshtml:line 12
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderPageCoreAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderPageAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.<ExecuteAsync>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.<ExecuteAsync>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewResult.<ExecuteResultAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResultFilterAsync>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-04-28 17:26:28.775 +02:00 [Information] Request finished in 1680.995ms 500 text/html; charset=utf-8
+2018-04-28 17:29:42.748 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-04-28 17:29:43.645 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-04-28 17:29:44.023 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-28 17:29:47.035 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-04-28 17:29:47.538 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3598.3281ms
+2018-04-28 17:29:47.572 +02:00 [Information] Request finished in 3949.2685ms 200 text/html; charset=utf-8
+2018-04-28 17:29:51.979 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/show?stockSymbol=aapl  
+2018-04-28 17:29:52.161 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-04-28 17:29:53.852 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Show.cshtml".
+2018-04-28 17:29:53.919 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 1853.4761ms
+2018-04-28 17:29:53.962 +02:00 [Information] Request finished in 1971.0565ms 200 text/html; charset=utf-8
+2018-04-28 17:30:41.498 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-04-28 17:30:42.393 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-04-28 17:30:42.763 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-28 17:30:45.895 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-04-28 17:30:46.395 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3736.2431ms
+2018-04-28 17:30:46.427 +02:00 [Information] Request finished in 4033.6879ms 200 text/html; charset=utf-8
+2018-04-28 17:30:49.187 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/show?stockSymbol=aapl  
+2018-04-28 17:30:49.329 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-04-28 17:30:50.805 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Show.cshtml".
+2018-04-28 17:30:50.840 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 1585.3493ms
+2018-04-28 17:30:50.873 +02:00 [Information] Request finished in 1669.4579ms 200 text/html; charset=utf-8

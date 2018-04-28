@@ -11,9 +11,10 @@ using System;
 namespace Domasno_2.Migrations
 {
     [DbContext(typeof(Domasno_2Context))]
-    partial class Domasno_2ContextModelSnapshot : ModelSnapshot
+    [Migration("20180425110459_Publisher")]
+    partial class Publisher
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -76,13 +77,9 @@ namespace Domasno_2.Migrations
 
                     b.Property<string>("StreetAdr");
 
-                    b.Property<int?>("TitleID");
-
                     b.Property<string>("ZipCode");
 
                     b.HasKey("ID");
-
-                    b.HasIndex("TitleID");
 
                     b.ToTable("Publisher");
                 });
@@ -106,13 +103,6 @@ namespace Domasno_2.Migrations
                     b.HasOne("Domasno_2.Models.Customer", "Customer")
                         .WithMany("Addresses")
                         .HasForeignKey("CustomerID");
-                });
-
-            modelBuilder.Entity("Domasno_2.Models.Publisher", b =>
-                {
-                    b.HasOne("Domasno_2.Models.Title", "Title")
-                        .WithMany("Publishers")
-                        .HasForeignKey("TitleID");
                 });
 #pragma warning restore 612, 618
         }

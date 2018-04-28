@@ -18,6 +18,10 @@ namespace Domasno_2.Models
 
         public DbSet<Domasno_2.Models.Customer> Customer { get; set; }
 
+        public DbSet<Domasno_2.Models.Publisher> Publisher { get; set; }
+
+        public DbSet<Domasno_2.Models.Title> Title { get; set; }
+
         //protected override void OnModelCreating(ModelBuilder modelBuilder)
         //{
         //    modelBuilder.Entity<Customer>()

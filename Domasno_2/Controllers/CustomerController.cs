@@ -9,6 +9,7 @@ using Domasno_2.Models;
 
 namespace Domasno_2.Controllers
 {
+    [Route("[controller]/[action]")]
     public class CustomerController : Controller
     {
         private readonly Domasno_2Context _context;
@@ -18,12 +19,16 @@ namespace Domasno_2.Controllers
             _context = context;
         }
 
+
         // GET: Customer
         public async Task<IActionResult> Index()
         {
             return View(await _context.Customer.ToListAsync());
         }
 
+        //[Route("")]
+        //[Route("Customer")]
+        //[Route("Customer/Details")]
         // GET: Customer/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -64,6 +69,7 @@ namespace Domasno_2.Controllers
             return View(customer);
         }
 
+        [HttpGet("{id}")] // Matches '/Products/Edit/{id}'
         // GET: Customer/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
