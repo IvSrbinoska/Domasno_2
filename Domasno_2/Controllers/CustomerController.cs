@@ -23,7 +23,9 @@ namespace Domasno_2.Controllers
         // GET: Customer
         public async Task<IActionResult> Index()
         {
+            
             return View(await _context.Customer.ToListAsync());
+            
         }
 
         //[Route("")]
@@ -37,14 +39,62 @@ namespace Domasno_2.Controllers
                 return NotFound();
             }
 
-            var customer = await _context.Customer
-                .SingleOrDefaultAsync(m => m.ID == id);
+
+
+
+            //var customer = await _context.Customer.SingleOrDefaultAsync(m => m.Age == 35);
+            //var customer = await _context.Customer.FirstOrDefaultAsync(m => m.Age == 35);
+            //var customer = await _context.Customer.Include(a => a.Addresses).FirstOrDefaultAsync(b=>b.ID==2004);
+            //var customer = await _context.Customer.Include(a => a.Addresses).FirstOrDefaultAsync(b => b.Gender == "female");
+            //var customer = await _context.Customer.SingleAsync(b => b.ID == 9876);
+            //var customer = await  _context.Customer.ToListAsync();
+            //var customer = _context.Customer.Where(b => b.FullName.Contains("Iv")).ToList();
+            //var customer = await _context.Customer.CountAsync();
+            //var customer = await _context.Customer.FirstAsync(a => a.Gender=="male");
+
+            //string FullName = "zoki";
+            //string sql = $"Select * from Customer where FullName = '{FullName}'";
+            //var customer = await _context.Customer
+            //                    .FromSql(sql)
+            //                    .ToListAsync();
+
+            //var customer = _context.Customer
+            //      .FromSql("Select * from Customer where FullName = 'zoki'")
+            //      .ToList();
+
+
+
+            //var customer = _context.Customer.Include(b => b.Addresses).Select(b => new
+            //{
+            //    Id = b.ID,
+            //    A = b.Age
+            //}).ToList();
+
+
+            //string sql = $"exec spCustomerGet";
+            //var customer = await _context.Customer
+            //                    .FromSql(sql)
+            //                    .ToListAsync();
+
+            string sql = $"exec spCustomerGet";
+            var customer = await _context.Address
+                                .FromSql(sql)
+                                .ToListAsync();
+
+            var user = "ivona";
+            string sql1 = $"exec spCustomerGetByFullName {user}";
+            var customer1 = _context.Customer
+                .FromSql(sql)
+                .ToListAsync();
+
+
             if (customer == null)
             {
                 return NotFound();
             }
 
             return View(customer);
+            
         }
 
         // GET: Customer/Create
@@ -64,9 +114,12 @@ namespace Domasno_2.Controllers
             {
                 _context.Add(customer);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                //return RedirectToAction(nameof(Index));
+                //return RedirectToAction(nameof(Create));
+                return RedirectToAction("Create");
             }
             return View(customer);
+            
         }
 
         [HttpGet("{id}")] // Matches '/Products/Edit/{id}'
@@ -137,6 +190,7 @@ namespace Domasno_2.Controllers
             }
 
             return View(customer);
+            //return RedirectToAction("Create");
         }
 
         // POST: Customer/Delete/5

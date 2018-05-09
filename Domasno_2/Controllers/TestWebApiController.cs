@@ -11,6 +11,13 @@ using Newtonsoft.Json.Linq;
 
 namespace Domasno_2.Controllers
 {
+    public class MarketData_Z
+    {
+        public string StockSymbol { get; set; }
+        //public decimal StockPrice { get; set; }
+
+        public decimal PriceClose { get; set; }
+    }
 
     public class TestWebApiController : Controller
     {
@@ -109,7 +116,9 @@ namespace Domasno_2.Controllers
         [HttpGet]
         public async Task<IActionResult> Show(string stockSymbol)
         {
-            MarketData obj = new MarketData();
+            MarketData objMarket = new MarketData();
+            MarketData_Z objMarketZ = new MarketData_Z();
+            
 
             string dataApi = "";
             using (var webClient = new WebClient())
@@ -132,7 +141,10 @@ namespace Domasno_2.Controllers
                 {
                     var dataJson = JObject.Parse(dataApi);
                     //decimal priceClose = dataJson.SelectToken("latestPrice").Value<decimal>();
-                    obj.PriceClose = dataJson.SelectToken("latestPrice").Value<decimal>();
+                    objMarket.PriceClose = dataJson.SelectToken("latestPrice").Value<decimal>();
+                    objMarketZ.PriceClose = dataJson.SelectToken("latestPrice").Value<decimal>();
+                    objMarketZ.StockSymbol = stockSymbol;
+                    
                     //ViewBag.price = obj.PriceClose;
                 }
                 catch (Exception ex)
@@ -140,8 +152,8 @@ namespace Domasno_2.Controllers
                     _logger.LogError(ex, "Get stock data failed! symbol={0}", stockSymbol);
                 }
             }
-
-            return View(obj);
+            
+            return View(objMarketZ);
         }
 
 

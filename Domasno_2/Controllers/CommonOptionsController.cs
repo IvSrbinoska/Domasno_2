@@ -11,17 +11,25 @@ namespace Domasno_2.Controllers
 {
     public class CommonOptionsController : Controller
     {
-        //private CommonOptions _options;
-        //public CommonOptionsController(IOptions<CommonOptions> options)
-        //{
-        //    _options = options.Value;
-        //    
-        //}
+        private CommonOptions _options;
+        public CommonOptionsController(IOptions<CommonOptions> options)
+        {
+            _options = options.Value;
+            
+        }
 
 
         // GET: CommonOptions
         public ActionResult Index()
         {
+            ViewData["Message"] = "Your application description page.";
+            string web = _options.WebSiteUrl;
+            int customers = _options.CustomersOnPage;
+            bool seed = _options.SeedDb;
+            ViewBag.WebSiteUrl = web;
+            //ViewData["Message"] = tmp;
+            ViewBag.CustomersOnPage = customers;
+            ViewBag.SeedDb = seed;
             return View();
         }
 

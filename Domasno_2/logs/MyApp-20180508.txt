@@ -1,0 +1,1833 @@
+2018-05-08 00:00:09.923 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-08 00:00:10.206 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 00:00:10.526 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 00:00:16.005 +02:00 [Information] Executed DbCommand ("399"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-08 00:00:16.820 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-08 00:00:16.934 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 6894.7819ms
+2018-05-08 00:00:16.958 +02:00 [Information] Request finished in 7020.6031ms 200 text/html; charset=utf-8
+2018-05-08 00:00:20.949 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details?id=1  
+2018-05-08 00:00:21.024 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-08 00:00:27.387 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 00:00:27.580 +02:00 [Error] An exception occurred in the database while iterating the results of a query for context type '"Domasno_2.Models.Domasno_2Context"'."
+""System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at Microsoft.EntityFrameworkCore.Query.Sql.DefaultQuerySqlGenerator.GenerateFromSql(String sql, Expression arguments, IReadOnlyDictionary`2 parameters)
+   at Microsoft.EntityFrameworkCore.Query.Sql.Internal.FromSqlNonComposedQuerySqlGenerator.Visit(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Sql.DefaultQuerySqlGenerator.GenerateSql(IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ShaperCommandContext.GetRelationalCommand(IReadOnlyDictionary`2 parameters)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.<_TrackEntities>d__17`2.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()"
+System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at Microsoft.EntityFrameworkCore.Query.Sql.DefaultQuerySqlGenerator.GenerateFromSql(String sql, Expression arguments, IReadOnlyDictionary`2 parameters)
+   at Microsoft.EntityFrameworkCore.Query.Sql.Internal.FromSqlNonComposedQuerySqlGenerator.Visit(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Sql.DefaultQuerySqlGenerator.GenerateSql(IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ShaperCommandContext.GetRelationalCommand(IReadOnlyDictionary`2 parameters)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.<_TrackEntities>d__17`2.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+2018-05-08 00:00:27.881 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" in 6906.5522ms
+2018-05-08 00:00:27.946 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at Microsoft.EntityFrameworkCore.Query.Sql.DefaultQuerySqlGenerator.GenerateFromSql(String sql, Expression arguments, IReadOnlyDictionary`2 parameters)
+   at Microsoft.EntityFrameworkCore.Query.Sql.Internal.FromSqlNonComposedQuerySqlGenerator.Visit(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Sql.DefaultQuerySqlGenerator.GenerateSql(IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ShaperCommandContext.GetRelationalCommand(IReadOnlyDictionary`2 parameters)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.<_TrackEntities>d__17`2.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Domasno_2.Controllers.CustomerController.<Details>d__3.MoveNext() in C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Controllers\CustomerController.cs:line 56
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-05-08 00:00:28.087 +02:00 [Information] Request finished in 7140.3765ms 500 text/html; charset=utf-8
+2018-05-08 00:04:20.713 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-08 00:04:21.534 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-08 00:04:21.991 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 00:04:25.845 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-08 00:04:26.474 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 4573.696ms
+2018-05-08 00:04:26.531 +02:00 [Information] Request finished in 4981.7762ms 200 text/html; charset=utf-8
+2018-05-08 00:04:29.239 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-08 00:04:29.394 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 00:04:29.604 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 00:04:35.484 +02:00 [Information] Executed DbCommand ("392"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-08 00:04:36.416 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-08 00:04:36.526 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 7260.5054ms
+2018-05-08 00:04:36.544 +02:00 [Information] Request finished in 7294.7229ms 200 text/html; charset=utf-8
+2018-05-08 00:07:23.601 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details?id=1  
+2018-05-08 00:07:23.742 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-08 00:07:31.068 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 00:07:31.184 +02:00 [Information] Executed DbCommand ("67"ms) [Parameters=["@p0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""Select * from Customer where FullName = '@p0'"
+2018-05-08 00:08:49.171 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-08 00:08:50.211 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-08 00:08:50.638 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 00:08:53.528 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-08 00:08:54.030 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3484.1704ms
+2018-05-08 00:08:54.068 +02:00 [Information] Request finished in 3859.1517ms 200 text/html; charset=utf-8
+2018-05-08 00:08:57.209 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-08 00:08:57.365 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 00:08:57.558 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 00:09:02.307 +02:00 [Information] Executed DbCommand ("431"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-08 00:09:03.110 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-08 00:09:03.216 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 5989.3997ms
+2018-05-08 00:09:03.243 +02:00 [Information] Request finished in 6018.1137ms 200 text/html; charset=utf-8
+2018-05-08 00:09:04.967 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details?id=1  
+2018-05-08 00:09:05.038 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-08 00:09:09.248 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 00:09:09.363 +02:00 [Information] Executed DbCommand ("61"ms) [Parameters=["@p0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""Select * from Customer where Gender = '@p0'"
+2018-05-08 00:44:58.840 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-08 00:44:59.672 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-08 00:45:00.106 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 00:45:04.746 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-08 00:45:05.642 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 5590.8109ms
+2018-05-08 00:45:05.665 +02:00 [Information] Request finished in 5992.3674ms 200 text/html; charset=utf-8
+2018-05-08 00:45:18.949 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-08 00:45:19.109 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 00:45:19.329 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 00:45:24.477 +02:00 [Information] Executed DbCommand ("438"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-08 00:45:25.845 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-08 00:45:25.925 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 6956.114ms
+2018-05-08 00:45:25.960 +02:00 [Information] Request finished in 6986.6138ms 200 text/html; charset=utf-8
+2018-05-08 00:45:28.531 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details?id=1  
+2018-05-08 00:45:28.629 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-08 00:45:35.244 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 00:45:35.407 +02:00 [Information] Executed DbCommand ("94"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""Select * from Customer where FullName = 'Ivana'"
+2018-05-08 00:46:36.008 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-08 00:46:36.775 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-08 00:46:37.140 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 00:46:40.202 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-08 00:46:40.828 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3655.7951ms
+2018-05-08 00:46:40.918 +02:00 [Information] Request finished in 4142.9669ms 200 text/html; charset=utf-8
+2018-05-08 00:46:46.546 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-08 00:46:46.702 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 00:46:46.948 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 00:46:51.972 +02:00 [Information] Executed DbCommand ("598"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-08 00:46:53.067 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-08 00:46:53.213 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 6596.739ms
+2018-05-08 00:46:53.288 +02:00 [Information] Request finished in 6720.0654ms 200 text/html; charset=utf-8
+2018-05-08 00:46:57.128 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-08 00:46:57.185 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 00:46:57.196 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 00:46:57.329 +02:00 [Information] Executed DbCommand ("121"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-08 00:46:57.342 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-08 00:46:57.430 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 281.368ms
+2018-05-08 00:46:57.464 +02:00 [Information] Request finished in 331.6097ms 200 text/html; charset=utf-8
+2018-05-08 00:46:59.544 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details?id=1  
+2018-05-08 00:46:59.680 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-08 00:47:02.450 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 00:47:02.538 +02:00 [Information] Executed DbCommand ("42"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""Select * from Customer where FullName = 'zoki'"
+2018-05-08 00:49:47.616 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-08 00:49:48.588 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-08 00:49:49.055 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 00:49:52.467 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-08 00:49:52.983 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 4026.5895ms
+2018-05-08 00:49:53.033 +02:00 [Information] Request finished in 4422.6432ms 200 text/html; charset=utf-8
+2018-05-08 00:50:39.190 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-08 00:50:39.408 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 00:50:39.652 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 00:50:59.770 +02:00 [Error] An error occurred using the connection to database '"IvanaPrimeriDb"' on server '"(localdb)\mssqllocaldb"'.
+System.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=19083; handshake=77;  ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.<OpenAsync>d__34.MoveNext()
+ClientConnectionId:c92a00c4-335f-4fd8-b96f-ef8c7db5439e
+Error Number:-2,State:0,Class:11
+2018-05-08 00:51:00.336 +02:00 [Error] An exception occurred in the database while iterating the results of a query for context type '"Domasno_2.Models.Domasno_2Context"'."
+""System.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=19083; handshake=77;  ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.<OpenAsync>d__34.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+ClientConnectionId:c92a00c4-335f-4fd8-b96f-ef8c7db5439e
+Error Number:-2,State:0,Class:11"
+System.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=19083; handshake=77;  ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.<OpenAsync>d__34.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+ClientConnectionId:c92a00c4-335f-4fd8-b96f-ef8c7db5439e
+Error Number:-2,State:0,Class:11
+2018-05-08 00:51:01.352 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 22142.6369ms
+2018-05-08 00:51:01.469 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=19083; handshake=77;  ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.<OpenAsync>d__34.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.<Aggregate_>d__6`3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Domasno_2.Controllers.CustomerController.<Index>d__2.MoveNext() in C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Controllers\CustomerController.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+ClientConnectionId:c92a00c4-335f-4fd8-b96f-ef8c7db5439e
+Error Number:-2,State:0,Class:11
+2018-05-08 00:51:01.810 +02:00 [Information] Request finished in 22601.1862ms 500 text/html; charset=utf-8
+2018-05-08 00:52:01.857 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-08 00:52:03.012 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-08 00:52:03.592 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 00:52:08.049 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-08 00:52:08.831 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 5367.5228ms
+2018-05-08 00:52:08.898 +02:00 [Information] Request finished in 5891.7678ms 200 text/html; charset=utf-8
+2018-05-08 00:52:47.146 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-08 00:52:47.330 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 00:52:47.576 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 00:52:52.567 +02:00 [Information] Executed DbCommand ("168"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-08 00:52:53.542 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-08 00:52:53.675 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 6502.2332ms
+2018-05-08 00:52:53.751 +02:00 [Information] Request finished in 6561.3826ms 200 text/html; charset=utf-8
+2018-05-08 00:52:55.951 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details?id=1  
+2018-05-08 00:52:55.989 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details?id=1  
+2018-05-08 00:52:56.093 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-08 00:52:56.093 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-08 00:53:07.766 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details?id=1  
+2018-05-08 00:53:07.797 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 00:53:07.844 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 00:53:07.846 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-08 00:53:12.397 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 00:53:12.758 +02:00 [Information] Executed DbCommand ("83"ms) [Parameters=["@p0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""Select * from Customer where FullName = '@p0'"
+2018-05-08 00:53:12.759 +02:00 [Information] Executed DbCommand ("168"ms) [Parameters=["@p0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""Select * from Customer where FullName = '@p0'"
+2018-05-08 00:53:12.785 +02:00 [Information] Executed DbCommand ("172"ms) [Parameters=["@p0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""Select * from Customer where FullName = '@p0'"
+2018-05-08 00:53:57.368 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-08 00:53:58.333 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-08 00:53:58.847 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 00:54:02.682 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-08 00:54:03.213 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 4480.3902ms
+2018-05-08 00:54:03.236 +02:00 [Information] Request finished in 4913.7614ms 200 text/html; charset=utf-8
+2018-05-08 00:54:05.929 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-08 00:54:06.097 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 00:54:06.332 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 00:54:11.734 +02:00 [Information] Executed DbCommand ("385"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-08 00:54:12.427 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-08 00:54:12.515 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 6566.6768ms
+2018-05-08 00:54:12.722 +02:00 [Information] Request finished in 6677.3278ms 200 text/html; charset=utf-8
+2018-05-08 00:54:16.409 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details?id=1  
+2018-05-08 00:54:16.483 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-08 00:54:21.344 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 00:54:21.499 +02:00 [Information] Executed DbCommand ("127"ms) [Parameters=["@p0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""Select * from Customer where FullName = '@p0'"
+2018-05-08 01:52:15.010 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-08 01:52:19.118 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-08 01:52:21.483 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 01:52:31.906 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-08 01:52:32.585 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 11659.3236ms
+2018-05-08 01:52:32.622 +02:00 [Information] Request finished in 13564.3815ms 200 text/html; charset=utf-8
+2018-05-08 01:52:36.827 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-08 01:52:37.587 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 01:52:38.178 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 01:52:39.964 +02:00 [Information] Executed DbCommand ("255"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-08 01:52:41.212 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-08 01:52:41.340 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 4495.9903ms
+2018-05-08 01:52:41.365 +02:00 [Information] Request finished in 4521.5765ms 200 text/html; charset=utf-8
+2018-05-08 01:52:44.333 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details?id=1  
+2018-05-08 01:52:44.428 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-08 01:53:24.282 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 01:53:24.559 +02:00 [Information] Executed DbCommand ("221"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""Select * from Customer where FullName = 'zoki'"
+2018-05-08 01:53:25.019 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Details.cshtml".
+2018-05-08 01:53:25.140 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" in 40761.1433ms
+2018-05-08 01:53:25.364 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Collections.Generic.List`1[Domasno_2.Models.Customer]', but this ViewDataDictionary instance requires a model item of type 'Domasno_2.Models.Customer'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderPageCoreAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderPageAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.<ExecuteAsync>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.<ExecuteAsync>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewResult.<ExecuteResultAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResultFilterAsync>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-05-08 01:53:25.638 +02:00 [Information] Request finished in 41314.1775ms 500 text/html; charset=utf-8
+2018-05-08 01:53:49.347 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-08 01:54:55.879 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-08 01:54:56.719 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 01:54:59.896 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-08 01:55:00.421 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3857.4045ms
+2018-05-08 01:55:00.446 +02:00 [Information] Request finished in 4581.2243ms 200 text/html; charset=utf-8
+2018-05-08 01:55:03.212 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-08 01:55:03.406 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 01:55:03.646 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 01:55:04.034 +02:00 [Information] Executed DbCommand ("58"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-08 01:55:04.701 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-08 01:55:04.798 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 1560.1654ms
+2018-05-08 01:55:04.821 +02:00 [Information] Request finished in 1593.2326ms 200 text/html; charset=utf-8
+2018-05-08 01:55:07.223 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details?id=1  
+2018-05-08 01:55:07.299 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-08 01:55:12.141 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 01:55:12.292 +02:00 [Information] Executed DbCommand ("88"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""Select * from Customer where FullName = 'zoki'"
+2018-05-08 01:56:22.504 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-08 01:56:23.469 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-08 01:56:23.921 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 01:56:27.457 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-08 01:56:28.059 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 4254.3195ms
+2018-05-08 01:56:28.107 +02:00 [Information] Request finished in 4639.1047ms 200 text/html; charset=utf-8
+2018-05-08 01:56:30.903 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-08 01:56:31.090 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 01:56:31.372 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 01:56:31.794 +02:00 [Information] Executed DbCommand ("72"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-08 01:56:32.716 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-08 01:56:32.819 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 1893.5811ms
+2018-05-08 01:56:32.831 +02:00 [Information] Request finished in 1923.8165ms 200 text/html; charset=utf-8
+2018-05-08 01:56:34.699 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details?id=1  
+2018-05-08 01:56:34.797 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-08 01:56:39.482 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 01:56:39.669 +02:00 [Information] Executed DbCommand ("159"ms) [Parameters=["@p0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""Select * from Customer where FullName = '@p0'"
+2018-05-08 02:02:36.531 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-08 02:02:37.523 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-08 02:02:37.955 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 02:02:41.351 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-08 02:02:42.037 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 4161.6415ms
+2018-05-08 02:02:42.119 +02:00 [Information] Request finished in 4598.3474ms 200 text/html; charset=utf-8
+2018-05-08 02:03:30.667 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-08 02:03:31.651 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-08 02:03:32.048 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 02:03:35.438 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-08 02:03:35.971 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 4004.292ms
+2018-05-08 02:03:36.033 +02:00 [Information] Request finished in 4366.9246ms 200 text/html; charset=utf-8
+2018-05-08 02:03:41.393 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-08 02:03:41.564 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 02:03:41.785 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 02:03:42.173 +02:00 [Information] Executed DbCommand ("75"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-08 02:03:43.060 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-08 02:03:43.152 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 1737.322ms
+2018-05-08 02:03:43.211 +02:00 [Information] Request finished in 1809.5455ms 200 text/html; charset=utf-8
+2018-05-08 02:03:45.109 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details?id=1  
+2018-05-08 02:03:45.193 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-08 02:03:48.458 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 02:03:48.610 +02:00 [Information] Executed DbCommand ("66"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [m].[ID], [m].[Active], [m].[Age], [m].[FullName], [m].[Gender]
+FROM [Customer] AS [m]
+WHERE [m].[Age] = 35"
+2018-05-08 02:03:48.731 +02:00 [Error] An exception occurred in the database while iterating the results of a query for context type '"Domasno_2.Models.Domasno_2Context"'."
+""System.InvalidOperationException: Source sequence contains more than one element.
+   at System.Linq.AsyncEnumerable.<SingleOrDefault_>d__381`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.<MoveNext>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()"
+System.InvalidOperationException: Source sequence contains more than one element.
+   at System.Linq.AsyncEnumerable.<SingleOrDefault_>d__381`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.<MoveNext>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+2018-05-08 02:03:48.788 +02:00 [Error] An exception occurred in the database while iterating the results of a query for context type '"Domasno_2.Models.Domasno_2Context"'."
+""System.InvalidOperationException: Source sequence contains more than one element.
+   at System.Linq.AsyncEnumerable.<SingleOrDefault_>d__381`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.<MoveNext>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<ExecuteSingletonAsyncQuery>d__23`1.MoveNext()"
+System.InvalidOperationException: Source sequence contains more than one element.
+   at System.Linq.AsyncEnumerable.<SingleOrDefault_>d__381`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.<MoveNext>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<ExecuteSingletonAsyncQuery>d__23`1.MoveNext()
+2018-05-08 02:03:49.135 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" in 3998.4863ms
+2018-05-08 02:03:49.183 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: Source sequence contains more than one element.
+   at System.Linq.AsyncEnumerable.<SingleOrDefault_>d__381`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.<MoveNext>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<ExecuteSingletonAsyncQuery>d__23`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Domasno_2.Controllers.CustomerController.<Details>d__3.MoveNext() in C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Controllers\CustomerController.cs:line 45
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-05-08 02:03:49.471 +02:00 [Information] Request finished in 4359.5138ms 500 text/html; charset=utf-8
+2018-05-08 02:15:35.588 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-08 02:15:36.314 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-08 02:15:36.675 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 02:15:39.616 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-08 02:15:40.111 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3525.3152ms
+2018-05-08 02:15:40.155 +02:00 [Information] Request finished in 3830.7173ms 200 text/html; charset=utf-8
+2018-05-08 02:15:50.049 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-08 02:15:50.220 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 02:15:50.420 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 02:15:50.769 +02:00 [Information] Executed DbCommand ("69"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-08 02:15:51.407 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-08 02:15:51.492 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 1421.6378ms
+2018-05-08 02:15:51.508 +02:00 [Information] Request finished in 1453.5129ms 200 text/html; charset=utf-8
+2018-05-08 02:15:53.332 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details?id=1  
+2018-05-08 02:15:53.403 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-08 02:15:58.060 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 02:15:58.178 +02:00 [Information] Executed DbCommand ("65"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [m].[ID], [m].[Active], [m].[Age], [m].[FullName], [m].[Gender]
+FROM [Customer] AS [m]
+WHERE [m].[Age] = 35"
+2018-05-08 02:15:58.288 +02:00 [Error] An exception occurred in the database while iterating the results of a query for context type '"Domasno_2.Models.Domasno_2Context"'."
+""System.InvalidOperationException: Source sequence contains more than one element.
+   at System.Linq.AsyncEnumerable.<SingleOrDefault_>d__381`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.<MoveNext>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()"
+System.InvalidOperationException: Source sequence contains more than one element.
+   at System.Linq.AsyncEnumerable.<SingleOrDefault_>d__381`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.<MoveNext>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+2018-05-08 02:15:58.366 +02:00 [Error] An exception occurred in the database while iterating the results of a query for context type '"Domasno_2.Models.Domasno_2Context"'."
+""System.InvalidOperationException: Source sequence contains more than one element.
+   at System.Linq.AsyncEnumerable.<SingleOrDefault_>d__381`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.<MoveNext>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<ExecuteSingletonAsyncQuery>d__23`1.MoveNext()"
+System.InvalidOperationException: Source sequence contains more than one element.
+   at System.Linq.AsyncEnumerable.<SingleOrDefault_>d__381`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.<MoveNext>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<ExecuteSingletonAsyncQuery>d__23`1.MoveNext()
+2018-05-08 02:15:58.630 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" in 5273.9087ms
+2018-05-08 02:15:58.687 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: Source sequence contains more than one element.
+   at System.Linq.AsyncEnumerable.<SingleOrDefault_>d__381`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.<MoveNext>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<ExecuteSingletonAsyncQuery>d__23`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Domasno_2.Controllers.CustomerController.<Details>d__3.MoveNext() in C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Controllers\CustomerController.cs:line 45
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-05-08 02:15:58.951 +02:00 [Information] Request finished in 5601.0052ms 500 text/html; charset=utf-8
+2018-05-08 02:16:29.586 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-08 02:16:30.373 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-08 02:16:30.732 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 02:16:33.874 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-08 02:16:34.386 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3742.4733ms
+2018-05-08 02:16:34.427 +02:00 [Information] Request finished in 4055.7637ms 200 text/html; charset=utf-8
+2018-05-08 02:16:43.120 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-08 02:16:43.290 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 02:16:43.508 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 02:16:43.862 +02:00 [Information] Executed DbCommand ("73"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-08 02:16:44.567 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-08 02:16:44.660 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 1519.3338ms
+2018-05-08 02:16:44.681 +02:00 [Information] Request finished in 1548.6891ms 200 text/html; charset=utf-8
+2018-05-08 02:16:46.651 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details?id=1  
+2018-05-08 02:16:46.736 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-08 02:16:53.194 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 02:16:53.430 +02:00 [Error] Failed executing DbCommand ("170"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""exec spCustomerGet'"
+System.Data.SqlClient.SqlException (0x80131904): Unclosed quotation mark after the character string '
+'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__108_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.<ExecuteAsync>d__17.MoveNext()
+ClientConnectionId:64792dea-e53c-4f19-aab2-37ffaa5f0fe5
+Error Number:105,State:1,Class:15
+2018-05-08 02:16:53.541 +02:00 [Error] An exception occurred in the database while iterating the results of a query for context type '"Domasno_2.Models.Domasno_2Context"'."
+""System.Data.SqlClient.SqlException (0x80131904): Unclosed quotation mark after the character string '
+'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__108_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.<ExecuteAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+ClientConnectionId:64792dea-e53c-4f19-aab2-37ffaa5f0fe5
+Error Number:105,State:1,Class:15"
+System.Data.SqlClient.SqlException (0x80131904): Unclosed quotation mark after the character string '
+'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__108_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.<ExecuteAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+ClientConnectionId:64792dea-e53c-4f19-aab2-37ffaa5f0fe5
+Error Number:105,State:1,Class:15
+2018-05-08 02:16:53.915 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" in 7234.6371ms
+2018-05-08 02:16:53.993 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.Data.SqlClient.SqlException (0x80131904): Unclosed quotation mark after the character string '
+'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__108_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.<ExecuteAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.<Aggregate_>d__6`3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Domasno_2.Controllers.CustomerController.<Details>d__3.MoveNext() in C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Controllers\CustomerController.cs:line 75
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+ClientConnectionId:64792dea-e53c-4f19-aab2-37ffaa5f0fe5
+Error Number:105,State:1,Class:15
+2018-05-08 02:16:54.245 +02:00 [Information] Request finished in 7593.6904ms 500 text/html; charset=utf-8
+2018-05-08 02:17:28.293 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-08 02:17:29.158 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-08 02:17:29.567 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 02:17:32.449 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-08 02:17:32.961 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3477.9275ms
+2018-05-08 02:17:32.993 +02:00 [Information] Request finished in 3837.42ms 200 text/html; charset=utf-8
+2018-05-08 02:17:35.068 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-08 02:17:35.251 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 02:17:35.451 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 02:17:35.794 +02:00 [Information] Executed DbCommand ("68"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-08 02:17:36.639 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-08 02:17:36.731 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 1643.733ms
+2018-05-08 02:17:36.745 +02:00 [Information] Request finished in 1673.7155ms 200 text/html; charset=utf-8
+2018-05-08 02:17:38.647 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details?id=1  
+2018-05-08 02:17:38.727 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-08 02:17:43.264 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 02:17:43.382 +02:00 [Information] Executed DbCommand ("90"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""exec spCustomerGet"
+2018-05-08 02:17:43.478 +02:00 [Error] An exception occurred in the database while iterating the results of a query for context type '"Domasno_2.Models.Domasno_2Context"'."
+""System.InvalidOperationException: The required column 'Address1' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Sql.Internal.FromSqlNonComposedQuerySqlGenerator.CreateValueBufferFactory(IRelationalValueBufferFactoryFactory relationalValueBufferFactoryFactory, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ShaperCommandContext.<NotifyReaderCreated>b__11_0(FactoryAndReader s)
+   at Microsoft.EntityFrameworkCore.Internal.NonCapturingLazyInitializer.EnsureInitialized[TParam,TValue](TValue& target, TParam param, Func`2 valueFactory)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ShaperCommandContext.NotifyReaderCreated(DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()"
+System.InvalidOperationException: The required column 'Address1' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Sql.Internal.FromSqlNonComposedQuerySqlGenerator.CreateValueBufferFactory(IRelationalValueBufferFactoryFactory relationalValueBufferFactoryFactory, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ShaperCommandContext.<NotifyReaderCreated>b__11_0(FactoryAndReader s)
+   at Microsoft.EntityFrameworkCore.Internal.NonCapturingLazyInitializer.EnsureInitialized[TParam,TValue](TValue& target, TParam param, Func`2 valueFactory)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ShaperCommandContext.NotifyReaderCreated(DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+2018-05-08 02:17:43.716 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" in 5039.8693ms
+2018-05-08 02:17:43.764 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: The required column 'Address1' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Sql.Internal.FromSqlNonComposedQuerySqlGenerator.CreateValueBufferFactory(IRelationalValueBufferFactoryFactory relationalValueBufferFactoryFactory, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ShaperCommandContext.<NotifyReaderCreated>b__11_0(FactoryAndReader s)
+   at Microsoft.EntityFrameworkCore.Internal.NonCapturingLazyInitializer.EnsureInitialized[TParam,TValue](TValue& target, TParam param, Func`2 valueFactory)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ShaperCommandContext.NotifyReaderCreated(DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.<Aggregate_>d__6`3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Domasno_2.Controllers.CustomerController.<Details>d__3.MoveNext() in C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Controllers\CustomerController.cs:line 75
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-05-08 02:17:43.970 +02:00 [Information] Request finished in 5317.9342ms 500 text/html; charset=utf-8
+2018-05-08 02:18:55.976 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-08 02:18:56.739 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-08 02:18:57.100 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 02:18:59.923 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-08 02:19:00.390 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3374.324ms
+2018-05-08 02:19:00.423 +02:00 [Information] Request finished in 3684.1705ms 200 text/html; charset=utf-8
+2018-05-08 02:19:07.774 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-08 02:19:07.825 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-08 02:19:07.993 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 02:19:07.994 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 02:19:08.270 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 02:19:08.270 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 02:19:08.719 +02:00 [Information] Executed DbCommand ("83"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-08 02:19:08.719 +02:00 [Information] Executed DbCommand ("83"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-08 02:19:09.416 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-08 02:19:09.443 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-08 02:19:09.536 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 1734.9065ms
+2018-05-08 02:19:09.538 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 1696.5791ms
+2018-05-08 02:19:09.563 +02:00 [Information] Request finished in 1785.6934ms 200 text/html; charset=utf-8
+2018-05-08 02:19:09.563 +02:00 [Information] Request finished in 1736.3782ms 200 text/html; charset=utf-8
+2018-05-08 02:19:11.252 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details?id=1  
+2018-05-08 02:19:11.341 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-08 02:19:14.612 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 02:19:14.749 +02:00 [Information] Executed DbCommand ("111"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""exec spCustomerGet"
+2018-05-08 02:19:24.849 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Details.cshtml".
+2018-05-08 02:19:25.288 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" in 14006.9904ms
+2018-05-08 02:19:25.341 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Collections.Generic.List`1[Domasno_2.Models.Customer]', but this ViewDataDictionary instance requires a model item of type 'Domasno_2.Models.Customer'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderPageCoreAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderPageAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.<ExecuteAsync>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.<ExecuteAsync>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewResult.<ExecuteResultAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResultFilterAsync>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-05-08 02:19:25.558 +02:00 [Information] Request finished in 14297.4205ms 500 text/html; charset=utf-8
+2018-05-08 02:21:15.486 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-08 02:21:16.407 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-08 02:21:16.775 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 02:21:19.712 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-08 02:21:20.190 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3495.7645ms
+2018-05-08 02:21:20.224 +02:00 [Information] Request finished in 3821.8396ms 200 text/html; charset=utf-8
+2018-05-08 02:21:27.478 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-08 02:21:27.660 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 02:21:27.960 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 02:21:28.344 +02:00 [Information] Executed DbCommand ("72"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-08 02:21:29.096 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-08 02:21:29.212 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 1705.5537ms
+2018-05-08 02:21:29.244 +02:00 [Information] Request finished in 1745.9558ms 200 text/html; charset=utf-8
+2018-05-08 02:21:31.128 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details?id=1  
+2018-05-08 02:21:31.209 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-08 02:21:34.533 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 02:21:34.776 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" in 3621.8592ms
+2018-05-08 02:21:34.849 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: The Include operation is not supported when calling a stored procedure.
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.RelationalEntityQueryableExpressionVisitor.VisitEntityQueryable(Type elementType)
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.EntityQueryableExpressionVisitor.VisitConstant(ConstantExpression constantExpression)
+   at System.Linq.Expressions.ConstantExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.ReplaceClauseReferences(Expression expression, IQuerySource querySource, Boolean inProjection)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.CompileMainFromClauseExpression(MainFromClause mainFromClause, QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryModelVisitor.CompileMainFromClauseExpression(MainFromClause mainFromClause, QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.VisitMainFromClause(MainFromClause fromClause, QueryModel queryModel)
+   at Remotion.Linq.Clauses.MainFromClause.Accept(IQueryModelVisitor visitor, QueryModel queryModel)
+   at Remotion.Linq.QueryModelVisitorBase.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryModelVisitor.VisitQueryModel(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.CreateAsyncQueryExecutor[TResult](QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileAsyncQuery[TResult](QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileAsyncQueryCore[TResult](Expression query, INodeTypeProvider nodeTypeProvider, IDatabase database)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass24_0`1.<CompileAsyncQuery>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddAsyncQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileAsyncQuery[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.System.Collections.Generic.IAsyncEnumerable<TResult>.GetEnumerator()
+   at System.Linq.AsyncEnumerable.<Aggregate_>d__6`3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Domasno_2.Controllers.CustomerController.<Details>d__3.MoveNext() in C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Controllers\CustomerController.cs:line 80
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-05-08 02:21:35.063 +02:00 [Information] Request finished in 3917.7473ms 500 text/html; charset=utf-8
+2018-05-08 02:21:53.729 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-08 02:22:28.699 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-08 02:22:29.538 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-08 02:22:29.911 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 02:22:33.375 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-08 02:22:33.953 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 4111.0446ms
+2018-05-08 02:22:33.976 +02:00 [Information] Request finished in 4441.9102ms 200 text/html; charset=utf-8
+2018-05-08 02:22:58.519 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-08 02:22:58.686 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 02:22:58.880 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 02:22:59.226 +02:00 [Information] Executed DbCommand ("69"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-08 02:22:59.929 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-08 02:23:00.009 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 1466.6063ms
+2018-05-08 02:23:00.028 +02:00 [Information] Request finished in 1496.9542ms 200 text/html; charset=utf-8
+2018-05-08 02:23:01.923 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details?id=1  
+2018-05-08 02:23:02.007 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-08 02:23:07.066 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 02:23:07.205 +02:00 [Information] Executed DbCommand ("113"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""exec spCustomerGet"
+2018-05-08 02:23:07.270 +02:00 [Error] An exception occurred in the database while iterating the results of a query for context type '"Domasno_2.Models.Domasno_2Context"'."
+""System.InvalidOperationException: The required column 'Address1' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Sql.Internal.FromSqlNonComposedQuerySqlGenerator.CreateValueBufferFactory(IRelationalValueBufferFactoryFactory relationalValueBufferFactoryFactory, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ShaperCommandContext.<NotifyReaderCreated>b__11_0(FactoryAndReader s)
+   at Microsoft.EntityFrameworkCore.Internal.NonCapturingLazyInitializer.EnsureInitialized[TParam,TValue](TValue& target, TParam param, Func`2 valueFactory)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ShaperCommandContext.NotifyReaderCreated(DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()"
+System.InvalidOperationException: The required column 'Address1' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Sql.Internal.FromSqlNonComposedQuerySqlGenerator.CreateValueBufferFactory(IRelationalValueBufferFactoryFactory relationalValueBufferFactoryFactory, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ShaperCommandContext.<NotifyReaderCreated>b__11_0(FactoryAndReader s)
+   at Microsoft.EntityFrameworkCore.Internal.NonCapturingLazyInitializer.EnsureInitialized[TParam,TValue](TValue& target, TParam param, Func`2 valueFactory)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ShaperCommandContext.NotifyReaderCreated(DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+2018-05-08 02:23:07.521 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" in 5568.5697ms
+2018-05-08 02:23:07.576 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: The required column 'Address1' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Sql.Internal.FromSqlNonComposedQuerySqlGenerator.CreateValueBufferFactory(IRelationalValueBufferFactoryFactory relationalValueBufferFactoryFactory, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ShaperCommandContext.<NotifyReaderCreated>b__11_0(FactoryAndReader s)
+   at Microsoft.EntityFrameworkCore.Internal.NonCapturingLazyInitializer.EnsureInitialized[TParam,TValue](TValue& target, TParam param, Func`2 valueFactory)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ShaperCommandContext.NotifyReaderCreated(DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.<Aggregate_>d__6`3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Domasno_2.Controllers.CustomerController.<Details>d__3.MoveNext() in C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Controllers\CustomerController.cs:line 80
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-05-08 02:23:07.780 +02:00 [Information] Request finished in 5850.46ms 500 text/html; charset=utf-8
+2018-05-08 02:27:40.811 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-08 02:41:55.916 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-08 02:41:56.900 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-08 02:41:57.321 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 02:42:00.319 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-08 02:42:00.808 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3577.114ms
+2018-05-08 02:42:00.846 +02:00 [Information] Request finished in 3944.5659ms 200 text/html; charset=utf-8
+2018-05-08 02:42:12.899 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-08 02:42:13.080 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 02:42:13.350 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 02:42:13.725 +02:00 [Information] Executed DbCommand ("79"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-08 02:42:14.511 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-08 02:42:14.627 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 1702.1257ms
+2018-05-08 02:42:14.647 +02:00 [Information] Request finished in 1738.5027ms 200 text/html; charset=utf-8
+2018-05-08 02:42:16.115 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details?id=1  
+2018-05-08 02:42:16.195 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-08 02:42:32.244 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 02:42:32.244 +02:00 [Warning] Heartbeat took longer than "00:00:01" at "05/08/2018 00:42:32 +00:00".
+2018-05-08 02:51:44.069 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-08 02:51:44.966 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-08 02:51:45.418 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 02:51:48.628 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-08 02:51:49.142 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3810.8136ms
+2018-05-08 02:51:49.202 +02:00 [Information] Request finished in 4243.4713ms 200 text/html; charset=utf-8
+2018-05-08 02:51:51.932 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-08 02:51:52.107 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-08 02:51:52.411 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 02:51:52.788 +02:00 [Information] Executed DbCommand ("62"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-08 02:51:53.509 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-08 02:51:53.601 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 1639.3395ms
+2018-05-08 02:51:53.633 +02:00 [Information] Request finished in 1679.6403ms 200 text/html; charset=utf-8
+2018-05-08 02:51:55.613 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details?id=1  
+2018-05-08 02:51:55.691 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-08 02:52:01.043 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-08 02:52:01.203 +02:00 [Information] Executed DbCommand ("97"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""exec spCustomerGet"
+2018-05-08 02:52:01.286 +02:00 [Error] An exception occurred in the database while iterating the results of a query for context type '"Domasno_2.Models.Domasno_2Context"'."
+""System.InvalidOperationException: The required column 'Address1' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Sql.Internal.FromSqlNonComposedQuerySqlGenerator.CreateValueBufferFactory(IRelationalValueBufferFactoryFactory relationalValueBufferFactoryFactory, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ShaperCommandContext.<NotifyReaderCreated>b__11_0(FactoryAndReader s)
+   at Microsoft.EntityFrameworkCore.Internal.NonCapturingLazyInitializer.EnsureInitialized[TParam,TValue](TValue& target, TParam param, Func`2 valueFactory)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ShaperCommandContext.NotifyReaderCreated(DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()"
+System.InvalidOperationException: The required column 'Address1' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Sql.Internal.FromSqlNonComposedQuerySqlGenerator.CreateValueBufferFactory(IRelationalValueBufferFactoryFactory relationalValueBufferFactoryFactory, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ShaperCommandContext.<NotifyReaderCreated>b__11_0(FactoryAndReader s)
+   at Microsoft.EntityFrameworkCore.Internal.NonCapturingLazyInitializer.EnsureInitialized[TParam,TValue](TValue& target, TParam param, Func`2 valueFactory)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ShaperCommandContext.NotifyReaderCreated(DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+2018-05-08 02:52:01.496 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" in 5856.3232ms
+2018-05-08 02:52:01.549 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: The required column 'Address1' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Sql.Internal.FromSqlNonComposedQuerySqlGenerator.CreateValueBufferFactory(IRelationalValueBufferFactoryFactory relationalValueBufferFactoryFactory, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ShaperCommandContext.<NotifyReaderCreated>b__11_0(FactoryAndReader s)
+   at Microsoft.EntityFrameworkCore.Internal.NonCapturingLazyInitializer.EnsureInitialized[TParam,TValue](TValue& target, TParam param, Func`2 valueFactory)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ShaperCommandContext.NotifyReaderCreated(DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<BufferlessMoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.<MoveNext>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.<MoveNextCore>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.<MoveNext>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.<MoveNext>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Linq.AsyncEnumerable.<Aggregate_>d__6`3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Domasno_2.Controllers.CustomerController.<Details>d__3.MoveNext() in C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Controllers\CustomerController.cs:line 80
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-05-08 02:52:01.732 +02:00 [Information] Request finished in 6101.756ms 500 text/html; charset=utf-8

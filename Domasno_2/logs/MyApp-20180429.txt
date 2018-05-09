@@ -1,0 +1,120 @@
+2018-04-29 15:21:30.054 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-04-29 15:21:31.507 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-04-29 15:21:33.103 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-29 15:21:38.242 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-04-29 15:21:38.804 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 6042.7347ms
+2018-04-29 15:21:38.846 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/bootstrap/dist/css/bootstrap.css  
+2018-04-29 15:21:38.846 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/css/site.css  
+2018-04-29 15:21:38.851 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/jquery/dist/jquery.js  
+2018-04-29 15:21:38.920 +02:00 [Information] Request finished in 7414.4708ms 200 text/html; charset=utf-8
+2018-04-29 15:21:38.947 +02:00 [Information] The file "/lib/jquery/dist/jquery.js" was not modified
+2018-04-29 15:21:38.973 +02:00 [Information] The file "/lib/bootstrap/dist/css/bootstrap.css" was not modified
+2018-04-29 15:21:38.973 +02:00 [Information] The file "/css/site.css" was not modified
+2018-04-29 15:21:39.034 +02:00 [Information] Request finished in 204.1119ms 304 text/css
+2018-04-29 15:21:39.061 +02:00 [Information] Request finished in 204.3525ms 304 text/css
+2018-04-29 15:21:39.068 +02:00 [Information] Request finished in 178.0552ms 304 application/javascript
+2018-04-29 15:21:39.175 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/bootstrap/dist/js/bootstrap.js  
+2018-04-29 15:21:39.199 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/images/banner1.svg  
+2018-04-29 15:21:39.229 +02:00 [Information] The file "/lib/bootstrap/dist/js/bootstrap.js" was not modified
+2018-04-29 15:21:39.262 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/images/banner3.svg  
+2018-04-29 15:21:39.266 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/images/banner2.svg  
+2018-04-29 15:21:39.298 +02:00 [Information] Request finished in 97.8433ms 304 application/javascript
+2018-04-29 15:21:39.321 +02:00 [Information] The file "/images/banner2.svg" was not modified
+2018-04-29 15:21:39.340 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/js/site.js?v=ji3-IxbEzYWjzzLCGkF1KDjrT2jLbbrSYXw-AhMPNIA  
+2018-04-29 15:21:39.356 +02:00 [Information] Request finished in 158.4866ms 304 image/svg+xml
+2018-04-29 15:21:39.394 +02:00 [Information] The file "/js/site.js" was not modified
+2018-04-29 15:21:39.395 +02:00 [Information] The file "/images/banner1.svg" was not modified
+2018-04-29 15:21:39.446 +02:00 [Information] Request finished in 102.0877ms 304 application/javascript
+2018-04-29 15:21:39.447 +02:00 [Information] The file "/images/banner3.svg" was not modified
+2018-04-29 15:21:39.470 +02:00 [Information] Request finished in 271.0137ms 304 image/svg+xml
+2018-04-29 15:21:39.539 +02:00 [Information] Request finished in 302.3001ms 304 image/svg+xml
+2018-04-29 15:21:39.797 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/images/banner4.svg  
+2018-04-29 15:21:39.800 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-04-29 15:21:39.837 +02:00 [Information] The file "/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" was not modified
+2018-04-29 15:21:39.840 +02:00 [Information] The file "/images/banner4.svg" was not modified
+2018-04-29 15:21:39.866 +02:00 [Information] Request finished in 44.5776ms 304 font/woff2
+2018-04-29 15:21:39.873 +02:00 [Information] Request finished in 73.6036ms 304 image/svg+xml
+2018-04-29 15:21:50.361 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/WebConfig  
+2018-04-29 15:21:50.394 +02:00 [Information] Executing action method "Domasno_2.Controllers.WebConfigController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-29 15:21:50.632 +02:00 [Information] Executing ViewResult, running view at path "/Views/WebConfig/Index.cshtml".
+2018-04-29 15:21:50.647 +02:00 [Information] Executed action "Domasno_2.Controllers.WebConfigController.Index (Domasno_2)" in 274.4071ms
+2018-04-29 15:21:50.670 +02:00 [Information] Request finished in 294.8325ms 200 text/html; charset=utf-8
+2018-04-29 15:21:51.618 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/CommonOptions  
+2018-04-29 15:21:51.655 +02:00 [Information] Executing action method "Domasno_2.Controllers.CommonOptionsController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-29 15:21:51.844 +02:00 [Information] Executing ViewResult, running view at path "/Views/CommonOptions/Index.cshtml".
+2018-04-29 15:21:51.856 +02:00 [Information] Executed action "Domasno_2.Controllers.CommonOptionsController.Index (Domasno_2)" in 229.0224ms
+2018-04-29 15:21:51.862 +02:00 [Information] Request finished in 269.1679ms 200 text/html; charset=utf-8
+2018-04-29 15:21:53.168 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Publisher  
+2018-04-29 15:21:53.961 +02:00 [Information] Executing action method "Domasno_2.Controllers.PublisherController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-29 15:21:54.645 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-04-29 15:22:27.109 +02:00 [Information] Executed DbCommand ("948"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[ID], [p].[Name], [p].[StreetAdr], [p].[TitleID], [p].[ZipCode]
+FROM [Publisher] AS [p]"
+2018-04-29 15:22:28.845 +02:00 [Information] Executing ViewResult, running view at path "/Views/Publisher/Index.cshtml".
+2018-04-29 15:22:28.956 +02:00 [Information] Executed action "Domasno_2.Controllers.PublisherController.Index (Domasno_2)" in 35715.0985ms
+2018-04-29 15:22:28.964 +02:00 [Information] Request finished in 35794.3091ms 200 text/html; charset=utf-8
+2018-04-29 15:44:15.724 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-04-29 15:44:16.508 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-04-29 15:44:16.877 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-29 15:44:19.910 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-04-29 15:44:20.364 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3585.6896ms
+2018-04-29 15:44:20.402 +02:00 [Information] Request finished in 3897.1995ms 200 text/html; charset=utf-8
+2018-04-29 15:44:28.235 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/CommonOptions  
+2018-04-29 15:44:28.335 +02:00 [Information] Executing action method "Domasno_2.Controllers.CommonOptionsController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-29 15:44:28.791 +02:00 [Information] Executing ViewResult, running view at path "/Views/CommonOptions/Index.cshtml".
+2018-04-29 15:44:28.855 +02:00 [Information] Executed action "Domasno_2.Controllers.CommonOptionsController.Index (Domasno_2)" in 605.7028ms
+2018-04-29 15:44:28.876 +02:00 [Information] Request finished in 626.9912ms 200 text/html; charset=utf-8
+2018-04-29 15:44:37.546 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/WebConfig  
+2018-04-29 15:44:37.579 +02:00 [Information] Executing action method "Domasno_2.Controllers.WebConfigController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-29 15:44:37.737 +02:00 [Information] Executing ViewResult, running view at path "/Views/WebConfig/Index.cshtml".
+2018-04-29 15:44:37.756 +02:00 [Information] Executed action "Domasno_2.Controllers.WebConfigController.Index (Domasno_2)" in 193.1286ms
+2018-04-29 15:44:37.781 +02:00 [Information] Request finished in 216.9319ms 200 text/html; charset=utf-8
+2018-04-29 15:44:38.594 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/CommonOptions  
+2018-04-29 15:44:38.624 +02:00 [Information] Executing action method "Domasno_2.Controllers.CommonOptionsController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-29 15:44:38.630 +02:00 [Information] Executing ViewResult, running view at path "/Views/CommonOptions/Index.cshtml".
+2018-04-29 15:44:38.640 +02:00 [Information] Executed action "Domasno_2.Controllers.CommonOptionsController.Index (Domasno_2)" in 35.5673ms
+2018-04-29 15:44:38.664 +02:00 [Information] Request finished in 53.8909ms 200 text/html; charset=utf-8
+2018-04-29 15:45:19.332 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-04-29 15:45:20.223 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-04-29 15:45:20.616 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-29 15:45:23.634 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-04-29 15:45:24.099 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3578.7373ms
+2018-04-29 15:45:24.156 +02:00 [Information] Request finished in 3926.1208ms 200 text/html; charset=utf-8
+2018-04-29 15:45:30.974 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/CommonOptions  
+2018-04-29 15:45:31.029 +02:00 [Information] Executing action method "Domasno_2.Controllers.CommonOptionsController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-29 15:45:31.348 +02:00 [Information] Executing ViewResult, running view at path "/Views/CommonOptions/Index.cshtml".
+2018-04-29 15:45:31.415 +02:00 [Information] Executed action "Domasno_2.Controllers.CommonOptionsController.Index (Domasno_2)" in 426.3507ms
+2018-04-29 15:45:31.443 +02:00 [Information] Request finished in 449.7529ms 200 text/html; charset=utf-8
+2018-04-29 15:46:37.388 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-04-29 15:46:38.077 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-04-29 15:46:38.461 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-29 15:46:41.504 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-04-29 15:46:41.948 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3590.1586ms
+2018-04-29 15:46:41.994 +02:00 [Information] Request finished in 3919.9346ms 200 text/html; charset=utf-8
+2018-04-29 15:46:45.859 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/CommonOptions  
+2018-04-29 15:46:45.915 +02:00 [Information] Executing action method "Domasno_2.Controllers.CommonOptionsController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-29 15:46:46.242 +02:00 [Information] Executing ViewResult, running view at path "/Views/CommonOptions/Index.cshtml".
+2018-04-29 15:46:46.312 +02:00 [Information] Executed action "Domasno_2.Controllers.CommonOptionsController.Index (Domasno_2)" in 436.1168ms
+2018-04-29 15:46:46.355 +02:00 [Information] Request finished in 462.194ms 200 text/html; charset=utf-8
+2018-04-29 15:48:09.710 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-04-29 15:48:10.485 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-04-29 15:48:10.907 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-29 15:48:14.078 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-04-29 15:48:14.596 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3771.2386ms
+2018-04-29 15:48:14.635 +02:00 [Information] Request finished in 4154.8887ms 200 text/html; charset=utf-8
+2018-04-29 15:48:16.743 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/CommonOptions  
+2018-04-29 15:48:16.813 +02:00 [Information] Executing action method "Domasno_2.Controllers.CommonOptionsController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-29 15:48:17.141 +02:00 [Information] Executing ViewResult, running view at path "/Views/CommonOptions/Index.cshtml".
+2018-04-29 15:48:17.204 +02:00 [Information] Executed action "Domasno_2.Controllers.CommonOptionsController.Index (Domasno_2)" in 440.3399ms
+2018-04-29 15:48:17.228 +02:00 [Information] Request finished in 483.6806ms 200 text/html; charset=utf-8
+2018-04-29 15:49:14.508 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-04-29 15:49:15.449 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-04-29 15:49:15.899 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-29 15:49:19.257 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-04-29 15:49:19.736 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3946.3155ms
+2018-04-29 15:49:19.770 +02:00 [Information] Request finished in 4320.3058ms 200 text/html; charset=utf-8
+2018-04-29 15:49:22.400 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/CommonOptions  
+2018-04-29 15:49:22.463 +02:00 [Information] Executing action method "Domasno_2.Controllers.CommonOptionsController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-04-29 15:49:22.811 +02:00 [Information] Executing ViewResult, running view at path "/Views/CommonOptions/Index.cshtml".
+2018-04-29 15:49:22.870 +02:00 [Information] Executed action "Domasno_2.Controllers.CommonOptionsController.Index (Domasno_2)" in 453.9863ms
+2018-04-29 15:49:22.889 +02:00 [Information] Request finished in 476.9303ms 200 text/html; charset=utf-8

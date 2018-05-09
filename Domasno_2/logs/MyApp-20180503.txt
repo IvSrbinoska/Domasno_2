@@ -1,0 +1,472 @@
+2018-05-03 22:58:32.091 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-03 22:58:48.660 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-03 23:00:42.270 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-03 23:00:43.654 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-03 23:00:44.472 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:00:53.041 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-03 23:00:53.848 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 9595.9015ms
+2018-05-03 23:00:53.858 +02:00 [Information] Request finished in 10215.9224ms 200 text/html; charset=utf-8
+2018-05-03 23:00:54.252 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/css/site.css  
+2018-05-03 23:00:54.263 +02:00 [Information] The file "/css/site.css" was not modified
+2018-05-03 23:00:54.276 +02:00 [Information] Request finished in 23.703ms 304 text/css
+2018-05-03 23:00:54.316 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/bootstrap/dist/css/bootstrap.css  
+2018-05-03 23:00:54.339 +02:00 [Information] The file "/lib/bootstrap/dist/css/bootstrap.css" was not modified
+2018-05-03 23:00:54.345 +02:00 [Information] Request finished in 29.9065ms 304 text/css
+2018-05-03 23:00:54.361 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/jquery/dist/jquery.js  
+2018-05-03 23:00:54.443 +02:00 [Information] The file "/lib/jquery/dist/jquery.js" was not modified
+2018-05-03 23:00:54.450 +02:00 [Information] Request finished in 87.6174ms 304 application/javascript
+2018-05-03 23:00:55.008 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/images/banner2.svg  
+2018-05-03 23:00:55.092 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/bootstrap/dist/js/bootstrap.js  
+2018-05-03 23:00:55.095 +02:00 [Information] The file "/images/banner2.svg" was not modified
+2018-05-03 23:00:55.124 +02:00 [Information] Request finished in 117.2194ms 304 image/svg+xml
+2018-05-03 23:00:55.149 +02:00 [Information] The file "/lib/bootstrap/dist/js/bootstrap.js" was not modified
+2018-05-03 23:00:55.200 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/images/banner3.svg  
+2018-05-03 23:00:55.204 +02:00 [Information] Request finished in 130.8473ms 304 application/javascript
+2018-05-03 23:00:55.241 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/images/banner4.svg  
+2018-05-03 23:00:55.265 +02:00 [Information] The file "/images/banner3.svg" was not modified
+2018-05-03 23:00:55.269 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/images/banner1.svg  
+2018-05-03 23:00:55.417 +02:00 [Information] Request finished in 121.1519ms 304 image/svg+xml
+2018-05-03 23:00:55.418 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/js/site.js?v=ji3-IxbEzYWjzzLCGkF1KDjrT2jLbbrSYXw-AhMPNIA  
+2018-05-03 23:00:55.453 +02:00 [Information] The file "/images/banner1.svg" was not modified
+2018-05-03 23:00:55.461 +02:00 [Information] Request finished in 216.9499ms 304 image/svg+xml
+2018-05-03 23:00:55.471 +02:00 [Information] The file "/js/site.js" was not modified
+2018-05-03 23:00:55.476 +02:00 [Information] The file "/images/banner4.svg" was not modified
+2018-05-03 23:00:55.491 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-05-03 23:00:55.517 +02:00 [Information] Request finished in 94.5866ms 304 application/javascript
+2018-05-03 23:00:55.523 +02:00 [Information] The file "/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" was not modified
+2018-05-03 23:00:55.537 +02:00 [Information] Request finished in 80.0411ms 304 font/woff2
+2018-05-03 23:00:55.550 +02:00 [Information] Request finished in 316.9362ms 304 image/svg+xml
+2018-05-03 23:00:59.046 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa  
+2018-05-03 23:00:59.863 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:01:00.540 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:01:34.117 +02:00 [Information] Executed DbCommand ("719"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ID], [a].[Address1], [a].[Address2], [a].[City], [a].[CustomerID], [a].[FirstName], [a].[LastName], [a].[PostalCode]
+FROM [Address] AS [a]"
+2018-05-03 23:01:36.531 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Index.cshtml".
+2018-05-03 23:01:36.642 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" in 37553.9069ms
+2018-05-03 23:01:36.682 +02:00 [Information] Request finished in 37624.9694ms 200 text/html; charset=utf-8
+2018-05-03 23:05:45.304 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-03 23:05:46.120 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-03 23:05:46.598 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:05:50.031 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-03 23:05:50.570 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 4065.4739ms
+2018-05-03 23:05:50.606 +02:00 [Information] Request finished in 4484.6429ms 200 text/html; charset=utf-8
+2018-05-03 23:05:54.034 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-03 23:05:54.338 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:05:54.595 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:06:01.621 +02:00 [Information] Executed DbCommand ("478"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-03 23:06:02.641 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-03 23:06:02.803 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 8746.0215ms
+2018-05-03 23:06:02.828 +02:00 [Information] Request finished in 8778.4795ms 200 text/html; charset=utf-8
+2018-05-03 23:06:07.610 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Delete?id=3  
+2018-05-03 23:06:08.005 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Delete (Domasno_2)" with arguments (["3"]) - ModelState is Valid
+2018-05-03 23:06:08.202 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:06:10.583 +02:00 [Information] Executed DbCommand ("762"ms) [Parameters=["@__id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [m].[ID], [m].[Active], [m].[Age], [m].[FullName], [m].[Gender]
+FROM [Customer] AS [m]
+WHERE [m].[ID] = @__id_0"
+2018-05-03 23:06:10.709 +02:00 [Information] Executing RedirectResult, redirecting to "/Customer/Create".
+2018-05-03 23:06:10.718 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Delete (Domasno_2)" in 2865.9657ms
+2018-05-03 23:06:10.727 +02:00 [Information] Request finished in 3117.2662ms 302 
+2018-05-03 23:06:10.815 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Create  
+2018-05-03 23:06:10.854 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:06:11.625 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Create.cshtml".
+2018-05-03 23:06:13.597 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" in 2772.8085ms
+2018-05-03 23:06:13.604 +02:00 [Information] Request finished in 2788.707ms 200 text/html; charset=utf-8
+2018-05-03 23:06:13.675 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js  
+2018-05-03 23:06:13.683 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/jquery-validation/dist/jquery.validate.js  
+2018-05-03 23:06:13.700 +02:00 [Information] The file "/lib/jquery-validation/dist/jquery.validate.js" was not modified
+2018-05-03 23:06:13.711 +02:00 [Information] The file "/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" was not modified
+2018-05-03 23:06:13.724 +02:00 [Information] Request finished in 57.4596ms 304 application/javascript
+2018-05-03 23:06:13.743 +02:00 [Information] Request finished in 39.1488ms 304 application/javascript
+2018-05-03 23:07:48.254 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-03 23:07:49.832 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-03 23:07:50.241 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:07:54.004 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-03 23:07:54.530 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 4388.3842ms
+2018-05-03 23:07:54.572 +02:00 [Information] Request finished in 4783.8632ms 200 text/html; charset=utf-8
+2018-05-03 23:07:58.632 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-03 23:07:58.809 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:07:59.021 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:08:03.835 +02:00 [Information] Executed DbCommand ("442"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-03 23:08:04.666 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-03 23:08:04.759 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 6089.2903ms
+2018-05-03 23:08:04.779 +02:00 [Information] Request finished in 6135.5848ms 200 text/html; charset=utf-8
+2018-05-03 23:08:14.368 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Delete?id=3  
+2018-05-03 23:08:14.447 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Delete (Domasno_2)" with arguments (["3"]) - ModelState is Valid
+2018-05-03 23:08:14.466 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:08:14.593 +02:00 [Information] Executed DbCommand ("75"ms) [Parameters=["@__id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [m].[ID], [m].[Active], [m].[Age], [m].[FullName], [m].[Gender]
+FROM [Customer] AS [m]
+WHERE [m].[ID] = @__id_0"
+2018-05-03 23:08:14.606 +02:00 [Information] Executing RedirectResult, redirecting to "/Customer/Index".
+2018-05-03 23:08:14.611 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Delete (Domasno_2)" in 213.9498ms
+2018-05-03 23:08:14.621 +02:00 [Information] Request finished in 251.5037ms 302 
+2018-05-03 23:08:14.629 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-03 23:08:14.734 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:08:14.740 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:08:14.862 +02:00 [Information] Executed DbCommand ("115"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-03 23:08:14.869 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-03 23:08:14.892 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 250.2746ms
+2018-05-03 23:08:14.916 +02:00 [Information] Request finished in 271.9398ms 200 text/html; charset=utf-8
+2018-05-03 23:08:21.048 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Delete?id=3  
+2018-05-03 23:08:21.111 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Delete (Domasno_2)" with arguments (["3"]) - ModelState is Valid
+2018-05-03 23:08:21.117 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:08:21.155 +02:00 [Information] Executed DbCommand ("29"ms) [Parameters=["@__id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [m].[ID], [m].[Active], [m].[Age], [m].[FullName], [m].[Gender]
+FROM [Customer] AS [m]
+WHERE [m].[ID] = @__id_0"
+2018-05-03 23:08:21.162 +02:00 [Information] Executing RedirectResult, redirecting to "/Customer/Index".
+2018-05-03 23:08:21.168 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Delete (Domasno_2)" in 114.0029ms
+2018-05-03 23:08:21.175 +02:00 [Information] Request finished in 125.5301ms 302 
+2018-05-03 23:08:21.184 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-03 23:08:21.388 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:08:21.394 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:08:21.478 +02:00 [Information] Executed DbCommand ("78"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-03 23:08:21.484 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-03 23:08:21.497 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 306.0712ms
+2018-05-03 23:08:21.518 +02:00 [Information] Request finished in 319.3189ms 200 text/html; charset=utf-8
+2018-05-03 23:08:34.163 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Delete?id=3  
+2018-05-03 23:08:34.194 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Delete (Domasno_2)" with arguments (["3"]) - ModelState is Valid
+2018-05-03 23:08:34.200 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:08:34.246 +02:00 [Information] Executed DbCommand ("39"ms) [Parameters=["@__id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [m].[ID], [m].[Active], [m].[Age], [m].[FullName], [m].[Gender]
+FROM [Customer] AS [m]
+WHERE [m].[ID] = @__id_0"
+2018-05-03 23:08:34.257 +02:00 [Information] Executing RedirectResult, redirecting to "/Customer/Index".
+2018-05-03 23:08:34.265 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Delete (Domasno_2)" in 93.5648ms
+2018-05-03 23:08:34.274 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Delete?id=3  
+2018-05-03 23:08:34.277 +02:00 [Information] Request finished in 112.5197ms 302 
+2018-05-03 23:08:34.316 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Delete (Domasno_2)" with arguments (["3"]) - ModelState is Valid
+2018-05-03 23:08:34.324 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:08:34.360 +02:00 [Information] Executed DbCommand ("30"ms) [Parameters=["@__id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [m].[ID], [m].[Active], [m].[Age], [m].[FullName], [m].[Gender]
+FROM [Customer] AS [m]
+WHERE [m].[ID] = @__id_0"
+2018-05-03 23:08:34.366 +02:00 [Information] Executing RedirectResult, redirecting to "/Customer/Index".
+2018-05-03 23:08:34.371 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Delete (Domasno_2)" in 87.3407ms
+2018-05-03 23:08:34.378 +02:00 [Information] Request finished in 105.2845ms 302 
+2018-05-03 23:08:34.406 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-03 23:08:34.433 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:08:34.438 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:08:34.477 +02:00 [Information] Executed DbCommand ("33"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-03 23:08:34.492 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-03 23:08:34.510 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 96.507ms
+2018-05-03 23:08:34.518 +02:00 [Information] Request finished in 132.209ms 200 text/html; charset=utf-8
+2018-05-03 23:11:33.908 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-03 23:11:34.970 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-03 23:11:35.410 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:11:38.711 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-03 23:11:39.208 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3895.8505ms
+2018-05-03 23:11:39.253 +02:00 [Information] Request finished in 4278.8531ms 200 text/html; charset=utf-8
+2018-05-03 23:11:42.357 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-03 23:11:42.561 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:11:42.783 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:11:48.389 +02:00 [Information] Executed DbCommand ("466"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-03 23:11:49.369 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-03 23:11:49.468 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 7086.353ms
+2018-05-03 23:11:49.493 +02:00 [Information] Request finished in 7121.2315ms 200 text/html; charset=utf-8
+2018-05-03 23:11:52.102 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Delete?id=3  
+2018-05-03 23:11:52.197 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Delete (Domasno_2)" with arguments (["3"]) - ModelState is Valid
+2018-05-03 23:11:52.210 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:11:52.488 +02:00 [Information] Executed DbCommand ("208"ms) [Parameters=["@__id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [m].[ID], [m].[Active], [m].[Age], [m].[FullName], [m].[Gender]
+FROM [Customer] AS [m]
+WHERE [m].[ID] = @__id_0"
+2018-05-03 23:11:52.503 +02:00 [Information] Executing RedirectResult, redirecting to "/Customer/DeleteConfirmed".
+2018-05-03 23:11:52.509 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Delete (Domasno_2)" in 367.8615ms
+2018-05-03 23:11:52.519 +02:00 [Information] Request finished in 415.2669ms 302 
+2018-05-03 23:11:52.530 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/DeleteConfirmed  
+2018-05-03 23:11:52.540 +02:00 [Information] Request finished in 10.0907ms 404 
+2018-05-03 23:13:53.823 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-03 23:13:54.607 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-03 23:13:55.019 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:13:58.374 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-03 23:13:58.900 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3980.6677ms
+2018-05-03 23:13:58.941 +02:00 [Information] Request finished in 4335.2446ms 200 text/html; charset=utf-8
+2018-05-03 23:14:13.713 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-03 23:14:13.883 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:14:14.096 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:14:19.405 +02:00 [Information] Executed DbCommand ("656"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-03 23:14:20.333 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-03 23:14:20.430 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 6687.0901ms
+2018-05-03 23:14:20.455 +02:00 [Information] Request finished in 6732.0102ms 200 text/html; charset=utf-8
+2018-05-03 23:14:23.192 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Create  
+2018-05-03 23:14:23.230 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:14:23.634 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Create.cshtml".
+2018-05-03 23:14:24.121 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" in 910.7617ms
+2018-05-03 23:14:24.146 +02:00 [Information] Request finished in 936.7605ms 200 text/html; charset=utf-8
+2018-05-03 23:14:45.314 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:40256/Customer/Create application/x-www-form-urlencoded 234
+2018-05-03 23:14:45.740 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" with arguments (["Domasno_2.Models.Customer"]) - ModelState is Valid
+2018-05-03 23:14:45.760 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:14:46.427 +02:00 [Information] Executed DbCommand ("191"ms) [Parameters=["@p0='?', @p1='?', @p2='?' (Size = 4000), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Customer] ([Active], [Age], [FullName], [Gender])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [ID]
+FROM [Customer]
+WHERE @@ROWCOUNT = 1 AND [ID] = scope_identity();"
+2018-05-03 23:14:46.508 +02:00 [Information] Executing RedirectResult, redirecting to "/Customer/Index".
+2018-05-03 23:14:46.571 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" in 1100.5593ms
+2018-05-03 23:14:46.599 +02:00 [Information] Request finished in 1290.818ms 302 
+2018-05-03 23:14:46.698 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-03 23:14:46.846 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:14:46.854 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:14:47.019 +02:00 [Information] Executed DbCommand ("146"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-03 23:14:47.030 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-03 23:14:47.057 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 344.6387ms
+2018-05-03 23:14:47.288 +02:00 [Information] Request finished in 447.2815ms 200 text/html; charset=utf-8
+2018-05-03 23:16:02.551 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-03 23:16:03.383 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-03 23:16:03.835 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:16:07.284 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-03 23:16:07.820 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 4075.5532ms
+2018-05-03 23:16:07.867 +02:00 [Information] Request finished in 4481.1054ms 200 text/html; charset=utf-8
+2018-05-03 23:16:10.793 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-03 23:16:10.959 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:16:11.255 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:16:37.846 +02:00 [Information] Executed DbCommand ("373"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-03 23:16:39.182 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-03 23:16:39.518 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 28632.8035ms
+2018-05-03 23:16:39.540 +02:00 [Information] Request finished in 28741.3854ms 200 text/html; charset=utf-8
+2018-05-03 23:16:57.070 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Create  
+2018-05-03 23:16:57.145 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:16:57.836 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Create.cshtml".
+2018-05-03 23:16:58.361 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" in 1198.1108ms
+2018-05-03 23:16:58.411 +02:00 [Information] Request finished in 1314.9316ms 200 text/html; charset=utf-8
+2018-05-03 23:17:12.875 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:40256/Customer/Create application/x-www-form-urlencoded 234
+2018-05-03 23:17:13.037 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" with arguments (["Domasno_2.Models.Customer"]) - ModelState is Valid
+2018-05-03 23:17:13.058 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:17:13.244 +02:00 [Information] Executed DbCommand ("101"ms) [Parameters=["@p0='?', @p1='?', @p2='?' (Size = 4000), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Customer] ([Active], [Age], [FullName], [Gender])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [ID]
+FROM [Customer]
+WHERE @@ROWCOUNT = 1 AND [ID] = scope_identity();"
+2018-05-03 23:17:13.328 +02:00 [Information] Executing RedirectResult, redirecting to "/Customer/Details".
+2018-05-03 23:17:13.337 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" in 416.7497ms
+2018-05-03 23:17:13.351 +02:00 [Information] Request finished in 471.7305ms 302 
+2018-05-03 23:17:13.376 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details  
+2018-05-03 23:17:13.423 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments ([""]) - ModelState is Valid
+2018-05-03 23:17:13.481 +02:00 [Information] Executing HttpStatusCodeResult, setting HTTP status code 404
+2018-05-03 23:17:13.489 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" in 96.5382ms
+2018-05-03 23:17:13.506 +02:00 [Information] Request finished in 119.8505ms 404 
+2018-05-03 23:18:09.948 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-03 23:18:11.468 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-03 23:18:11.876 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:18:15.223 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-03 23:18:15.756 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3976.7406ms
+2018-05-03 23:18:15.800 +02:00 [Information] Request finished in 4326.3016ms 200 text/html; charset=utf-8
+2018-05-03 23:18:18.880 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-03 23:18:19.087 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:18:19.303 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:18:27.238 +02:00 [Information] Executed DbCommand ("355"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-03 23:18:28.155 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-03 23:18:28.236 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 9332.6389ms
+2018-05-03 23:18:28.266 +02:00 [Information] Request finished in 9369.0713ms 200 text/html; charset=utf-8
+2018-05-03 23:18:35.860 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Create  
+2018-05-03 23:18:35.908 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:18:36.434 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Create.cshtml".
+2018-05-03 23:18:36.847 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" in 968.2587ms
+2018-05-03 23:18:36.921 +02:00 [Information] Request finished in 997.0852ms 200 text/html; charset=utf-8
+2018-05-03 23:19:01.276 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:40256/Customer/Create application/x-www-form-urlencoded 253
+2018-05-03 23:19:01.421 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" with arguments (["Domasno_2.Models.Customer"]) - ModelState is Valid
+2018-05-03 23:19:01.462 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:19:01.663 +02:00 [Information] Executed DbCommand ("87"ms) [Parameters=["@p0='?', @p1='?', @p2='?' (Size = 4000), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Customer] ([Active], [Age], [FullName], [Gender])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [ID]
+FROM [Customer]
+WHERE @@ROWCOUNT = 1 AND [ID] = scope_identity();"
+2018-05-03 23:19:01.689 +02:00 [Information] Executing RedirectResult, redirecting to "/Customer/Details".
+2018-05-03 23:19:01.700 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" in 372.991ms
+2018-05-03 23:19:01.730 +02:00 [Information] Request finished in 441.3498ms 302 
+2018-05-03 23:19:01.749 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details  
+2018-05-03 23:19:01.873 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments ([""]) - ModelState is Valid
+2018-05-03 23:19:01.891 +02:00 [Information] Executing HttpStatusCodeResult, setting HTTP status code 404
+2018-05-03 23:19:01.901 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" in 134.8491ms
+2018-05-03 23:19:01.961 +02:00 [Information] Request finished in 171.7405ms 404 
+2018-05-03 23:21:27.124 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-03 23:21:28.072 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-03 23:21:28.605 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:21:32.131 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-03 23:21:32.651 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 4134.9419ms
+2018-05-03 23:21:32.693 +02:00 [Information] Request finished in 4625.0498ms 200 text/html; charset=utf-8
+2018-05-03 23:21:35.186 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-03 23:21:35.356 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:21:35.556 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:21:54.821 +02:00 [Information] Executed DbCommand ("656"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-03 23:21:55.570 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-03 23:21:55.662 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 20443.1204ms
+2018-05-03 23:21:55.700 +02:00 [Information] Request finished in 20500.8928ms 200 text/html; charset=utf-8
+2018-05-03 23:22:00.872 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Create  
+2018-05-03 23:22:00.907 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:22:01.140 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Create.cshtml".
+2018-05-03 23:22:01.453 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" in 564.8729ms
+2018-05-03 23:22:01.477 +02:00 [Information] Request finished in 588.3843ms 200 text/html; charset=utf-8
+2018-05-03 23:22:18.025 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:40256/Customer/Create application/x-www-form-urlencoded 242
+2018-05-03 23:22:18.239 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" with arguments (["Domasno_2.Models.Customer"]) - ModelState is Valid
+2018-05-03 23:22:18.311 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:22:18.541 +02:00 [Information] Executed DbCommand ("116"ms) [Parameters=["@p0='?', @p1='?', @p2='?' (Size = 4000), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Customer] ([Active], [Age], [FullName], [Gender])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [ID]
+FROM [Customer]
+WHERE @@ROWCOUNT = 1 AND [ID] = scope_identity();"
+2018-05-03 23:22:18.595 +02:00 [Information] Executing RedirectResult, redirecting to "/Customer/Create".
+2018-05-03 23:22:18.603 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" in 531.8722ms
+2018-05-03 23:22:18.615 +02:00 [Information] Request finished in 588.808ms 302 
+2018-05-03 23:22:18.626 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Create  
+2018-05-03 23:22:18.758 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:22:18.773 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Create.cshtml".
+2018-05-03 23:22:18.797 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" in 158.363ms
+2018-05-03 23:22:18.844 +02:00 [Information] Request finished in 178.0027ms 200 text/html; charset=utf-8
+2018-05-03 23:22:22.314 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-03 23:22:22.360 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:22:22.367 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:22:22.445 +02:00 [Information] Executed DbCommand ("67"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-03 23:22:22.456 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-03 23:22:22.490 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 161.4181ms
+2018-05-03 23:22:22.566 +02:00 [Information] Request finished in 235.6351ms 200 text/html; charset=utf-8
+2018-05-03 23:22:31.051 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Delete?id=4  
+2018-05-03 23:22:31.103 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Delete (Domasno_2)" with arguments (["4"]) - ModelState is Valid
+2018-05-03 23:22:31.114 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:22:31.340 +02:00 [Information] Executed DbCommand ("119"ms) [Parameters=["@__id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [m].[ID], [m].[Active], [m].[Age], [m].[FullName], [m].[Gender]
+FROM [Customer] AS [m]
+WHERE [m].[ID] = @__id_0"
+2018-05-03 23:22:31.743 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Delete.cshtml".
+2018-05-03 23:22:31.811 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Delete (Domasno_2)" in 735.5374ms
+2018-05-03 23:22:31.852 +02:00 [Information] Request finished in 792.3747ms 200 text/html; charset=utf-8
+2018-05-03 23:22:40.412 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:40256/Customer/Delete application/x-www-form-urlencoded 187
+2018-05-03 23:22:40.454 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.DeleteConfirmed (Domasno_2)" with arguments (["4"]) - ModelState is Valid
+2018-05-03 23:22:40.467 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:22:40.573 +02:00 [Information] Executed DbCommand ("89"ms) [Parameters=["@__id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [m].[ID], [m].[Active], [m].[Age], [m].[FullName], [m].[Gender]
+FROM [Customer] AS [m]
+WHERE [m].[ID] = @__id_0"
+2018-05-03 23:22:40.790 +02:00 [Information] Executed DbCommand ("177"ms) [Parameters=["@p0='?'"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+DELETE FROM [Customer]
+WHERE [ID] = @p0;
+SELECT @@ROWCOUNT;"
+2018-05-03 23:22:40.815 +02:00 [Information] Executing RedirectResult, redirecting to "/Customer/Index".
+2018-05-03 23:22:40.821 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.DeleteConfirmed (Domasno_2)" in 394.1887ms
+2018-05-03 23:22:40.831 +02:00 [Information] Request finished in 416.1433ms 302 
+2018-05-03 23:22:40.839 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-03 23:22:40.936 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:22:40.943 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:22:41.032 +02:00 [Information] Executed DbCommand ("82"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-03 23:22:41.039 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-03 23:22:41.069 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 214.0438ms
+2018-05-03 23:22:41.113 +02:00 [Information] Request finished in 262.4115ms 200 text/html; charset=utf-8
+2018-05-03 23:22:44.453 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Delete?id=1004  
+2018-05-03 23:22:44.490 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Delete (Domasno_2)" with arguments (["1004"]) - ModelState is Valid
+2018-05-03 23:22:44.500 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:22:44.555 +02:00 [Information] Executed DbCommand ("45"ms) [Parameters=["@__id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [m].[ID], [m].[Active], [m].[Age], [m].[FullName], [m].[Gender]
+FROM [Customer] AS [m]
+WHERE [m].[ID] = @__id_0"
+2018-05-03 23:22:44.561 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Delete.cshtml".
+2018-05-03 23:22:44.572 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Delete (Domasno_2)" in 108.861ms
+2018-05-03 23:22:44.583 +02:00 [Information] Request finished in 125.7797ms 200 text/html; charset=utf-8
+2018-05-03 23:22:46.274 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:40256/Customer/Delete application/x-www-form-urlencoded 190
+2018-05-03 23:22:46.309 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.DeleteConfirmed (Domasno_2)" with arguments (["1004"]) - ModelState is Valid
+2018-05-03 23:22:46.316 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:22:46.365 +02:00 [Information] Executed DbCommand ("41"ms) [Parameters=["@__id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [m].[ID], [m].[Active], [m].[Age], [m].[FullName], [m].[Gender]
+FROM [Customer] AS [m]
+WHERE [m].[ID] = @__id_0"
+2018-05-03 23:22:46.483 +02:00 [Information] Executed DbCommand ("106"ms) [Parameters=["@p0='?'"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+DELETE FROM [Customer]
+WHERE [ID] = @p0;
+SELECT @@ROWCOUNT;"
+2018-05-03 23:22:46.506 +02:00 [Information] Executing RedirectResult, redirecting to "/Customer/Index".
+2018-05-03 23:22:46.572 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.DeleteConfirmed (Domasno_2)" in 283.3919ms
+2018-05-03 23:22:46.583 +02:00 [Information] Request finished in 304.9545ms 302 
+2018-05-03 23:22:46.594 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-03 23:22:46.677 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:22:46.685 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:22:46.773 +02:00 [Information] Executed DbCommand ("80"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-03 23:22:46.780 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-03 23:22:46.806 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 200.016ms
+2018-05-03 23:22:46.851 +02:00 [Information] Request finished in 235.2706ms 200 text/html; charset=utf-8
+2018-05-03 23:26:27.153 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-03 23:26:28.037 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-03 23:26:28.448 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:26:31.907 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-03 23:26:32.498 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 4129.4376ms
+2018-05-03 23:26:32.535 +02:00 [Information] Request finished in 4497.0725ms 200 text/html; charset=utf-8
+2018-05-03 23:26:35.367 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-03 23:26:35.526 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:26:35.721 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:26:43.279 +02:00 [Information] Executed DbCommand ("441"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-03 23:26:44.173 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-03 23:26:44.280 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 8884.9904ms
+2018-05-03 23:26:44.326 +02:00 [Information] Request finished in 8923.9343ms 200 text/html; charset=utf-8
+2018-05-03 23:26:46.937 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Create  
+2018-05-03 23:26:46.973 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:26:47.274 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Create.cshtml".
+2018-05-03 23:26:47.677 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" in 725.7016ms
+2018-05-03 23:26:47.715 +02:00 [Information] Request finished in 749.7405ms 200 text/html; charset=utf-8
+2018-05-03 23:27:03.707 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:40256/Customer/Create application/x-www-form-urlencoded 233
+2018-05-03 23:27:03.828 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" with arguments (["Domasno_2.Models.Customer"]) - ModelState is Valid
+2018-05-03 23:27:03.840 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:27:04.713 +02:00 [Information] Executed DbCommand ("802"ms) [Parameters=["@p0='?', @p1='?', @p2='?' (Size = 4000), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Customer] ([Active], [Age], [FullName], [Gender])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [ID]
+FROM [Customer]
+WHERE @@ROWCOUNT = 1 AND [ID] = scope_identity();"
+2018-05-03 23:27:04.746 +02:00 [Information] Executing RedirectResult, redirecting to "/Customer/Create".
+2018-05-03 23:27:04.754 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" in 1012.5831ms
+2018-05-03 23:27:04.772 +02:00 [Information] Request finished in 1058.7191ms 302 
+2018-05-03 23:27:04.785 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Create  
+2018-05-03 23:27:04.899 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:27:04.905 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Create.cshtml".
+2018-05-03 23:27:04.917 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" in 123.8655ms
+2018-05-03 23:27:04.929 +02:00 [Information] Request finished in 143.0864ms 200 text/html; charset=utf-8
+2018-05-03 23:27:11.925 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-03 23:27:11.955 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-03 23:27:11.961 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-03 23:27:12.021 +02:00 [Information] Executed DbCommand ("50"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-03 23:27:12.030 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-03 23:27:12.056 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 121.9425ms
+2018-05-03 23:27:12.089 +02:00 [Information] Request finished in 141.0116ms 200 text/html; charset=utf-8

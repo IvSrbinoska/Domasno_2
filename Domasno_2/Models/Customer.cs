@@ -20,6 +20,9 @@ namespace Domasno_2.Models
 
         public Boolean Active { get; set; }
         public ICollection<Address> Addresses { get; set; }
+        public ICollection<Title> Titles { get; set; }
+        public ICollection<Publisher> Publishers { get; set; }
+
     }
 
 }

@@ -1,4 +1,6 @@
-﻿@model Domasno_2.Models.MarketData
+﻿@*@model Domasno_2.Models.MarketData*@
+
+@model Domasno_2.Controllers.MarketData_Z
 
 @{
     ViewData["Title"] = "Show";
@@ -12,7 +14,8 @@
     @*@Model.PriceClose*@
 
     @Html.DisplayNameFor(model => model.PriceClose)
-    <br/>
-    @Html.DisplayFor(model => model.PriceClose)
+    <br />
+    @Html.DisplayFor(model => model.StockSymbol):    @Html.DisplayFor(model => model.PriceClose)
+
 
 </p>

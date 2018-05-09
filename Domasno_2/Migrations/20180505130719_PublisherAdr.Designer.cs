@@ -11,9 +11,10 @@ using System;
 namespace Domasno_2.Migrations
 {
     [DbContext(typeof(Domasno_2Context))]
-    partial class Domasno_2ContextModelSnapshot : ModelSnapshot
+    [Migration("20180505130719_PublisherAdr")]
+    partial class PublisherAdr
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

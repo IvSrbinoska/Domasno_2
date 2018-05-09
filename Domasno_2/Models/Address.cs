@@ -28,5 +28,6 @@ namespace Domasno_2.Models
         public string PostalCode { get; set; }
 
         public Customer Customer { get; set; }
+        public Publisher Publisher { get; set; }
     }
 }

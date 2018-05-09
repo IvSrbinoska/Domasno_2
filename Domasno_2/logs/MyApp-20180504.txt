@@ -1,0 +1,1366 @@
+2018-05-04 00:02:58.317 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-04 00:02:59.451 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-04 00:03:00.085 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 00:03:04.052 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-04 00:03:04.891 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 4963.8336ms
+2018-05-04 00:03:04.958 +02:00 [Information] Request finished in 5488.3389ms 200 text/html; charset=utf-8
+2018-05-04 00:03:15.155 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa  
+2018-05-04 00:03:15.685 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 00:03:15.924 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 00:03:25.175 +02:00 [Information] Executed DbCommand ("909"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ID], [a].[Address1], [a].[Address2], [a].[City], [a].[CustomerID], [a].[FirstName], [a].[LastName], [a].[PostalCode]
+FROM [Address] AS [a]"
+2018-05-04 00:03:26.809 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Index.cshtml".
+2018-05-04 00:03:26.894 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" in 11716.9253ms
+2018-05-04 00:03:26.928 +02:00 [Information] Request finished in 11748.7597ms 200 text/html; charset=utf-8
+2018-05-04 00:03:36.608 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-04 00:03:36.709 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 00:03:36.738 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 00:03:36.820 +02:00 [Information] Executed DbCommand ("49"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-04 00:03:37.170 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-04 00:03:37.284 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 648.647ms
+2018-05-04 00:03:37.321 +02:00 [Information] Request finished in 718.9032ms 200 text/html; charset=utf-8
+2018-05-04 00:04:02.038 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa  
+2018-05-04 00:04:02.073 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 00:04:02.079 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 00:04:02.141 +02:00 [Information] Executed DbCommand ("37"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ID], [a].[Address1], [a].[Address2], [a].[City], [a].[CustomerID], [a].[FirstName], [a].[LastName], [a].[PostalCode]
+FROM [Address] AS [a]"
+2018-05-04 00:04:02.148 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Index.cshtml".
+2018-05-04 00:04:02.164 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" in 114.7386ms
+2018-05-04 00:04:02.184 +02:00 [Information] Request finished in 133.301ms 200 text/html; charset=utf-8
+2018-05-04 00:04:58.667 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-04 00:04:59.675 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-04 00:05:00.197 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 00:05:03.574 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-04 00:05:04.162 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 4065.6615ms
+2018-05-04 00:05:04.192 +02:00 [Information] Request finished in 4525.8559ms 200 text/html; charset=utf-8
+2018-05-04 00:05:16.146 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa  
+2018-05-04 00:05:16.337 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 00:05:16.526 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 00:05:21.490 +02:00 [Information] Executed DbCommand ("357"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ID], [a].[Address1], [a].[Address2], [a].[City], [a].[CustomerID], [a].[FirstName], [a].[LastName], [a].[PostalCode]
+FROM [Address] AS [a]"
+2018-05-04 00:05:22.308 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Index.cshtml".
+2018-05-04 00:05:22.362 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" in 6191.0612ms
+2018-05-04 00:05:22.385 +02:00 [Information] Request finished in 6225.5382ms 200 text/html; charset=utf-8
+2018-05-04 00:05:26.855 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa/Create  
+2018-05-04 00:05:26.901 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Create (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 00:05:26.908 +02:00 [Debug] debug proba za logiranje vo fajl
+2018-05-04 00:05:27.555 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Create.cshtml".
+2018-05-04 00:05:27.854 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Create (Domasno_2)" in 979.7153ms
+2018-05-04 00:05:27.893 +02:00 [Information] Request finished in 1026.2643ms 200 text/html; charset=utf-8
+2018-05-04 00:06:16.384 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:40256/Adresa/Create application/x-www-form-urlencoded 279
+2018-05-04 00:06:16.521 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Create (Domasno_2)" with arguments (["Domasno_2.Models.Address"]) - ModelState is Valid
+2018-05-04 00:06:16.550 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 00:06:16.973 +02:00 [Information] Executed DbCommand ("195"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?', @p4='?' (Size = 35), @p5='?' (Size = 15), @p6='?' (Size = 10)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Address] ([Address1], [Address2], [City], [CustomerID], [FirstName], [LastName], [PostalCode])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT [ID]
+FROM [Address]
+WHERE @@ROWCOUNT = 1 AND [ID] = scope_identity();"
+2018-05-04 00:06:16.999 +02:00 [Information] Executing RedirectResult, redirecting to "/Customer/Index".
+2018-05-04 00:06:17.006 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Create (Domasno_2)" in 579.032ms
+2018-05-04 00:06:17.018 +02:00 [Information] Request finished in 631.4266ms 302 
+2018-05-04 00:06:17.029 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-04 00:06:17.121 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 00:06:17.133 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 00:06:17.301 +02:00 [Information] Executed DbCommand ("146"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-04 00:06:17.598 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-04 00:06:17.661 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 616.7424ms
+2018-05-04 00:06:17.684 +02:00 [Information] Request finished in 641.5486ms 200 text/html; charset=utf-8
+2018-05-04 00:06:23.758 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa  
+2018-05-04 00:06:23.840 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 00:06:23.846 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 00:06:23.891 +02:00 [Information] Executed DbCommand ("37"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ID], [a].[Address1], [a].[Address2], [a].[City], [a].[CustomerID], [a].[FirstName], [a].[LastName], [a].[PostalCode]
+FROM [Address] AS [a]"
+2018-05-04 00:06:23.897 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Index.cshtml".
+2018-05-04 00:06:23.927 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" in 106.5986ms
+2018-05-04 00:06:23.964 +02:00 [Information] Request finished in 189.3575ms 200 text/html; charset=utf-8
+2018-05-04 00:14:32.183 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-04 00:14:32.939 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-04 00:14:33.327 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 00:14:36.627 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-04 00:14:37.093 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3877.8102ms
+2018-05-04 00:14:37.122 +02:00 [Information] Request finished in 4187.4481ms 200 text/html; charset=utf-8
+2018-05-04 00:14:43.623 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa  
+2018-05-04 00:14:43.769 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa  
+2018-05-04 00:14:43.871 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 00:14:43.872 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 00:14:44.178 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 00:14:44.178 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 00:14:44.501 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa  
+2018-05-04 00:14:44.536 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 00:14:44.552 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 00:14:49.264 +02:00 [Information] Executed DbCommand ("503"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ID], [a].[Address1], [a].[Address2], [a].[City], [a].[CustomerID], [a].[FirstName], [a].[LastName], [a].[PostalCode]
+FROM [Address] AS [a]"
+2018-05-04 00:14:49.264 +02:00 [Information] Executed DbCommand ("503"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ID], [a].[Address1], [a].[Address2], [a].[City], [a].[CustomerID], [a].[FirstName], [a].[LastName], [a].[PostalCode]
+FROM [Address] AS [a]"
+2018-05-04 00:14:49.264 +02:00 [Information] Executed DbCommand ("503"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ID], [a].[Address1], [a].[Address2], [a].[City], [a].[CustomerID], [a].[FirstName], [a].[LastName], [a].[PostalCode]
+FROM [Address] AS [a]"
+2018-05-04 00:14:50.179 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Index.cshtml".
+2018-05-04 00:14:50.204 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Index.cshtml".
+2018-05-04 00:14:50.212 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Index.cshtml".
+2018-05-04 00:14:50.322 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" in 6649.2ms
+2018-05-04 00:14:50.343 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" in 6523.0577ms
+2018-05-04 00:14:50.347 +02:00 [Information] Request finished in 6722.0577ms 200 text/html; charset=utf-8
+2018-05-04 00:14:50.359 +02:00 [Information] Request finished in 6584.5339ms 200 text/html; charset=utf-8
+2018-05-04 00:14:50.380 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" in 5788.9796ms
+2018-05-04 00:14:50.402 +02:00 [Information] Request finished in 5890.4286ms 200 text/html; charset=utf-8
+2018-05-04 00:14:56.191 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa/Create  
+2018-05-04 00:14:56.240 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Create (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 00:14:56.248 +02:00 [Debug] debug proba za logiranje vo fajl
+2018-05-04 00:14:56.602 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Create.cshtml".
+2018-05-04 00:14:57.062 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Create (Domasno_2)" in 850.9099ms
+2018-05-04 00:14:57.087 +02:00 [Information] Request finished in 878.6477ms 200 text/html; charset=utf-8
+2018-05-04 00:15:27.352 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:40256/Adresa/Create application/x-www-form-urlencoded 275
+2018-05-04 00:15:27.469 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Create (Domasno_2)" with arguments (["Domasno_2.Models.Address"]) - ModelState is Valid
+2018-05-04 00:15:27.478 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 00:15:27.663 +02:00 [Information] Executed DbCommand ("78"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?', @p4='?' (Size = 35), @p5='?' (Size = 15), @p6='?' (Size = 10)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Address] ([Address1], [Address2], [City], [CustomerID], [FirstName], [LastName], [PostalCode])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT [ID]
+FROM [Address]
+WHERE @@ROWCOUNT = 1 AND [ID] = scope_identity();"
+2018-05-04 00:15:27.723 +02:00 [Information] Executing RedirectResult, redirecting to "/Customer/Index?name=ivana".
+2018-05-04 00:15:27.728 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Create (Domasno_2)" in 341.6968ms
+2018-05-04 00:15:27.743 +02:00 [Information] Request finished in 385.8722ms 302 
+2018-05-04 00:15:27.753 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index?name=ivana  
+2018-05-04 00:15:27.871 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 00:15:27.880 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 00:15:27.992 +02:00 [Information] Executed DbCommand ("93"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-04 00:15:28.223 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-04 00:15:28.287 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 518.2668ms
+2018-05-04 00:15:28.312 +02:00 [Information] Request finished in 545.3256ms 200 text/html; charset=utf-8
+2018-05-04 00:31:07.158 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-04 00:31:08.081 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-04 00:31:08.488 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 00:31:12.030 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-04 00:31:12.579 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 4198.5681ms
+2018-05-04 00:31:12.613 +02:00 [Information] Request finished in 4534.6785ms 200 text/html; charset=utf-8
+2018-05-04 00:31:20.222 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-04 00:31:20.389 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 00:31:20.631 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 00:31:25.291 +02:00 [Information] Executed DbCommand ("476"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [b].[ID], [b].[Active], [b].[Age], [b].[FullName], [b].[Gender]
+FROM [Customer] AS [b]
+WHERE [b].[ID] = 1"
+2018-05-04 00:31:26.416 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-04 00:31:26.727 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 6486.3774ms
+2018-05-04 00:31:27.052 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'Domasno_2.Models.Customer', but this ViewDataDictionary instance requires a model item of type 'System.Collections.Generic.IEnumerable`1[Domasno_2.Models.Customer]'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderPageCoreAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderPageAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.<ExecuteAsync>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.<ExecuteAsync>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewResult.<ExecuteResultAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResultFilterAsync>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-05-04 00:31:27.471 +02:00 [Information] Request finished in 7243.8806ms 500 text/html; charset=utf-8
+2018-05-04 00:52:35.978 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-04 00:52:36.962 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-04 00:52:37.336 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 00:52:40.411 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-04 00:52:40.914 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3656.0833ms
+2018-05-04 00:52:40.938 +02:00 [Information] Request finished in 4001.9413ms 200 text/html; charset=utf-8
+2018-05-04 00:52:53.206 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/show?stockSymbol=aapl  
+2018-05-04 00:52:53.353 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 00:52:56.116 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Show.cshtml".
+2018-05-04 00:52:56.174 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 2891.7822ms
+2018-05-04 00:52:56.187 +02:00 [Information] Request finished in 2974.8255ms 200 text/html; charset=utf-8
+2018-05-04 00:56:58.591 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-04 00:56:59.398 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-04 00:56:59.793 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 00:57:03.020 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-04 00:57:03.550 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3843.3895ms
+2018-05-04 00:57:03.595 +02:00 [Information] Request finished in 4197.1703ms 200 text/html; charset=utf-8
+2018-05-04 00:57:13.438 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/show?stockSymbol=aapl  
+2018-05-04 00:57:13.578 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 00:57:14.599 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi?stockSymbol=aapl".
+2018-05-04 00:57:14.604 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 1098.6323ms
+2018-05-04 00:57:14.613 +02:00 [Information] Request finished in 1175.4356ms 302 
+2018-05-04 00:57:14.620 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi?stockSymbol=aapl  
+2018-05-04 00:57:14.674 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 00:57:14.910 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Index.cshtml".
+2018-05-04 00:57:14.932 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Index (Domasno_2)" in 297.2161ms
+2018-05-04 00:57:14.965 +02:00 [Information] Request finished in 335.5221ms 200 text/html; charset=utf-8
+2018-05-04 00:57:18.384 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/  
+2018-05-04 00:57:18.427 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 00:57:18.435 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Index.cshtml".
+2018-05-04 00:57:18.443 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Index (Domasno_2)" in 48.9038ms
+2018-05-04 00:57:18.475 +02:00 [Information] Request finished in 70.1113ms 200 text/html; charset=utf-8
+2018-05-04 00:57:57.275 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-04 00:57:58.123 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-04 00:57:58.533 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 00:58:02.234 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-04 00:58:02.777 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 4309.9527ms
+2018-05-04 00:58:02.868 +02:00 [Information] Request finished in 4732.6654ms 200 text/html; charset=utf-8
+2018-05-04 00:58:06.584 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/show?stockSymbol=aapl  
+2018-05-04 00:58:06.710 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 00:58:07.751 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 00:58:07.756 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 1117.7851ms
+2018-05-04 00:58:07.770 +02:00 [Information] Request finished in 1180.9515ms 302 
+2018-05-04 00:58:07.780 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 00:58:07.844 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 00:58:08.615 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 00:58:08.621 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 833.9695ms
+2018-05-04 00:58:08.628 +02:00 [Information] Request finished in 848.4312ms 302 
+2018-05-04 00:58:08.637 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 00:58:08.696 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 00:58:09.461 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 00:58:09.466 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 823.4328ms
+2018-05-04 00:58:09.474 +02:00 [Information] Request finished in 835.2224ms 302 
+2018-05-04 00:58:09.484 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 00:58:09.547 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 00:58:10.311 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 00:58:10.317 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 824.673ms
+2018-05-04 00:58:10.324 +02:00 [Information] Request finished in 840.1405ms 302 
+2018-05-04 00:58:10.333 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 00:58:10.398 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 00:58:10.976 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show  
+2018-05-04 00:58:11.009 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments ([""]) - ModelState is Valid
+2018-05-04 00:58:11.168 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 00:58:11.175 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 836.3789ms
+2018-05-04 00:58:11.184 +02:00 [Information] Request finished in 847.6249ms 302 
+2018-05-04 00:58:11.193 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 00:58:11.252 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 00:58:12.290 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 00:58:12.296 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 1097.1836ms
+2018-05-04 00:58:12.312 +02:00 [Information] Request finished in 1108.8906ms 302 
+2018-05-04 00:58:12.319 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 00:58:12.379 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 00:58:12.489 +02:00 [Error] Get stock data failed
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.<GetWebResponseTaskAsync>d__112.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Net.WebClient.<DownloadBitsAsync>d__150.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Domasno_2.Controllers.TestWebApiController.<Show>d__10.MoveNext() in C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Controllers\TestWebApiController.cs:line 130
+2018-05-04 00:58:13.107 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Show.cshtml".
+2018-05-04 00:58:13.150 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 2158.4747ms
+2018-05-04 00:58:13.194 +02:00 [Information] Request finished in 2353.3784ms 200 text/html; charset=utf-8
+2018-05-04 00:58:13.231 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 00:58:13.242 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 914.3674ms
+2018-05-04 00:58:13.262 +02:00 [Information] Request finished in 929.9001ms 302 
+2018-05-04 00:58:13.282 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 00:58:13.332 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 00:58:14.065 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 00:58:14.072 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 772.6369ms
+2018-05-04 00:58:14.080 +02:00 [Information] Request finished in 815.7404ms 302 
+2018-05-04 00:58:14.087 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 00:58:14.117 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 00:58:14.884 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 00:58:14.890 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 797.313ms
+2018-05-04 00:58:14.896 +02:00 [Information] Request finished in 810.2565ms 302 
+2018-05-04 00:59:52.612 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-04 00:59:53.481 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-04 00:59:53.858 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 00:59:57.349 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-04 00:59:57.889 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 4125.7465ms
+2018-05-04 00:59:57.923 +02:00 [Information] Request finished in 4467.5399ms 200 text/html; charset=utf-8
+2018-05-04 01:00:02.066 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show  
+2018-05-04 01:00:02.184 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments ([""]) - ModelState is Valid
+2018-05-04 01:00:03.318 +02:00 [Error] Get stock data failed
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.<GetWebResponseTaskAsync>d__112.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Net.WebClient.<DownloadBitsAsync>d__150.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Domasno_2.Controllers.TestWebApiController.<Show>d__10.MoveNext() in C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Controllers\TestWebApiController.cs:line 130
+2018-05-04 01:00:03.818 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Show.cshtml".
+2018-05-04 01:00:03.868 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 1721.9756ms
+2018-05-04 01:00:03.886 +02:00 [Information] Request finished in 1810.5373ms 200 text/html; charset=utf-8
+2018-05-04 01:00:12.633 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:00:12.680 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:00:13.453 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:00:13.460 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 815.3688ms
+2018-05-04 01:00:13.474 +02:00 [Information] Request finished in 836.6687ms 302 
+2018-05-04 01:00:13.487 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:00:13.569 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:00:14.348 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:00:14.353 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 860.3693ms
+2018-05-04 01:00:14.360 +02:00 [Information] Request finished in 872.8473ms 302 
+2018-05-04 01:00:14.368 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:00:14.431 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:00:15.256 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:00:15.264 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 889.4943ms
+2018-05-04 01:00:15.271 +02:00 [Information] Request finished in 900.6685ms 302 
+2018-05-04 01:00:15.279 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:00:15.330 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:00:16.088 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:00:16.093 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 809.3566ms
+2018-05-04 01:00:16.104 +02:00 [Information] Request finished in 819.9881ms 302 
+2018-05-04 01:00:16.114 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:00:16.170 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:00:16.985 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:00:16.991 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 871.7443ms
+2018-05-04 01:00:17.006 +02:00 [Information] Request finished in 884.12ms 302 
+2018-05-04 01:00:17.017 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:00:17.087 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:00:17.839 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:00:17.886 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 822.8273ms
+2018-05-04 01:00:17.893 +02:00 [Information] Request finished in 876.1004ms 302 
+2018-05-04 01:00:17.901 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:00:17.951 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:00:18.706 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:00:18.712 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 805.4903ms
+2018-05-04 01:00:18.718 +02:00 [Information] Request finished in 816.0737ms 302 
+2018-05-04 01:00:18.727 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:00:18.784 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:00:19.530 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:00:19.535 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 802.8214ms
+2018-05-04 01:00:19.542 +02:00 [Information] Request finished in 813.5502ms 302 
+2018-05-04 01:00:19.550 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:00:19.601 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:00:20.361 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:00:20.367 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 810.6412ms
+2018-05-04 01:00:20.375 +02:00 [Information] Request finished in 822.1343ms 302 
+2018-05-04 01:00:20.383 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:00:20.446 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:00:21.199 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:00:21.205 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 815.9247ms
+2018-05-04 01:00:21.213 +02:00 [Information] Request finished in 827.9688ms 302 
+2018-05-04 01:00:21.222 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:00:21.272 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:00:22.045 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:00:22.051 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 823.6976ms
+2018-05-04 01:00:22.059 +02:00 [Information] Request finished in 834.5873ms 302 
+2018-05-04 01:00:22.069 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:00:22.120 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:00:22.905 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:00:22.914 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 839.1007ms
+2018-05-04 01:00:22.923 +02:00 [Information] Request finished in 851.8373ms 302 
+2018-05-04 01:00:22.934 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:00:22.997 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:00:23.795 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:00:23.800 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 860.2692ms
+2018-05-04 01:00:23.813 +02:00 [Information] Request finished in 872.2123ms 302 
+2018-05-04 01:00:23.821 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:00:23.876 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:00:24.651 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:00:24.659 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 832.476ms
+2018-05-04 01:00:24.672 +02:00 [Information] Request finished in 844.7684ms 302 
+2018-05-04 01:00:24.687 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:00:24.737 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:00:25.754 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:00:25.760 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 1066.8623ms
+2018-05-04 01:00:25.767 +02:00 [Information] Request finished in 1079.9668ms 302 
+2018-05-04 01:00:25.776 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:00:25.828 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:00:26.561 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:00:26.566 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 784.8115ms
+2018-05-04 01:00:26.574 +02:00 [Information] Request finished in 795.7312ms 302 
+2018-05-04 01:00:26.582 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:00:26.633 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:00:27.390 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:00:27.398 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 810.0352ms
+2018-05-04 01:00:27.408 +02:00 [Information] Request finished in 822.4295ms 302 
+2018-05-04 01:00:27.416 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:00:27.469 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:00:28.234 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:00:28.240 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 817.0458ms
+2018-05-04 01:00:28.247 +02:00 [Information] Request finished in 829.5119ms 302 
+2018-05-04 01:00:28.256 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:00:28.317 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:00:29.097 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:00:29.103 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 841.6332ms
+2018-05-04 01:00:29.109 +02:00 [Information] Request finished in 852.5832ms 302 
+2018-05-04 01:00:29.118 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:00:29.167 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:00:29.917 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:00:29.922 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 798.9321ms
+2018-05-04 01:00:29.928 +02:00 [Information] Request finished in 809.2618ms 302 
+2018-05-04 01:00:30.071 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:00:30.119 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:00:30.924 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:00:30.931 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 852.6522ms
+2018-05-04 01:00:30.939 +02:00 [Information] Request finished in 867.3914ms 302 
+2018-05-04 01:00:30.949 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:00:31.008 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:00:31.748 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:00:31.754 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 799.5577ms
+2018-05-04 01:00:31.762 +02:00 [Information] Request finished in 811.8087ms 302 
+2018-05-04 01:00:31.774 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:00:31.826 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:00:32.778 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:00:32.783 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 1003.0255ms
+2018-05-04 01:00:32.790 +02:00 [Information] Request finished in 1015.8135ms 302 
+2018-05-04 01:00:32.799 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:00:32.849 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:00:33.614 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:00:33.621 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 816.2703ms
+2018-05-04 01:00:33.630 +02:00 [Information] Request finished in 827.2856ms 302 
+2018-05-04 01:00:33.638 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:00:33.699 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:00:34.454 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:00:34.464 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 815.8364ms
+2018-05-04 01:00:34.473 +02:00 [Information] Request finished in 833.0844ms 302 
+2018-05-04 01:01:19.863 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-04 01:01:20.591 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-04 01:01:21.071 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 01:01:24.514 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-04 01:01:25.042 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 4045.8133ms
+2018-05-04 01:01:25.073 +02:00 [Information] Request finished in 4481.8862ms 200 text/html; charset=utf-8
+2018-05-04 01:01:34.493 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/show?stockSymbol=aapl  
+2018-05-04 01:01:34.645 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:01:36.330 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Show.cshtml".
+2018-05-04 01:01:36.367 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 1788.5983ms
+2018-05-04 01:01:36.378 +02:00 [Information] Request finished in 1884.3003ms 200 text/html; charset=utf-8
+2018-05-04 01:01:41.169 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show  
+2018-05-04 01:01:41.213 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments ([""]) - ModelState is Valid
+2018-05-04 01:01:42.024 +02:00 [Error] Get stock data failed
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.<GetWebResponseTaskAsync>d__112.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Net.WebClient.<DownloadBitsAsync>d__150.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Domasno_2.Controllers.TestWebApiController.<Show>d__10.MoveNext() in C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Controllers\TestWebApiController.cs:line 130
+2018-05-04 01:01:42.045 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Show.cshtml".
+2018-05-04 01:01:42.057 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 877.5733ms
+2018-05-04 01:01:42.085 +02:00 [Information] Request finished in 893.1492ms 200 text/html; charset=utf-8
+2018-05-04 01:01:44.441 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show  
+2018-05-04 01:01:44.486 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments ([""]) - ModelState is Valid
+2018-05-04 01:01:45.317 +02:00 [Error] Get stock data failed
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.<GetWebResponseTaskAsync>d__112.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Net.WebClient.<DownloadBitsAsync>d__150.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Domasno_2.Controllers.TestWebApiController.<Show>d__10.MoveNext() in C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Controllers\TestWebApiController.cs:line 130
+2018-05-04 01:01:45.337 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Show.cshtml".
+2018-05-04 01:01:45.347 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 893.3635ms
+2018-05-04 01:01:45.365 +02:00 [Information] Request finished in 913.5159ms 200 text/html; charset=utf-8
+2018-05-04 01:01:52.310 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/show?stockSymbol=aapl  
+2018-05-04 01:01:52.347 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:01:53.086 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Show.cshtml".
+2018-05-04 01:01:53.093 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 776.4926ms
+2018-05-04 01:01:53.112 +02:00 [Information] Request finished in 790.1012ms 200 text/html; charset=utf-8
+2018-05-04 01:02:40.290 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-04 01:02:41.005 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-04 01:02:41.377 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 01:02:44.481 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-04 01:02:45.083 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3762.5712ms
+2018-05-04 01:02:45.113 +02:00 [Information] Request finished in 4110.4198ms 200 text/html; charset=utf-8
+2018-05-04 01:02:47.971 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show  
+2018-05-04 01:02:48.087 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments ([""]) - ModelState is Valid
+2018-05-04 01:02:49.369 +02:00 [Error] Get stock data failed
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.<GetWebResponseTaskAsync>d__112.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Net.WebClient.<DownloadBitsAsync>d__150.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Domasno_2.Controllers.TestWebApiController.<Show>d__10.MoveNext() in C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Controllers\TestWebApiController.cs:line 130
+2018-05-04 01:02:49.937 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Show.cshtml".
+2018-05-04 01:02:49.985 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 1937.6242ms
+2018-05-04 01:02:50.007 +02:00 [Information] Request finished in 2026.1285ms 200 text/html; charset=utf-8
+2018-05-04 01:04:19.461 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-04 01:04:20.299 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-04 01:04:20.736 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 01:04:24.184 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-04 01:04:24.779 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 4164.0246ms
+2018-05-04 01:04:24.796 +02:00 [Information] Request finished in 4507.6473ms 200 text/html; charset=utf-8
+2018-05-04 01:05:00.522 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show  
+2018-05-04 01:05:00.627 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments ([""]) - ModelState is Valid
+2018-05-04 01:05:01.782 +02:00 [Error] Get stock data failed
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.<GetWebResponseTaskAsync>d__112.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Net.WebClient.<DownloadBitsAsync>d__150.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Domasno_2.Controllers.TestWebApiController.<Show>d__10.MoveNext() in C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Controllers\TestWebApiController.cs:line 130
+2018-05-04 01:05:01.803 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:01.810 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 1224.1481ms
+2018-05-04 01:05:01.818 +02:00 [Information] Request finished in 1294.7303ms 302 
+2018-05-04 01:05:01.826 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:01.907 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:02.733 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:02.740 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 907.7887ms
+2018-05-04 01:05:02.750 +02:00 [Information] Request finished in 921.8078ms 302 
+2018-05-04 01:05:02.762 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:02.830 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:03.630 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:03.635 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 866.0605ms
+2018-05-04 01:05:03.643 +02:00 [Information] Request finished in 880.7554ms 302 
+2018-05-04 01:05:03.651 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:03.707 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:04.473 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:04.479 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 821.865ms
+2018-05-04 01:05:04.486 +02:00 [Information] Request finished in 833.6653ms 302 
+2018-05-04 01:05:04.496 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:04.547 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:05.307 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:05.313 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 811.7508ms
+2018-05-04 01:05:05.320 +02:00 [Information] Request finished in 823.3216ms 302 
+2018-05-04 01:05:05.328 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:05.380 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:06.109 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:06.115 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 781.0006ms
+2018-05-04 01:05:06.123 +02:00 [Information] Request finished in 793.8469ms 302 
+2018-05-04 01:05:06.134 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:06.189 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:06.950 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:06.956 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 816.116ms
+2018-05-04 01:05:06.962 +02:00 [Information] Request finished in 828.9282ms 302 
+2018-05-04 01:05:06.972 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:07.025 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:07.786 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:07.795 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 815.6082ms
+2018-05-04 01:05:07.805 +02:00 [Information] Request finished in 830.7838ms 302 
+2018-05-04 01:05:07.816 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:07.890 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:08.626 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:08.631 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 809.0549ms
+2018-05-04 01:05:08.640 +02:00 [Information] Request finished in 821.5124ms 302 
+2018-05-04 01:05:08.649 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:08.707 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:09.459 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:09.467 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 810.0927ms
+2018-05-04 01:05:09.477 +02:00 [Information] Request finished in 823.4324ms 302 
+2018-05-04 01:05:09.489 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:09.542 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:10.320 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:10.325 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 829.7693ms
+2018-05-04 01:05:10.334 +02:00 [Information] Request finished in 843.084ms 302 
+2018-05-04 01:05:10.344 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:10.395 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:11.140 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:11.146 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 796.3211ms
+2018-05-04 01:05:11.153 +02:00 [Information] Request finished in 807.4165ms 302 
+2018-05-04 01:05:11.161 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:11.213 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:11.955 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:11.962 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 795.1922ms
+2018-05-04 01:05:11.968 +02:00 [Information] Request finished in 806.0679ms 302 
+2018-05-04 01:05:11.979 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:12.031 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:12.790 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:12.801 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 813.8757ms
+2018-05-04 01:05:12.811 +02:00 [Information] Request finished in 827.7549ms 302 
+2018-05-04 01:05:12.819 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:12.873 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:13.623 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:13.634 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 806.9637ms
+2018-05-04 01:05:13.647 +02:00 [Information] Request finished in 821.1326ms 302 
+2018-05-04 01:05:13.660 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:13.738 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:14.477 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:14.485 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 815.2325ms
+2018-05-04 01:05:14.493 +02:00 [Information] Request finished in 833.0433ms 302 
+2018-05-04 01:05:14.502 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:14.560 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:15.340 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:15.346 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 837.7402ms
+2018-05-04 01:05:15.355 +02:00 [Information] Request finished in 850.7913ms 302 
+2018-05-04 01:05:15.365 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:15.424 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:16.168 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:16.173 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 802.1896ms
+2018-05-04 01:05:16.180 +02:00 [Information] Request finished in 814.4599ms 302 
+2018-05-04 01:05:16.188 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:16.243 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:17.071 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:17.078 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 883.3856ms
+2018-05-04 01:05:17.088 +02:00 [Information] Request finished in 895.7142ms 302 
+2018-05-04 01:05:17.097 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:17.153 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:17.997 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:18.002 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 898.7406ms
+2018-05-04 01:05:18.009 +02:00 [Information] Request finished in 910.1262ms 302 
+2018-05-04 01:05:18.018 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:18.070 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:18.828 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:18.834 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 811.2167ms
+2018-05-04 01:05:18.842 +02:00 [Information] Request finished in 821.5588ms 302 
+2018-05-04 01:05:18.938 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:18.970 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:19.690 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:19.696 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 751.3157ms
+2018-05-04 01:05:19.701 +02:00 [Information] Request finished in 763.3787ms 302 
+2018-05-04 01:05:19.766 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:19.793 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:20.546 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:20.552 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 779.7247ms
+2018-05-04 01:05:20.559 +02:00 [Information] Request finished in 790.407ms 302 
+2018-05-04 01:05:20.566 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:20.615 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:21.365 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:21.371 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 799.1751ms
+2018-05-04 01:05:21.378 +02:00 [Information] Request finished in 810.1297ms 302 
+2018-05-04 01:05:21.387 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:21.437 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:22.169 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:22.175 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 782.7655ms
+2018-05-04 01:05:22.183 +02:00 [Information] Request finished in 793.6937ms 302 
+2018-05-04 01:05:22.190 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:22.243 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:22.980 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:22.986 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 790.2227ms
+2018-05-04 01:05:22.995 +02:00 [Information] Request finished in 800.9502ms 302 
+2018-05-04 01:05:23.003 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:23.069 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:23.835 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:23.840 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 831.8614ms
+2018-05-04 01:05:23.847 +02:00 [Information] Request finished in 842.4888ms 302 
+2018-05-04 01:05:23.855 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:23.904 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:24.660 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:24.664 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 804.5645ms
+2018-05-04 01:05:24.670 +02:00 [Information] Request finished in 814.8737ms 302 
+2018-05-04 01:05:24.679 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:24.741 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:25.472 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:25.478 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 792.7881ms
+2018-05-04 01:05:25.487 +02:00 [Information] Request finished in 803.7771ms 302 
+2018-05-04 01:05:25.497 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:25.567 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:26.334 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:26.341 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 836.8099ms
+2018-05-04 01:05:26.350 +02:00 [Information] Request finished in 850.671ms 302 
+2018-05-04 01:05:26.362 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:26.424 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:27.222 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:27.228 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 858.875ms
+2018-05-04 01:05:27.236 +02:00 [Information] Request finished in 872.583ms 302 
+2018-05-04 01:05:27.244 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:27.295 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:28.063 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:28.068 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 818.6173ms
+2018-05-04 01:05:28.074 +02:00 [Information] Request finished in 828.6864ms 302 
+2018-05-04 01:05:28.082 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:28.133 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:28.910 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:28.917 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 829.0427ms
+2018-05-04 01:05:28.926 +02:00 [Information] Request finished in 841.5129ms 302 
+2018-05-04 01:05:28.938 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:28.989 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:29.757 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:29.764 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 818.316ms
+2018-05-04 01:05:29.772 +02:00 [Information] Request finished in 832.3721ms 302 
+2018-05-04 01:05:29.780 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:29.829 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:30.633 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:30.646 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 855.9258ms
+2018-05-04 01:05:30.660 +02:00 [Information] Request finished in 874.7932ms 302 
+2018-05-04 01:05:30.679 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:30.752 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:31.745 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:31.754 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 1065.6381ms
+2018-05-04 01:05:31.763 +02:00 [Information] Request finished in 1085.8616ms 302 
+2018-05-04 01:05:31.780 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:31.835 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:32.601 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:32.609 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 820.835ms
+2018-05-04 01:05:32.620 +02:00 [Information] Request finished in 840.3286ms 302 
+2018-05-04 01:05:32.632 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:32.681 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:33.482 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:33.488 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 850.4411ms
+2018-05-04 01:05:33.496 +02:00 [Information] Request finished in 863.7701ms 302 
+2018-05-04 01:05:33.505 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:33.555 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:34.296 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:34.301 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 791.0417ms
+2018-05-04 01:05:34.307 +02:00 [Information] Request finished in 800.5676ms 302 
+2018-05-04 01:05:34.317 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:34.374 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:35.117 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:35.123 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 800.1596ms
+2018-05-04 01:05:35.130 +02:00 [Information] Request finished in 812.1002ms 302 
+2018-05-04 01:05:35.138 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:35.187 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:35.942 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:35.947 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 803.8005ms
+2018-05-04 01:05:35.954 +02:00 [Information] Request finished in 814.0498ms 302 
+2018-05-04 01:05:35.961 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:36.010 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:36.749 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:36.755 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 788.3043ms
+2018-05-04 01:05:36.769 +02:00 [Information] Request finished in 800.2491ms 302 
+2018-05-04 01:05:41.776 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:41.804 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:42.517 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:42.525 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 741.4458ms
+2018-05-04 01:05:42.541 +02:00 [Information] Request finished in 757.5184ms 302 
+2018-05-04 01:05:42.552 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:42.620 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:43.359 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:43.365 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 807.5253ms
+2018-05-04 01:05:43.373 +02:00 [Information] Request finished in 819.3399ms 302 
+2018-05-04 01:05:43.381 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:43.429 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:44.204 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:44.210 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 822.9603ms
+2018-05-04 01:05:44.220 +02:00 [Information] Request finished in 836.5266ms 302 
+2018-05-04 01:05:44.230 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:44.339 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:45.099 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:45.104 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 868.3804ms
+2018-05-04 01:05:45.112 +02:00 [Information] Request finished in 880.5094ms 302 
+2018-05-04 01:05:45.121 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:45.179 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:46.023 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:46.031 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 903.449ms
+2018-05-04 01:05:46.040 +02:00 [Information] Request finished in 916.59ms 302 
+2018-05-04 01:05:46.049 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:46.098 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:46.890 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:46.895 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 840.6328ms
+2018-05-04 01:05:46.904 +02:00 [Information] Request finished in 852.045ms 302 
+2018-05-04 01:05:46.913 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:46.969 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:47.723 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:47.731 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 811.5131ms
+2018-05-04 01:05:47.742 +02:00 [Information] Request finished in 824.57ms 302 
+2018-05-04 01:05:47.751 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:47.848 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:48.595 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:48.601 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 844.3041ms
+2018-05-04 01:05:48.608 +02:00 [Information] Request finished in 855.5994ms 302 
+2018-05-04 01:05:48.616 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:48.666 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:49.417 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:49.427 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 804.3494ms
+2018-05-04 01:05:49.435 +02:00 [Information] Request finished in 817.5204ms 302 
+2018-05-04 01:05:49.443 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:49.496 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:50.255 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:50.260 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 811.7496ms
+2018-05-04 01:05:50.271 +02:00 [Information] Request finished in 822.5038ms 302 
+2018-05-04 01:05:50.279 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:50.326 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:51.066 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:51.071 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 787.3823ms
+2018-05-04 01:05:51.078 +02:00 [Information] Request finished in 798.0429ms 302 
+2018-05-04 01:05:51.086 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:51.134 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:51.904 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:51.909 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 817.8517ms
+2018-05-04 01:05:51.920 +02:00 [Information] Request finished in 828.5205ms 302 
+2018-05-04 01:05:51.928 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:51.984 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:52.727 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:52.733 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 799.4596ms
+2018-05-04 01:05:52.739 +02:00 [Information] Request finished in 810.745ms 302 
+2018-05-04 01:05:52.749 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:52.797 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:53.536 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:53.541 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 787.5001ms
+2018-05-04 01:05:53.548 +02:00 [Information] Request finished in 798.5536ms 302 
+2018-05-04 01:05:53.556 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:53.607 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:54.367 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:54.372 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 810.8522ms
+2018-05-04 01:05:54.379 +02:00 [Information] Request finished in 820.9294ms 302 
+2018-05-04 01:05:54.387 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:54.436 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:55.201 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:55.208 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 815.5174ms
+2018-05-04 01:05:55.217 +02:00 [Information] Request finished in 827.9367ms 302 
+2018-05-04 01:05:55.226 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:55.275 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:56.018 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:56.025 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 792.5804ms
+2018-05-04 01:05:56.033 +02:00 [Information] Request finished in 804.9927ms 302 
+2018-05-04 01:05:56.041 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:56.089 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:56.845 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:56.852 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 804.4824ms
+2018-05-04 01:05:56.859 +02:00 [Information] Request finished in 816.0101ms 302 
+2018-05-04 01:05:56.867 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:56.920 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:57.656 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:57.663 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 790.2687ms
+2018-05-04 01:05:57.671 +02:00 [Information] Request finished in 802.2578ms 302 
+2018-05-04 01:05:57.682 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:57.730 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:58.480 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:58.495 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 805.2596ms
+2018-05-04 01:05:58.508 +02:00 [Information] Request finished in 821.3642ms 302 
+2018-05-04 01:05:58.518 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:05:58.570 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:05:59.315 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:05:59.322 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 798.2215ms
+2018-05-04 01:05:59.328 +02:00 [Information] Request finished in 811.4442ms 302 
+2018-05-04 01:14:50.960 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-04 01:14:51.981 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-04 01:14:52.427 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 01:14:55.832 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-04 01:14:56.387 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 4069.5217ms
+2018-05-04 01:14:56.432 +02:00 [Information] Request finished in 4450.5974ms 200 text/html; charset=utf-8
+2018-05-04 01:14:59.829 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa  
+2018-05-04 01:15:00.030 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 01:15:00.263 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 01:15:08.915 +02:00 [Information] Executed DbCommand ("326"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ID], [a].[Address1], [a].[Address2], [a].[City], [a].[CustomerID], [a].[FirstName], [a].[LastName], [a].[PostalCode]
+FROM [Address] AS [a]"
+2018-05-04 01:15:09.962 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Index.cshtml".
+2018-05-04 01:15:10.063 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" in 10212.6652ms
+2018-05-04 01:15:10.086 +02:00 [Information] Request finished in 10243.7726ms 200 text/html; charset=utf-8
+2018-05-04 01:15:12.990 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa/Create  
+2018-05-04 01:15:13.037 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Create (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 01:15:13.043 +02:00 [Debug] debug proba za logiranje vo fajl
+2018-05-04 01:15:13.380 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Create.cshtml".
+2018-05-04 01:15:13.788 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Create (Domasno_2)" in 784.2335ms
+2018-05-04 01:15:13.824 +02:00 [Information] Request finished in 809.7696ms 200 text/html; charset=utf-8
+2018-05-04 01:15:40.880 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:40256/Adresa/Create application/x-www-form-urlencoded 273
+2018-05-04 01:15:41.029 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Create (Domasno_2)" with arguments (["Domasno_2.Models.Address"]) - ModelState is Valid
+2018-05-04 01:15:41.106 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 01:15:41.362 +02:00 [Information] Executed DbCommand ("135"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?', @p4='?' (Size = 35), @p5='?' (Size = 15), @p6='?' (Size = 10)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Address] ([Address1], [Address2], [City], [CustomerID], [FirstName], [LastName], [PostalCode])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT [ID]
+FROM [Address]
+WHERE @@ROWCOUNT = 1 AND [ID] = scope_identity();"
+2018-05-04 01:15:41.596 +02:00 [Information] Executing RedirectResult, redirecting to "/TestWebApi/Show?stockSymbol=aapl".
+2018-05-04 01:15:41.610 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Create (Domasno_2)" in 684.8638ms
+2018-05-04 01:15:41.627 +02:00 [Information] Request finished in 742.36ms 302 
+2018-05-04 01:15:41.642 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=aapl  
+2018-05-04 01:15:41.779 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["aapl"]) - ModelState is Valid
+2018-05-04 01:15:43.697 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Show.cshtml".
+2018-05-04 01:15:43.919 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 2151.6328ms
+2018-05-04 01:15:44.104 +02:00 [Information] Request finished in 2325.873ms 200 text/html; charset=utf-8
+2018-05-04 01:33:26.562 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-04 01:33:27.455 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-04 01:33:27.858 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 01:33:31.621 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-04 01:33:32.141 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 4383.3618ms
+2018-05-04 01:33:32.194 +02:00 [Information] Request finished in 4734.0218ms 200 text/html; charset=utf-8
+2018-05-04 01:33:35.067 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa  
+2018-05-04 01:33:35.309 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 01:33:35.605 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 01:33:40.975 +02:00 [Information] Executed DbCommand ("319"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ID], [a].[Address1], [a].[Address2], [a].[City], [a].[CustomerID], [a].[FirstName], [a].[LastName], [a].[PostalCode]
+FROM [Address] AS [a]"
+2018-05-04 01:33:41.786 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Index.cshtml".
+2018-05-04 01:33:41.867 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" in 6768.5107ms
+2018-05-04 01:33:41.911 +02:00 [Information] Request finished in 6831.666ms 200 text/html; charset=utf-8
+2018-05-04 01:33:46.657 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa/Details/1  
+2018-05-04 01:33:46.747 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Details (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-04 01:33:46.757 +02:00 [Error] ********************   proba za logiranje vo fajl
+2018-05-04 01:33:46.766 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 01:33:46.896 +02:00 [Information] Executed DbCommand ("83"ms) [Parameters=["@__id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [m].[ID], [m].[Address1], [m].[Address2], [m].[City], [m].[CustomerID], [m].[FirstName], [m].[LastName], [m].[PostalCode]
+FROM [Address] AS [m]
+WHERE [m].[ID] = @__id_0"
+2018-05-04 01:40:11.657 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-04 01:40:12.601 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-04 01:40:13.022 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 01:40:16.304 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-04 01:40:16.871 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3916.6676ms
+2018-05-04 01:40:16.906 +02:00 [Information] Request finished in 4321.519ms 200 text/html; charset=utf-8
+2018-05-04 01:40:20.308 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa  
+2018-05-04 01:40:20.535 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 01:40:20.735 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 01:40:25.306 +02:00 [Information] Executed DbCommand ("407"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ID], [a].[Address1], [a].[Address2], [a].[City], [a].[CustomerID], [a].[FirstName], [a].[LastName], [a].[PostalCode]
+FROM [Address] AS [a]"
+2018-05-04 01:40:26.273 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Index.cshtml".
+2018-05-04 01:40:26.424 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" in 6043.4766ms
+2018-05-04 01:40:26.438 +02:00 [Information] Request finished in 6126.7166ms 200 text/html; charset=utf-8
+2018-05-04 01:40:29.119 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa/Details/1  
+2018-05-04 01:40:29.204 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Details (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-04 01:40:29.216 +02:00 [Error] ********************   proba za logiranje vo fajl
+2018-05-04 01:40:29.226 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 01:40:29.363 +02:00 [Information] Executed DbCommand ("79"ms) [Parameters=["@__id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [m].[ID], [m].[Address1], [m].[Address2], [m].[City], [m].[CustomerID], [m].[FirstName], [m].[LastName], [m].[PostalCode]
+FROM [Address] AS [m]
+WHERE [m].[ID] = @__id_0"
+2018-05-04 02:01:01.863 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-04 02:01:03.134 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-04 02:01:03.568 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 02:01:07.409 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-04 02:01:07.951 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 4491.0902ms
+2018-05-04 02:01:07.984 +02:00 [Information] Request finished in 4855.4368ms 200 text/html; charset=utf-8
+2018-05-04 02:01:18.460 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa  
+2018-05-04 02:01:18.653 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 02:01:18.879 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 02:01:23.149 +02:00 [Information] Executed DbCommand ("221"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ID], [a].[Address1], [a].[Address2], [a].[City], [a].[CustomerID], [a].[FirstName], [a].[LastName], [a].[PostalCode]
+FROM [Address] AS [a]"
+2018-05-04 02:01:24.188 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Index.cshtml".
+2018-05-04 02:01:24.269 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" in 5780.8992ms
+2018-05-04 02:01:24.302 +02:00 [Information] Request finished in 5833.5265ms 200 text/html; charset=utf-8
+2018-05-04 02:01:26.975 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa/Details/1  
+2018-05-04 02:01:27.075 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Details (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-04 02:01:27.084 +02:00 [Error] ********************   proba za logiranje vo fajl
+2018-05-04 02:01:27.094 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 02:01:27.223 +02:00 [Information] Executed DbCommand ("81"ms) [Parameters=["@__id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [m].[ID], [m].[Address1], [m].[Address2], [m].[City], [m].[CustomerID], [m].[FirstName], [m].[LastName], [m].[PostalCode]
+FROM [Address] AS [m]
+WHERE [m].[ID] = @__id_0"
+2018-05-04 21:03:53.914 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-04 21:03:54.862 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-04 21:03:55.279 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 21:03:58.546 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-04 21:03:59.035 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3832.3257ms
+2018-05-04 21:03:59.053 +02:00 [Information] Request finished in 4194.1159ms 200 text/html; charset=utf-8
+2018-05-04 21:04:13.310 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa  
+2018-05-04 21:04:13.515 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 21:04:13.711 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 21:04:20.277 +02:00 [Information] Executed DbCommand ("281"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ID], [a].[Address1], [a].[Address2], [a].[City], [a].[CustomerID], [a].[FirstName], [a].[LastName], [a].[PostalCode]
+FROM [Address] AS [a]"
+2018-05-04 21:04:21.036 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Index.cshtml".
+2018-05-04 21:04:21.104 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" in 7777.1531ms
+2018-05-04 21:04:21.127 +02:00 [Information] Request finished in 7802.4844ms 200 text/html; charset=utf-8
+2018-05-04 21:04:26.126 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa/Details/1  
+2018-05-04 21:04:26.212 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Details (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-04 21:04:26.221 +02:00 [Error] ********************   proba za logiranje vo fajl
+2018-05-04 21:04:42.776 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 21:04:43.072 +02:00 [Information] Executed DbCommand ("128"ms) [Parameters=["@__id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [m].[ID], [m].[Address1], [m].[Address2], [m].[City], [m].[CustomerID], [m].[FirstName], [m].[LastName], [m].[PostalCode]
+FROM [Address] AS [m]
+WHERE [m].[ID] = @__id_0"
+2018-05-04 21:18:26.081 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-04 21:18:26.807 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-04 21:18:27.187 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 21:18:30.254 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-04 21:18:30.784 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3664.0004ms
+2018-05-04 21:18:30.809 +02:00 [Information] Request finished in 4009.2024ms 200 text/html; charset=utf-8
+2018-05-04 21:18:57.421 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-04 21:18:57.585 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 21:18:57.773 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 21:19:02.106 +02:00 [Information] Executed DbCommand ("332"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-04 21:19:02.977 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-04 21:19:03.113 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 5670.0922ms
+2018-05-04 21:19:03.123 +02:00 [Information] Request finished in 5701.5247ms 200 text/html; charset=utf-8
+2018-05-04 21:19:05.659 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details?id=1  
+2018-05-04 21:19:05.735 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-04 21:19:38.568 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 21:19:39.257 +02:00 [Information] Executed DbCommand ("180"ms) [Parameters=["@__id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[ID], [a].[Active], [a].[Age], [a].[FullName], [a].[Gender]
+FROM [Customer] AS [a]
+WHERE [a].[ID] = @__id_0
+ORDER BY [a].[ID]"
+2018-05-04 21:19:39.538 +02:00 [Information] Executed DbCommand ("207"ms) [Parameters=["@__id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a.Addresses].[ID], [a.Addresses].[Address1], [a.Addresses].[Address2], [a.Addresses].[City], [a.Addresses].[CustomerID], [a.Addresses].[FirstName], [a.Addresses].[LastName], [a.Addresses].[PostalCode]
+FROM [Address] AS [a.Addresses]
+INNER JOIN (
+    SELECT TOP(1) [a0].[ID]
+    FROM [Customer] AS [a0]
+    WHERE [a0].[ID] = @__id_0
+    ORDER BY [a0].[ID]
+) AS [t] ON [a.Addresses].[CustomerID] = [t].[ID]
+ORDER BY [t].[ID]"
+2018-05-04 21:24:54.406 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-04 21:24:55.308 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-04 21:24:55.785 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 21:24:59.161 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-04 21:24:59.779 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 4109.3845ms
+2018-05-04 21:24:59.811 +02:00 [Information] Request finished in 4506.0979ms 200 text/html; charset=utf-8
+2018-05-04 21:25:10.055 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-04 21:25:10.218 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 21:25:10.410 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 21:25:14.770 +02:00 [Information] Executed DbCommand ("474"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-04 21:25:15.678 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-04 21:25:15.764 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 5683.8806ms
+2018-05-04 21:25:15.786 +02:00 [Information] Request finished in 5717.8535ms 200 text/html; charset=utf-8
+2018-05-04 21:25:29.967 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details?id=3  
+2018-05-04 21:25:30.045 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments (["3"]) - ModelState is Valid
+2018-05-04 21:25:40.127 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 21:25:40.253 +02:00 [Information] Executed DbCommand ("79"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [b].[ID], [b].[Active], [b].[Age], [b].[FullName], [b].[Gender]
+FROM [Customer] AS [b]
+WHERE [b].[ID] = 1"
+2018-05-04 21:26:12.638 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Details.cshtml".
+2018-05-04 21:26:13.360 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" in 43361.8033ms
+2018-05-04 21:26:13.384 +02:00 [Information] Request finished in 43400.5248ms 200 text/html; charset=utf-8
+2018-05-04 21:26:21.889 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-04 21:26:53.530 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-04 21:26:54.266 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-04 21:26:54.640 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 21:26:57.684 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-04 21:26:58.187 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3647.9869ms
+2018-05-04 21:26:58.230 +02:00 [Information] Request finished in 3960.7723ms 200 text/html; charset=utf-8
+2018-05-04 21:27:04.653 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-04 21:27:04.824 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 21:27:05.037 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 21:27:09.837 +02:00 [Information] Executed DbCommand ("410"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-04 21:27:10.676 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-04 21:27:10.767 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 6088.9475ms
+2018-05-04 21:27:10.781 +02:00 [Information] Request finished in 6124.1635ms 200 text/html; charset=utf-8
+2018-05-04 21:27:19.038 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details?id=1  
+2018-05-04 21:27:19.131 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-04 21:27:19.145 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 21:27:19.247 +02:00 [Information] Executed DbCommand ("49"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [b].[ID], [b].[Active], [b].[Age], [b].[FullName], [b].[Gender]
+FROM [Customer] AS [b]
+WHERE [b].[ID] = 1"
+2018-05-04 21:27:19.479 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Details.cshtml".
+2018-05-04 21:27:19.514 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" in 443.9895ms
+2018-05-04 21:27:19.535 +02:00 [Information] Request finished in 483.6318ms 200 text/html; charset=utf-8
+2018-05-04 21:27:26.721 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details?id=3  
+2018-05-04 21:27:26.754 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments (["3"]) - ModelState is Valid
+2018-05-04 21:27:26.759 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 21:27:26.793 +02:00 [Information] Executed DbCommand ("27"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [b].[ID], [b].[Active], [b].[Age], [b].[FullName], [b].[Gender]
+FROM [Customer] AS [b]
+WHERE [b].[ID] = 1"
+2018-05-04 21:27:26.799 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Details.cshtml".
+2018-05-04 21:27:26.809 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" in 78.5887ms
+2018-05-04 21:27:26.830 +02:00 [Information] Request finished in 95.5189ms 200 text/html; charset=utf-8
+2018-05-04 21:28:45.826 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-04 21:28:46.821 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-04 21:28:47.198 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 21:28:50.255 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-04 21:28:50.899 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3784.8752ms
+2018-05-04 21:28:50.932 +02:00 [Information] Request finished in 4133.0941ms 200 text/html; charset=utf-8
+2018-05-04 21:28:57.803 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-04 21:28:57.963 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 21:28:58.153 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 21:29:02.924 +02:00 [Information] Executed DbCommand ("373"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-04 21:29:03.644 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-04 21:29:03.723 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 5899.0772ms
+2018-05-04 21:29:03.754 +02:00 [Information] Request finished in 5929.972ms 200 text/html; charset=utf-8
+2018-05-04 21:29:07.173 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details?id=1  
+2018-05-04 21:29:07.253 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-04 21:29:14.088 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 21:29:14.168 +02:00 [Information] Executed DbCommand ("60"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-04 21:29:51.056 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Details.cshtml".
+2018-05-04 21:29:51.444 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" in 44242.399ms
+2018-05-04 21:29:51.808 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Collections.Generic.List`1[Domasno_2.Models.Customer]', but this ViewDataDictionary instance requires a model item of type 'Domasno_2.Models.Customer'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderPageCoreAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderPageAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.<ExecuteAsync>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.<ExecuteAsync>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewResult.<ExecuteResultAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResultFilterAsync>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-05-04 21:29:52.254 +02:00 [Information] Request finished in 45066.334ms 500 text/html; charset=utf-8
+2018-05-04 23:48:15.305 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-04 23:48:16.202 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-04 23:48:16.637 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 23:48:19.955 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-04 23:48:20.439 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3901.565ms
+2018-05-04 23:48:20.478 +02:00 [Information] Request finished in 4276.0554ms 200 text/html; charset=utf-8
+2018-05-04 23:48:23.616 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa  
+2018-05-04 23:48:23.850 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 23:48:24.066 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 23:48:33.456 +02:00 [Information] Executed DbCommand ("265"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ID], [a].[Address1], [a].[Address2], [a].[City], [a].[CustomerID], [a].[FirstName], [a].[LastName], [a].[PostalCode]
+FROM [Address] AS [a]"
+2018-05-04 23:48:34.328 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Index.cshtml".
+2018-05-04 23:48:34.412 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" in 10765.8923ms
+2018-05-04 23:48:34.437 +02:00 [Information] Request finished in 10804.0444ms 200 text/html; charset=utf-8
+2018-05-04 23:48:38.395 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-04 23:48:38.432 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 23:48:38.443 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 23:48:38.607 +02:00 [Information] Executed DbCommand ("139"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-04 23:48:38.863 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-04 23:48:38.936 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 526.2003ms
+2018-05-04 23:48:38.958 +02:00 [Information] Request finished in 549.8989ms 200 text/html; charset=utf-8
+2018-05-04 23:48:42.437 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details?id=1  
+2018-05-04 23:48:42.521 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-04 23:48:47.898 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 23:48:48.029 +02:00 [Information] Executed DbCommand ("56"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[ID], [b].[Active], [b].[Age], [b].[FullName], [b].[Gender]
+FROM [Customer] AS [b]
+WHERE CHARINDEX(N'Iv', [b].[FullName]) > 0"
+2018-05-04 23:49:20.099 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Details.cshtml".
+2018-05-04 23:49:20.423 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" in 37953.5532ms
+2018-05-04 23:49:20.505 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Collections.Generic.List`1[Domasno_2.Models.Customer]', but this ViewDataDictionary instance requires a model item of type 'Domasno_2.Models.Customer'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderPageCoreAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderPageAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.<ExecuteAsync>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.<ExecuteAsync>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewResult.<ExecuteResultAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResultFilterAsync>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-05-04 23:49:20.680 +02:00 [Information] Request finished in 38245.2411ms 500 text/html; charset=utf-8
+2018-05-04 23:49:43.241 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-04 23:49:44.111 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-04 23:49:44.569 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 23:49:47.744 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-04 23:49:48.312 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3828.0977ms
+2018-05-04 23:49:48.370 +02:00 [Information] Request finished in 4263.2986ms 200 text/html; charset=utf-8
+2018-05-04 23:50:49.166 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-04 23:50:49.336 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 23:50:49.541 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 23:50:53.795 +02:00 [Information] Executed DbCommand ("322"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-04 23:50:54.608 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-04 23:50:54.719 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 5529.9698ms
+2018-05-04 23:50:54.742 +02:00 [Information] Request finished in 5565.7256ms 200 text/html; charset=utf-8
+2018-05-04 23:51:04.423 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Create  
+2018-05-04 23:51:04.461 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 23:51:04.831 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Create.cshtml".
+2018-05-04 23:51:05.288 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" in 847.8371ms
+2018-05-04 23:51:05.308 +02:00 [Information] Request finished in 871.0336ms 200 text/html; charset=utf-8
+2018-05-04 23:51:18.382 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:40256/Customer/Create application/x-www-form-urlencoded 243
+2018-05-04 23:51:18.689 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" with arguments (["Domasno_2.Models.Customer"]) - ModelState is Valid
+2018-05-04 23:51:18.729 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 23:51:19.091 +02:00 [Information] Executed DbCommand ("114"ms) [Parameters=["@p0='?', @p1='?', @p2='?' (Size = 4000), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Customer] ([Active], [Age], [FullName], [Gender])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [ID]
+FROM [Customer]
+WHERE @@ROWCOUNT = 1 AND [ID] = scope_identity();"
+2018-05-04 23:51:19.137 +02:00 [Information] Executing RedirectResult, redirecting to "/Customer/Create".
+2018-05-04 23:51:19.144 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" in 691.6281ms
+2018-05-04 23:51:19.158 +02:00 [Information] Request finished in 770.7965ms 302 
+2018-05-04 23:51:19.170 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Create  
+2018-05-04 23:51:19.259 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 23:51:19.264 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Create.cshtml".
+2018-05-04 23:51:19.276 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Create (Domasno_2)" in 98.565ms
+2018-05-04 23:51:19.290 +02:00 [Information] Request finished in 115.0559ms 200 text/html; charset=utf-8
+2018-05-04 23:51:24.366 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-04 23:51:24.403 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 23:51:24.409 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 23:51:24.463 +02:00 [Information] Executed DbCommand ("46"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-04 23:51:24.470 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-04 23:51:24.493 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 117.3389ms
+2018-05-04 23:51:24.508 +02:00 [Information] Request finished in 134.3208ms 200 text/html; charset=utf-8
+2018-05-04 23:59:26.419 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-04 23:59:27.189 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-04 23:59:27.592 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 23:59:30.664 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-04 23:59:31.209 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3708.6844ms
+2018-05-04 23:59:31.256 +02:00 [Information] Request finished in 4067.4752ms 200 text/html; charset=utf-8
+2018-05-04 23:59:37.139 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-04 23:59:37.347 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-04 23:59:37.674 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 23:59:43.059 +02:00 [Information] Executed DbCommand ("329"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]"
+2018-05-04 23:59:43.822 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-04 23:59:43.938 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 6772.0704ms
+2018-05-04 23:59:43.952 +02:00 [Information] Request finished in 6809.6411ms 200 text/html; charset=utf-8
+2018-05-04 23:59:47.430 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Details?id=3004  
+2018-05-04 23:59:47.507 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Details (Domasno_2)" with arguments (["3004"]) - ModelState is Valid
+2018-05-04 23:59:52.634 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-04 23:59:52.749 +02:00 [Information] Executed DbCommand ("37"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [b].[ID], [b].[Active], [b].[Age], [b].[FullName], [b].[Gender]
+FROM [Customer] AS [b]
+WHERE CHARINDEX(N'Iv', [b].[FullName]) > 0"

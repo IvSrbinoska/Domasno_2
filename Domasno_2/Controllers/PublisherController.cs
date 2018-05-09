@@ -32,8 +32,9 @@ namespace Domasno_2.Controllers
                 return NotFound();
             }
 
-            var publisher = await _context.Publisher
-                .SingleOrDefaultAsync(m => m.ID == id);
+            //var publisher = await _context.Publisher.SingleOrDefaultAsync(m => m.ID == id);
+            var publisher =await _context.Publisher.Include(a => a.Title).FirstOrDefaultAsync(b => b.ID == id);
+
             if (publisher == null)
             {
                 return NotFound();

@@ -14,6 +14,7 @@ namespace Domasno_2.Models
         public DateTime PublicationYear { get; set; }
 
         public ICollection<Publisher> Publishers { get; set; }
+        public Customer Customer { get; set; }
 
     }
 }

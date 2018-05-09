@@ -9,6 +9,7 @@ using Domasno_2.Models;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Domasno_2.Services;
 
 namespace Domasno_2.Controllers
 {
@@ -43,15 +44,61 @@ namespace Domasno_2.Controllers
             var tmp = _configuration["Common:WebSiteUrl"];
             string tst2 = _configuration["testiranje"];
             _logger.LogError("********************   proba za logiranje vo fajl");
-            
 
-            var address = await _context.Address
-                .SingleOrDefaultAsync(m => m.ID == id);
+
+            //var address = await _context.Address.SingleOrDefaultAsync(m => m.ID == id);
+            //var address = _context.Address.Include(m => m.Publisher).Include(m => m.Customer).ToList();
+            //var address = _context.Address.SingleOrDefault(b => b.ID == 1);
+            //address.City = "London";
+            //_context.SaveChanges();
+
+            //var address = await _context.Address.AsNoTracking().ToListAsync();
+            //var address = await _context.Address.FromSql("SELECT * FROM dbo.Address").ToListAsync();
+
+
+            //var searchTerm = "adr";
+
+            //var address = _context.Address
+            //.FromSql($"SELECT * FROM dbo.Address({searchTerm})").ToList();
+            //.Where(b => b.Rating > 3)
+            //.OrderByDescending(b => b.Rating)
+            //.ToList();
+
+
+
+            //var address = _context.Address.FromSql("SELECT * FROM dbo.Address").OrderBy(b => b.City);
+            //var searchTerm = "ivana";
+            //var address = _context.Address.FromSql($"SELECT * FROM [dbo].[Address]({searchTerm})");
+            //var address = await _context.Address.FromSql("SELECT * FROM dbo.Address").Where(b => b.City == "Skopje")
+            //.OrderByDescending(b => b.FirstName).ToListAsync();
+            //var address = await _context.Address.FromSql("SELECT * FROM dbo.Address").Where(b => b.City == "Skopje")
+            //.OrderBy(b => b.FirstName).ToListAsync();
+
+
+            var address =await _context.Address.FromSql("SELECT * FROM Address").Select(b => new
+            {
+                FirstName = b.FirstName,
+                City = b.City
+            }).ToListAsync();
+
+
             if (address == null)
             {
                 return NotFound();
             }
 
+            //return View(address);
+            //return RedirectToAction("Index", "Customer");
+            //return RedirectToAction("Index", "Customer", new { name = "ivana" });
+            //return RedirectToAction("Show", "TestWebApi", new { stockSymbol = "aapl" });
+            //var objectController = new TestWebApiController(null);
+
+            //var ret = await objectController.Show("aapl");
+            var servis = new MoiServisi();
+            int c = servis.Soberi(2, 3);
+            int p = await servis.Pomnozi(4, 5);
+            decimal price = await servis.GetStockPriceAsync("aapl");
+            
             return View(address);
         }
 
@@ -75,6 +122,8 @@ namespace Domasno_2.Controllers
                 _context.Add(address);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
+                
+
             }
             return View(address);
         }
@@ -163,10 +212,6 @@ namespace Domasno_2.Controllers
         {
             return _context.Address.Any(e => e.ID == id);
         }
-
-        
-
-
 
     }
 }

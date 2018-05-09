@@ -24,9 +24,10 @@ namespace Domasno_2
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-
-            services.AddDbContext<Domasno_2Context>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("Domasno_2Context")));
+            services.AddDbContext<Domasno_2Context>(options =>options.UseSqlServer(Configuration.GetConnectionString("Domasno_2Context")));
+            services.AddOptions();
+            services.Configure<CommonOptions>(Configuration.GetSection("CommonOptions"));
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
