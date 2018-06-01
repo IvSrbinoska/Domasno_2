@@ -10,22 +10,28 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Domasno_2.Services;
+using AutoMapper;
+using System.Net;
 
 namespace Domasno_2.Controllers
 {
+
+
     public class AdresaController : Controller
     {
         private readonly Domasno_2Context _context;
         private readonly IConfiguration _configuration;
         private readonly ILogger<AdresaController> _logger;
         private readonly CommonOptions _options;
-        public AdresaController(Domasno_2Context context, IConfiguration configuration, 
-            ILogger<AdresaController> logger, IOptions<CommonOptions> options)
+        private readonly IMapper _mapper;
+        public AdresaController(Domasno_2Context context, IConfiguration configuration,
+            ILogger<AdresaController> logger, IOptions<CommonOptions> options, IMapper mapper)
         {
             _context = context;
             _configuration = configuration;
             _logger = logger;
             _options = options.Value;
+            _mapper = mapper;
         }
 
         // GET: Adresa
@@ -37,6 +43,27 @@ namespace Domasno_2.Controllers
         // GET: Adresa/Details/5
         public async Task<IActionResult> Details(int? id)
         {
+            //Employee emp = new Employee();
+            //emp.FirstName = "Ivana";
+            //emp.LastName = "Srbinoska";
+            //emp.Salary = 100;
+            ////Mapper.CreateMap<Employee, Person>(); // Create Map
+            ////Person per = Mapper.Map<Employee, Person>(emp); // Use the map
+            ////Mapper.CreateMap<Employee, Person>()
+            ////        .ForMember(dest => dest.FName, opt => opt.MapFrom(src => src.FirstName))
+            ////        .ForMember(dest => dest.LName, opt => opt.MapFrom(src => src.LastName));
+
+            //Mapper.Initialize(cfg =>
+            //{
+            //    //cfg.CreateMap<Employee, Person>();
+            //    cfg.CreateMap<Employee, Person>();//.ForMember(user => user.FName, map => map.MapFrom(a=>a.FirstName));
+            //});
+            //Person person = new Person();
+            //person = Mapper.Map<Employee, Person>(emp);
+            ////BuildWebHost(args).Run();
+
+
+
             if (id == null)
             {
                 return NotFound();
@@ -75,7 +102,7 @@ namespace Domasno_2.Controllers
             //.OrderBy(b => b.FirstName).ToListAsync();
 
 
-            var address =await _context.Address.FromSql("SELECT * FROM Address").Select(b => new
+            var address = await _context.Address.FromSql("SELECT * FROM Address").Select(b => new
             {
                 FirstName = b.FirstName,
                 City = b.City
@@ -98,7 +125,7 @@ namespace Domasno_2.Controllers
             int c = servis.Soberi(2, 3);
             int p = await servis.Pomnozi(4, 5);
             decimal price = await servis.GetStockPriceAsync("aapl");
-            
+
             return View(address);
         }
 
@@ -122,62 +149,62 @@ namespace Domasno_2.Controllers
                 _context.Add(address);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-                
+
 
             }
             return View(address);
         }
 
         // GET: Adresa/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
+        //public async Task<IActionResult> Edit(int? id)
+        //{
+        //    if (id == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            var address = await _context.Address.SingleOrDefaultAsync(m => m.ID == id);
-            if (address == null)
-            {
-                return NotFound();
-            }
-            return View(address);
-        }
+        //    var address = await _context.Address.SingleOrDefaultAsync(m => m.ID == id);
+        //    if (address == null)
+        //    {
+        //        return NotFound();
+        //    }
+        //    return View(address);
+        //}
 
-        // POST: Adresa/Edit/5
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,FirstName,LastName,Address1,Address2,City,PostalCode")] Address address)
-        {
-            if (id != address.ID)
-            {
-                return NotFound();
-            }
+        //// POST: Adresa/Edit/5
+        //// To protect from overposting attacks, please enable the specific properties you want to bind to, for 
+        //// more details see http://go.microsoft.com/fwlink/?LinkId=317598.
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public async Task<IActionResult> Edit(int id, [Bind("ID,FirstName,LastName,Address1,Address2,City,PostalCode")] Address address)
+        //{
+        //    if (id != address.ID)
+        //    {
+        //        return NotFound();
+        //    }
 
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(address);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!AddressExists(address.ID))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            return View(address);
-        }
+        //    if (ModelState.IsValid)
+        //    {
+        //        try
+        //        {
+        //            _context.Update(address);
+        //            await _context.SaveChangesAsync();
+        //        }
+        //        catch (DbUpdateConcurrencyException)
+        //        {
+        //            if (!AddressExists(address.ID))
+        //            {
+        //                return NotFound();
+        //            }
+        //            else
+        //            {
+        //                throw;
+        //            }
+        //        }
+        //        return RedirectToAction(nameof(Index));
+        //    }
+        //    return View(address);
+        //}
 
         // GET: Adresa/Delete/5
         public async Task<IActionResult> Delete(int? id)
@@ -212,6 +239,66 @@ namespace Domasno_2.Controllers
         {
             return _context.Address.Any(e => e.ID == id);
         }
+
+
+        public async Task<IActionResult> Edit(int? id)
+        {
+
+            if (id == null)
+            {
+                return StatusCode((int)HttpStatusCode.BadRequest);
+            }
+            Address item = await _context.Address.SingleOrDefaultAsync(m => m.ID == id);
+            if (item == null) { return NotFound(); }
+            Address_ViewModel vm = _mapper.Map<Address_ViewModel>(item);
+            return View("EditVM",vm);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(Address_ViewModel vm)
+        {
+            
+            if (ModelState.IsValid)
+            {
+                int id = vm.ID;
+                Address item = await _context.Address.SingleOrDefaultAsync(m => m.ID == id);
+                _mapper.Map(vm, item);
+                _context.Update(item);
+                
+                int updated = 0;
+              
+
+                try
+                {
+                    updated = await _context.SaveChangesAsync();
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex.Message);
+                }
+                if (updated > 0)
+                {
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    ModelState.AddModelError("", "Update failed.");
+
+                }
+
+            }
+            return View("EditVM",vm);
+        }
+        //Address_ViewModel objekt;
+        //Address_ViewModel objekt2 = new Address_ViewModel();
+
+        ////objekt = new Address_ViewModel();
+        //objekt.City = "jhkjhkjhkjhkkh";
+        //var dd = objekt.City;
+        //var ime = objekt2.FirstName;
+
+
 
     }
 }

@@ -1,0 +1,71 @@
+2018-05-31 22:32:12.385 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-31 22:32:15.699 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-31 22:32:16.722 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-31 22:32:23.045 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-31 22:32:23.891 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 7397.2574ms
+2018-05-31 22:32:23.906 +02:00 [Information] Request finished in 8210.6295ms 200 text/html; charset=utf-8
+2018-05-31 22:32:24.735 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/bootstrap/dist/css/bootstrap.css  
+2018-05-31 22:32:24.756 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/css/site.css  
+2018-05-31 22:32:24.767 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/images/banner3.svg  
+2018-05-31 22:32:24.826 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/images/banner2.svg  
+2018-05-31 22:32:24.891 +02:00 [Information] Sending file. Request path: '"/images/banner3.svg"'. Physical path: '"C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\wwwroot\images\banner3.svg"'
+2018-05-31 22:32:24.892 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\wwwroot\css\site.css"'
+2018-05-31 22:32:24.940 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\wwwroot\lib\bootstrap\dist\css\bootstrap.css"'
+2018-05-31 22:32:24.946 +02:00 [Information] Sending file. Request path: '"/images/banner2.svg"'. Physical path: '"C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\wwwroot\images\banner2.svg"'
+2018-05-31 22:32:25.221 +02:00 [Information] Request finished in 437.4092ms 200 text/css
+2018-05-31 22:32:25.229 +02:00 [Information] Request finished in 436.745ms 200 image/svg+xml
+2018-05-31 22:32:25.231 +02:00 [Information] Request finished in 488.3169ms 200 image/svg+xml
+2018-05-31 22:32:25.363 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/bootstrap/dist/js/bootstrap.js  
+2018-05-31 22:32:25.370 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/js/site.js?v=ji3-IxbEzYWjzzLCGkF1KDjrT2jLbbrSYXw-AhMPNIA  
+2018-05-31 22:32:25.401 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/images/banner4.svg  
+2018-05-31 22:32:25.405 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.js"'. Physical path: '"C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\wwwroot\lib\bootstrap\dist\js\bootstrap.js"'
+2018-05-31 22:32:25.458 +02:00 [Information] Sending file. Request path: '"/images/banner4.svg"'. Physical path: '"C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\wwwroot\images\banner4.svg"'
+2018-05-31 22:32:25.499 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\wwwroot\js\site.js"'
+2018-05-31 22:32:25.506 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/images/banner1.svg  
+2018-05-31 22:32:25.554 +02:00 [Information] Request finished in 153.0585ms 200 application/javascript
+2018-05-31 22:32:25.592 +02:00 [Information] Request finished in 223.3362ms 200 image/svg+xml
+2018-05-31 22:32:25.625 +02:00 [Information] Sending file. Request path: '"/images/banner1.svg"'. Physical path: '"C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\wwwroot\images\banner1.svg"'
+2018-05-31 22:32:25.633 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/jquery/dist/jquery.js  
+2018-05-31 22:32:25.734 +02:00 [Information] Request finished in 292.0337ms 200 application/javascript
+2018-05-31 22:32:25.738 +02:00 [Information] Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\wwwroot\lib\jquery\dist\jquery.js"'
+2018-05-31 22:32:25.768 +02:00 [Information] Request finished in 1013.8561ms 200 text/css
+2018-05-31 22:32:25.783 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot?  
+2018-05-31 22:32:25.833 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot"'. Physical path: '"C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.eot"'
+2018-05-31 22:32:25.982 +02:00 [Information] Request finished in 472.3329ms 200 image/svg+xml
+2018-05-31 22:32:26.347 +02:00 [Information] Request finished in 555.3752ms 200 application/vnd.ms-fontobject
+2018-05-31 22:32:28.891 +02:00 [Information] Request finished in 3336.9001ms 200 application/javascript
+2018-05-31 22:32:29.112 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/favicon.ico  
+2018-05-31 22:32:29.131 +02:00 [Information] Sending file. Request path: '"/favicon.ico"'. Physical path: '"C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\wwwroot\favicon.ico"'
+2018-05-31 22:32:29.194 +02:00 [Information] Request finished in 76.9923ms 200 image/x-icon
+2018-05-31 22:32:31.975 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa  
+2018-05-31 22:32:32.309 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-31 22:32:32.649 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-31 22:32:45.451 +02:00 [Information] Executed DbCommand ("812"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ID], [a].[Address1], [a].[Address2], [a].[City], [a].[CustomerID], [a].[FirstName], [a].[LastName], [a].[PostalCode], [a].[PublisherID]
+FROM [Address] AS [a]"
+2018-05-31 22:32:46.500 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Index.cshtml".
+2018-05-31 22:32:46.649 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" in 14655.4459ms
+2018-05-31 22:32:46.659 +02:00 [Information] Request finished in 14683.7909ms 200 text/html; charset=utf-8
+2018-05-31 22:32:50.190 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa  
+2018-05-31 22:32:50.240 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-31 22:32:50.250 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-31 22:32:50.337 +02:00 [Information] Executed DbCommand ("77"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ID], [a].[Address1], [a].[Address2], [a].[City], [a].[CustomerID], [a].[FirstName], [a].[LastName], [a].[PostalCode], [a].[PublisherID]
+FROM [Address] AS [a]"
+2018-05-31 22:32:50.344 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Index.cshtml".
+2018-05-31 22:32:50.381 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" in 183.1962ms
+2018-05-31 22:32:50.392 +02:00 [Information] Request finished in 198.6424ms 200 text/html; charset=utf-8
+2018-05-31 22:32:52.171 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-31 22:32:52.261 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (["", "", "", ""]) - ModelState is Valid
+2018-05-31 22:32:52.282 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-31 22:32:52.406 +02:00 [Information] Executed DbCommand ("73"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Customer] AS [c]"
+2018-05-31 22:32:52.572 +02:00 [Information] Executed DbCommand ("119"ms) [Parameters=["@__p_0='?', @__p_1='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]
+ORDER BY [c].[FullName]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY"
+2018-05-31 22:32:52.947 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-31 22:32:53.080 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 880.1525ms
+2018-05-31 22:32:53.091 +02:00 [Information] Request finished in 916.4112ms 200 text/html; charset=utf-8

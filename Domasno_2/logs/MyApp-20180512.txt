@@ -1,0 +1,579 @@
+2018-05-12 18:03:32.122 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-12 18:03:36.775 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-12 18:03:38.280 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-12 18:03:45.205 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-12 18:03:45.971 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 8056.8393ms
+2018-05-12 18:03:46.002 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/bootstrap/dist/css/bootstrap.css  
+2018-05-12 18:03:46.218 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/css/site.css  
+2018-05-12 18:03:46.218 +02:00 [Information] Request finished in 9460.0296ms 200 text/html; charset=utf-8
+2018-05-12 18:03:46.238 +02:00 [Information] The file "/lib/bootstrap/dist/css/bootstrap.css" was not modified
+2018-05-12 18:03:46.258 +02:00 [Information] The file "/css/site.css" was not modified
+2018-05-12 18:03:46.280 +02:00 [Information] Request finished in 63.0642ms 304 text/css
+2018-05-12 18:03:46.281 +02:00 [Information] Request finished in 257.5178ms 304 text/css
+2018-05-12 18:03:46.366 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-05-12 18:03:46.376 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/js/site.js?v=ji3-IxbEzYWjzzLCGkF1KDjrT2jLbbrSYXw-AhMPNIA  
+2018-05-12 18:03:46.399 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/bootstrap/dist/js/bootstrap.js  
+2018-05-12 18:03:46.405 +02:00 [Information] The file "/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" was not modified
+2018-05-12 18:03:46.470 +02:00 [Information] The file "/js/site.js" was not modified
+2018-05-12 18:03:46.479 +02:00 [Information] Request finished in 107.3032ms 304 application/javascript
+2018-05-12 18:03:46.486 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/jquery/dist/jquery.js  
+2018-05-12 18:03:46.496 +02:00 [Information] Request finished in 105.1803ms 304 font/woff2
+2018-05-12 18:03:46.502 +02:00 [Information] The file "/lib/bootstrap/dist/js/bootstrap.js" was not modified
+2018-05-12 18:03:46.546 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/images/banner4.svg  
+2018-05-12 18:03:46.547 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/images/banner3.svg  
+2018-05-12 18:03:46.550 +02:00 [Information] Request finished in 141.1533ms 304 application/javascript
+2018-05-12 18:03:46.630 +02:00 [Information] The file "/images/banner3.svg" was not modified
+2018-05-12 18:03:46.643 +02:00 [Information] The file "/images/banner4.svg" was not modified
+2018-05-12 18:03:46.660 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/images/banner2.svg  
+2018-05-12 18:03:46.699 +02:00 [Information] Request finished in 112.8133ms 304 image/svg+xml
+2018-05-12 18:03:46.709 +02:00 [Information] Request finished in 202.2035ms 304 image/svg+xml
+2018-05-12 18:03:46.745 +02:00 [Information] The file "/images/banner2.svg" was not modified
+2018-05-12 18:03:46.748 +02:00 [Information] The file "/lib/jquery/dist/jquery.js" was not modified
+2018-05-12 18:03:46.821 +02:00 [Information] Request finished in 126.0085ms 304 image/svg+xml
+2018-05-12 18:03:46.825 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/images/banner1.svg  
+2018-05-12 18:03:46.867 +02:00 [Information] Request finished in 490.2482ms 304 application/javascript
+2018-05-12 18:03:46.881 +02:00 [Information] The file "/images/banner1.svg" was not modified
+2018-05-12 18:03:46.887 +02:00 [Information] Request finished in 75.4761ms 304 image/svg+xml
+2018-05-12 18:03:53.269 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa  
+2018-05-12 18:03:54.571 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-12 18:03:55.297 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-12 18:04:09.656 +02:00 [Information] Executed DbCommand ("415"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ID], [a].[Address1], [a].[Address2], [a].[City], [a].[CustomerID], [a].[FirstName], [a].[LastName], [a].[PostalCode], [a].[PublisherID]
+FROM [Address] AS [a]"
+2018-05-12 18:04:11.364 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Index.cshtml".
+2018-05-12 18:04:11.588 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" in 18296.465ms
+2018-05-12 18:04:11.617 +02:00 [Information] Request finished in 18333.0682ms 200 text/html; charset=utf-8
+2018-05-12 18:04:15.227 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa/Edit/1  
+2018-05-12 18:04:15.361 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Edit (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-12 18:04:31.582 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-12 18:04:31.881 +02:00 [Information] Executed DbCommand ("217"ms) [Parameters=["@__id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [m].[ID], [m].[Address1], [m].[Address2], [m].[City], [m].[CustomerID], [m].[FirstName], [m].[LastName], [m].[PostalCode], [m].[PublisherID]
+FROM [Address] AS [m]
+WHERE [m].[ID] = @__id_0"
+2018-05-12 18:05:51.183 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Edit.cshtml".
+2018-05-12 18:05:51.276 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Edit (Domasno_2)" in 95969.8528ms
+2018-05-12 18:05:51.454 +02:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'Domasno_2.Models.Address_ViewModel', but this ViewDataDictionary instance requires a model item of type 'Domasno_2.Models.Address'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderPageCoreAsync>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderPageAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.<ExecuteAsync>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.<ExecuteAsync>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewResult.<ExecuteResultAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResultFilterAsync>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-05-12 18:05:51.665 +02:00 [Information] Request finished in 96411.5983ms 500 text/html; charset=utf-8
+2018-05-12 18:17:02.996 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-12 18:17:03.829 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-12 18:17:04.227 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-12 18:17:07.524 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-12 18:17:08.134 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3974.3632ms
+2018-05-12 18:17:08.155 +02:00 [Information] Request finished in 4335.7752ms 200 text/html; charset=utf-8
+2018-05-12 18:17:57.835 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-12 18:17:58.578 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-12 18:17:58.977 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-12 18:18:02.221 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-12 18:18:02.754 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3862.5179ms
+2018-05-12 18:18:02.786 +02:00 [Information] Request finished in 4208.6878ms 200 text/html; charset=utf-8
+2018-05-12 18:18:06.018 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa  
+2018-05-12 18:18:06.206 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-12 18:18:06.412 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-12 18:18:11.181 +02:00 [Information] Executed DbCommand ("166"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ID], [a].[Address1], [a].[Address2], [a].[City], [a].[CustomerID], [a].[FirstName], [a].[LastName], [a].[PostalCode], [a].[PublisherID]
+FROM [Address] AS [a]"
+2018-05-12 18:18:11.957 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Index.cshtml".
+2018-05-12 18:18:12.050 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" in 6005.5589ms
+2018-05-12 18:18:12.083 +02:00 [Information] Request finished in 6043.9027ms 200 text/html; charset=utf-8
+2018-05-12 18:18:17.571 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa/Edit/1  
+2018-05-12 18:18:17.666 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Edit (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-12 18:18:23.721 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-12 18:18:23.836 +02:00 [Information] Executed DbCommand ("68"ms) [Parameters=["@__id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [m].[ID], [m].[Address1], [m].[Address2], [m].[City], [m].[CustomerID], [m].[FirstName], [m].[LastName], [m].[PostalCode], [m].[PublisherID]
+FROM [Address] AS [m]
+WHERE [m].[ID] = @__id_0"
+2018-05-12 18:18:38.096 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Edit (Domasno_2)" in 20491.8735ms
+2018-05-12 18:18:38.175 +02:00 [Error] An unhandled exception has occurred while executing the request
+Microsoft.AspNetCore.Mvc.Razor.Compilation.CompilationFailedException: One or more compilation failures occurred:
+C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Views\Adresa\Edit.cshtml(15,135): error CS1061: 'Address_ViewModel' does not contain a definition for 'ID' and no extension method 'ID' accepting a first argument of type 'Address_ViewModel' could be found (are you missing a using directive or an assembly reference?)
+C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Views\Adresa\Edit.cshtml(27,135): error CS1061: 'Address_ViewModel' does not contain a definition for 'Address1' and no extension method 'Address1' accepting a first argument of type 'Address_ViewModel' could be found (are you missing a using directive or an assembly reference?)
+C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Views\Adresa\Edit.cshtml(28,135): error CS1061: 'Address_ViewModel' does not contain a definition for 'Address1' and no extension method 'Address1' accepting a first argument of type 'Address_ViewModel' could be found (are you missing a using directive or an assembly reference?)
+C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Views\Adresa\Edit.cshtml(29,147): error CS1061: 'Address_ViewModel' does not contain a definition for 'Address1' and no extension method 'Address1' accepting a first argument of type 'Address_ViewModel' could be found (are you missing a using directive or an assembly reference?)
+C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Views\Adresa\Edit.cshtml(32,135): error CS1061: 'Address_ViewModel' does not contain a definition for 'Address2' and no extension method 'Address2' accepting a first argument of type 'Address_ViewModel' could be found (are you missing a using directive or an assembly reference?)
+C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Views\Adresa\Edit.cshtml(33,135): error CS1061: 'Address_ViewModel' does not contain a definition for 'Address2' and no extension method 'Address2' accepting a first argument of type 'Address_ViewModel' could be found (are you missing a using directive or an assembly reference?)
+C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Views\Adresa\Edit.cshtml(34,147): error CS1061: 'Address_ViewModel' does not contain a definition for 'Address2' and no extension method 'Address2' accepting a first argument of type 'Address_ViewModel' could be found (are you missing a using directive or an assembly reference?)
+C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Views\Adresa\Edit.cshtml(42,135): error CS1061: 'Address_ViewModel' does not contain a definition for 'PostalCode' and no extension method 'PostalCode' accepting a first argument of type 'Address_ViewModel' could be found (are you missing a using directive or an assembly reference?)
+C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Views\Adresa\Edit.cshtml(43,135): error CS1061: 'Address_ViewModel' does not contain a definition for 'PostalCode' and no extension method 'PostalCode' accepting a first argument of type 'Address_ViewModel' could be found (are you missing a using directive or an assembly reference?)
+C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Views\Adresa\Edit.cshtml(44,147): error CS1061: 'Address_ViewModel' does not contain a definition for 'PostalCode' and no extension method 'PostalCode' accepting a first argument of type 'Address_ViewModel' could be found (are you missing a using directive or an assembly reference?)
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.RazorViewCompiler.CompileAndEmit(RazorCodeDocument codeDocument, String generatedCode)
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.RazorViewCompiler.CompileAndEmit(String relativePath)
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.RazorViewCompiler.CreateCacheEntry(String normalizedPath)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRazorPageFactoryProvider.CreateFactory(String relativePath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.CreateCacheResult(HashSet`1 expirationTokens, String relativePath, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.OnCacheMiss(ViewLocationExpanderContext expanderContext, ViewLocationCacheKey cacheKey)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.LocatePageFromViewLocations(ActionContext actionContext, String pageName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.FindView(ActionContext context, String viewName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.ViewEngines.CompositeViewEngine.FindView(ActionContext context, String viewName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor.FindView(ActionContext actionContext, ViewResult viewResult)
+   at Microsoft.AspNetCore.Mvc.ViewResult.<ExecuteResultAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResultFilterAsync>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-05-12 18:18:38.289 +02:00 [Information] Request finished in 20714.1376ms 500 text/html; charset=utf-8
+2018-05-12 18:22:24.958 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-12 18:22:25.797 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-12 18:22:26.188 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-12 18:22:29.466 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-12 18:22:30.033 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3934.4537ms
+2018-05-12 18:22:30.075 +02:00 [Information] Request finished in 4274.7838ms 200 text/html; charset=utf-8
+2018-05-12 18:22:37.666 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa  
+2018-05-12 18:22:37.855 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-12 18:22:38.065 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-12 18:22:43.190 +02:00 [Information] Executed DbCommand ("639"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ID], [a].[Address1], [a].[Address2], [a].[City], [a].[CustomerID], [a].[FirstName], [a].[LastName], [a].[PostalCode], [a].[PublisherID]
+FROM [Address] AS [a]"
+2018-05-12 18:22:43.969 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Index.cshtml".
+2018-05-12 18:22:44.061 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" in 6369.1693ms
+2018-05-12 18:22:44.093 +02:00 [Information] Request finished in 6403.9772ms 200 text/html; charset=utf-8
+2018-05-12 18:22:53.463 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa/Edit/1  
+2018-05-12 18:22:53.542 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Edit (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-12 18:26:14.154 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-12 18:26:14.970 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-12 18:26:15.356 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-12 18:26:18.709 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-12 18:26:19.273 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3959.8716ms
+2018-05-12 18:26:19.298 +02:00 [Information] Request finished in 4334.1627ms 200 text/html; charset=utf-8
+2018-05-12 18:26:21.833 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa  
+2018-05-12 18:26:22.010 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-12 18:26:22.237 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-12 18:26:27.918 +02:00 [Information] Executed DbCommand ("552"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ID], [a].[Address1], [a].[Address2], [a].[City], [a].[CustomerID], [a].[FirstName], [a].[LastName], [a].[PostalCode], [a].[PublisherID]
+FROM [Address] AS [a]"
+2018-05-12 18:26:28.697 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Index.cshtml".
+2018-05-12 18:26:28.816 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" in 6958.8251ms
+2018-05-12 18:26:28.840 +02:00 [Information] Request finished in 6993.3247ms 200 text/html; charset=utf-8
+2018-05-12 18:26:31.511 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa/Edit/1  
+2018-05-12 18:26:31.593 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Edit (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-12 18:26:36.095 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-12 18:26:36.209 +02:00 [Information] Executed DbCommand ("69"ms) [Parameters=["@__id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [m].[ID], [m].[Address1], [m].[Address2], [m].[City], [m].[CustomerID], [m].[FirstName], [m].[LastName], [m].[PostalCode], [m].[PublisherID]
+FROM [Address] AS [m]
+WHERE [m].[ID] = @__id_0"
+2018-05-12 18:26:41.229 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Edit (Domasno_2)" in 9686.628ms
+2018-05-12 18:26:41.287 +02:00 [Error] An unhandled exception has occurred while executing the request
+Microsoft.AspNetCore.Mvc.Razor.Compilation.CompilationFailedException: One or more compilation failures occurred:
+C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Views\Adresa\Edit.cshtml(27,135): error CS1061: 'Address_ViewModel' does not contain a definition for 'Address1' and no extension method 'Address1' accepting a first argument of type 'Address_ViewModel' could be found (are you missing a using directive or an assembly reference?)
+C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Views\Adresa\Edit.cshtml(28,135): error CS1061: 'Address_ViewModel' does not contain a definition for 'Address1' and no extension method 'Address1' accepting a first argument of type 'Address_ViewModel' could be found (are you missing a using directive or an assembly reference?)
+C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Views\Adresa\Edit.cshtml(29,147): error CS1061: 'Address_ViewModel' does not contain a definition for 'Address1' and no extension method 'Address1' accepting a first argument of type 'Address_ViewModel' could be found (are you missing a using directive or an assembly reference?)
+C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Views\Adresa\Edit.cshtml(32,135): error CS1061: 'Address_ViewModel' does not contain a definition for 'Address2' and no extension method 'Address2' accepting a first argument of type 'Address_ViewModel' could be found (are you missing a using directive or an assembly reference?)
+C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Views\Adresa\Edit.cshtml(33,135): error CS1061: 'Address_ViewModel' does not contain a definition for 'Address2' and no extension method 'Address2' accepting a first argument of type 'Address_ViewModel' could be found (are you missing a using directive or an assembly reference?)
+C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Views\Adresa\Edit.cshtml(34,147): error CS1061: 'Address_ViewModel' does not contain a definition for 'Address2' and no extension method 'Address2' accepting a first argument of type 'Address_ViewModel' could be found (are you missing a using directive or an assembly reference?)
+C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Views\Adresa\Edit.cshtml(42,135): error CS1061: 'Address_ViewModel' does not contain a definition for 'PostalCode' and no extension method 'PostalCode' accepting a first argument of type 'Address_ViewModel' could be found (are you missing a using directive or an assembly reference?)
+C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Views\Adresa\Edit.cshtml(43,135): error CS1061: 'Address_ViewModel' does not contain a definition for 'PostalCode' and no extension method 'PostalCode' accepting a first argument of type 'Address_ViewModel' could be found (are you missing a using directive or an assembly reference?)
+C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Views\Adresa\Edit.cshtml(44,147): error CS1061: 'Address_ViewModel' does not contain a definition for 'PostalCode' and no extension method 'PostalCode' accepting a first argument of type 'Address_ViewModel' could be found (are you missing a using directive or an assembly reference?)
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.RazorViewCompiler.CompileAndEmit(RazorCodeDocument codeDocument, String generatedCode)
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.RazorViewCompiler.CompileAndEmit(String relativePath)
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.RazorViewCompiler.CreateCacheEntry(String normalizedPath)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRazorPageFactoryProvider.CreateFactory(String relativePath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.CreateCacheResult(HashSet`1 expirationTokens, String relativePath, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.OnCacheMiss(ViewLocationExpanderContext expanderContext, ViewLocationCacheKey cacheKey)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.LocatePageFromViewLocations(ActionContext actionContext, String pageName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.FindView(ActionContext context, String viewName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.ViewEngines.CompositeViewEngine.FindView(ActionContext context, String viewName, Boolean isMainPage)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor.FindView(ActionContext actionContext, ViewResult viewResult)
+   at Microsoft.AspNetCore.Mvc.ViewResult.<ExecuteResultAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResultFilterAsync>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-05-12 18:26:41.386 +02:00 [Information] Request finished in 9872.6941ms 500 text/html; charset=utf-8
+2018-05-12 18:32:15.874 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-12 18:32:16.838 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-12 18:32:17.222 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-12 18:32:20.524 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-12 18:32:21.142 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 4018.1063ms
+2018-05-12 18:32:21.193 +02:00 [Information] Request finished in 4344.85ms 200 text/html; charset=utf-8
+2018-05-12 18:32:23.819 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa  
+2018-05-12 18:32:24.032 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-12 18:32:24.273 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-12 18:32:29.108 +02:00 [Information] Executed DbCommand ("329"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ID], [a].[Address1], [a].[Address2], [a].[City], [a].[CustomerID], [a].[FirstName], [a].[LastName], [a].[PostalCode], [a].[PublisherID]
+FROM [Address] AS [a]"
+2018-05-12 18:32:30.011 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Index.cshtml".
+2018-05-12 18:32:30.115 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" in 6263.5037ms
+2018-05-12 18:32:30.136 +02:00 [Information] Request finished in 6304.6379ms 200 text/html; charset=utf-8
+2018-05-12 18:32:36.004 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa/Edit/1  
+2018-05-12 18:32:36.094 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Edit (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-12 18:32:39.575 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-12 18:32:39.695 +02:00 [Information] Executed DbCommand ("70"ms) [Parameters=["@__id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [m].[ID], [m].[Address1], [m].[Address2], [m].[City], [m].[CustomerID], [m].[FirstName], [m].[LastName], [m].[PostalCode], [m].[PublisherID]
+FROM [Address] AS [m]
+WHERE [m].[ID] = @__id_0"
+2018-05-12 18:32:39.969 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/EditVM.cshtml".
+2018-05-12 18:32:40.384 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Edit (Domasno_2)" in 4334.0018ms
+2018-05-12 18:32:40.413 +02:00 [Information] Request finished in 4390.1034ms 200 text/html; charset=utf-8
+2018-05-12 18:32:40.424 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/jquery-validation/dist/jquery.validate.js  
+2018-05-12 18:32:40.443 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js  
+2018-05-12 18:32:40.479 +02:00 [Information] The file "/lib/jquery-validation/dist/jquery.validate.js" was not modified
+2018-05-12 18:32:40.490 +02:00 [Information] The file "/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" was not modified
+2018-05-12 18:32:40.512 +02:00 [Information] Request finished in 62.9246ms 304 application/javascript
+2018-05-12 18:32:40.517 +02:00 [Information] Request finished in 98.5798ms 304 application/javascript
+2018-05-12 18:33:21.855 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/bootstrap/dist/css/bootstrap.css.map  
+2018-05-12 18:33:21.881 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css.map"'. Physical path: '"C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map"'
+2018-05-12 18:33:22.052 +02:00 [Information] Request finished in 195.6777ms 200 text/plain
+2018-05-12 19:20:35.764 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-12 19:20:36.692 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-12 19:20:37.087 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-12 19:20:40.412 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-12 19:20:40.939 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3952.7345ms
+2018-05-12 19:20:40.977 +02:00 [Information] Request finished in 4289.2787ms 200 text/html; charset=utf-8
+2018-05-12 19:20:44.348 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa  
+2018-05-12 19:20:44.528 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-12 19:20:44.737 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-12 19:20:50.363 +02:00 [Information] Executed DbCommand ("444"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ID], [a].[Address1], [a].[Address2], [a].[City], [a].[CustomerID], [a].[FirstName], [a].[LastName], [a].[PostalCode], [a].[PublisherID]
+FROM [Address] AS [a]"
+2018-05-12 19:20:51.126 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Index.cshtml".
+2018-05-12 19:20:51.259 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" in 6884.4139ms
+2018-05-12 19:20:51.289 +02:00 [Information] Request finished in 6928.7904ms 200 text/html; charset=utf-8
+2018-05-12 19:20:53.538 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa/Edit/1  
+2018-05-12 19:20:53.626 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Edit (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-12 19:21:02.489 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-12 19:21:02.611 +02:00 [Information] Executed DbCommand ("70"ms) [Parameters=["@__id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [m].[ID], [m].[Address1], [m].[Address2], [m].[City], [m].[CustomerID], [m].[FirstName], [m].[LastName], [m].[PostalCode], [m].[PublisherID]
+FROM [Address] AS [m]
+WHERE [m].[ID] = @__id_0"
+2018-05-12 19:21:02.941 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/EditVM.cshtml".
+2018-05-12 19:21:03.230 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Edit (Domasno_2)" in 9650.0926ms
+2018-05-12 19:21:03.260 +02:00 [Information] Request finished in 9698.6668ms 200 text/html; charset=utf-8
+2018-05-12 19:21:15.776 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:40256/Adresa/Edit/1 application/x-www-form-urlencoded 234
+2018-05-12 19:21:15.899 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Edit (Domasno_2)" with arguments (["Domasno_2.Models.Address_ViewModel"]) - ModelState is Valid
+2018-05-12 19:21:31.744 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-12 19:21:31.793 +02:00 [Information] Executed DbCommand ("34"ms) [Parameters=["@__id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [m].[ID], [m].[Address1], [m].[Address2], [m].[City], [m].[CustomerID], [m].[FirstName], [m].[LastName], [m].[PostalCode], [m].[PublisherID]
+FROM [Address] AS [m]
+WHERE [m].[ID] = @__id_0"
+2018-05-12 19:21:48.002 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Edit (Domasno_2)" in 32207.9345ms
+2018-05-12 19:21:48.101 +02:00 [Error] An unhandled exception has occurred while executing the request
+AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+===============================================================
+Address_ViewModel -> Address (Destination member list)
+Domasno_2.Models.Address_ViewModel -> Domasno_2.Models.Address (Destination member list)
+
+Unmapped properties:
+Address1
+Address2
+PostalCode
+Customer
+Publisher
+
+   at AutoMapper.ConfigurationValidator.AssertConfigurationIsValid(IEnumerable`1 typeMaps)
+   at lambda_method(Closure , Address_ViewModel , Address , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TSource,TDestination](TSource source, TDestination destination)
+   at Domasno_2.Controllers.AdresaController.<Edit>d__14.MoveNext() in C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Controllers\AdresaController.cs:line 281
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-05-12 19:21:48.239 +02:00 [Information] Request finished in 32462.0593ms 500 text/html; charset=utf-8
+2018-05-12 19:26:10.042 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-12 19:26:10.835 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-12 19:26:11.217 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-12 19:26:14.466 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-12 19:26:15.031 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3900.0329ms
+2018-05-12 19:26:15.055 +02:00 [Information] Request finished in 4224.82ms 200 text/html; charset=utf-8
+2018-05-12 19:26:22.068 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa  
+2018-05-12 19:26:22.255 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-12 19:26:22.470 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-12 19:26:27.953 +02:00 [Information] Executed DbCommand ("664"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ID], [a].[Address1], [a].[Address2], [a].[City], [a].[CustomerID], [a].[FirstName], [a].[LastName], [a].[PostalCode], [a].[PublisherID]
+FROM [Address] AS [a]"
+2018-05-12 19:26:28.722 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Index.cshtml".
+2018-05-12 19:26:28.816 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" in 6708.5979ms
+2018-05-12 19:26:28.859 +02:00 [Information] Request finished in 6785.3093ms 200 text/html; charset=utf-8
+2018-05-12 19:26:33.280 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa/Edit/1  
+2018-05-12 19:26:33.376 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Edit (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-12 19:26:42.857 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-12 19:26:42.986 +02:00 [Information] Executed DbCommand ("76"ms) [Parameters=["@__id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [m].[ID], [m].[Address1], [m].[Address2], [m].[City], [m].[CustomerID], [m].[FirstName], [m].[LastName], [m].[PostalCode], [m].[PublisherID]
+FROM [Address] AS [m]
+WHERE [m].[ID] = @__id_0"
+2018-05-12 19:26:43.264 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/EditVM.cshtml".
+2018-05-12 19:26:43.575 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Edit (Domasno_2)" in 10245.5467ms
+2018-05-12 19:26:43.607 +02:00 [Information] Request finished in 10322.5008ms 200 text/html; charset=utf-8
+2018-05-12 19:26:53.545 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:40256/Adresa/Edit/1 application/x-www-form-urlencoded 233
+2018-05-12 19:26:53.620 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Edit (Domasno_2)" with arguments (["Domasno_2.Models.Address_ViewModel"]) - ModelState is Valid
+2018-05-12 19:26:58.860 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-12 19:26:58.908 +02:00 [Information] Executed DbCommand ("34"ms) [Parameters=["@__id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [m].[ID], [m].[Address1], [m].[Address2], [m].[City], [m].[CustomerID], [m].[FirstName], [m].[LastName], [m].[PostalCode], [m].[PublisherID]
+FROM [Address] AS [m]
+WHERE [m].[ID] = @__id_0"
+2018-05-12 19:27:38.798 +02:00 [Information] Executed DbCommand ("71"ms) [Parameters=["@p8='?', @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?', @p4='?' (Size = 35), @p5='?' (Size = 15), @p6='?' (Size = 10), @p7='?'"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Address] SET [Address1] = @p0, [Address2] = @p1, [City] = @p2, [CustomerID] = @p3, [FirstName] = @p4, [LastName] = @p5, [PostalCode] = @p6, [PublisherID] = @p7
+WHERE [ID] = @p8;
+SELECT @@ROWCOUNT;"
+2018-05-12 19:27:46.932 +02:00 [Information] Executing RedirectResult, redirecting to "/Adresa".
+2018-05-12 19:27:46.938 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Edit (Domasno_2)" in 53371.8862ms
+2018-05-12 19:27:46.948 +02:00 [Information] Request finished in 53402.8454ms 302 
+2018-05-12 19:27:46.977 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa  
+2018-05-12 19:27:47.005 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-12 19:27:47.010 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-12 19:27:47.085 +02:00 [Information] Executed DbCommand ("67"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ID], [a].[Address1], [a].[Address2], [a].[City], [a].[CustomerID], [a].[FirstName], [a].[LastName], [a].[PostalCode], [a].[PublisherID]
+FROM [Address] AS [a]"
+2018-05-12 19:27:47.097 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Index.cshtml".
+2018-05-12 19:27:47.204 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" in 211.3341ms
+2018-05-12 19:27:47.244 +02:00 [Information] Request finished in 240.8803ms 200 text/html; charset=utf-8
+2018-05-12 19:29:38.193 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-12 19:29:38.979 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-12 19:29:39.364 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-12 19:29:42.633 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-12 19:29:43.236 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3909.1528ms
+2018-05-12 19:29:43.255 +02:00 [Information] Request finished in 4285.0622ms 200 text/html; charset=utf-8
+2018-05-12 19:29:48.720 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa  
+2018-05-12 19:29:48.897 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-12 19:29:49.086 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-12 19:29:54.086 +02:00 [Information] Executed DbCommand ("382"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ID], [a].[Address1], [a].[Address2], [a].[City], [a].[CustomerID], [a].[FirstName], [a].[LastName], [a].[PostalCode], [a].[PublisherID]
+FROM [Address] AS [a]"
+2018-05-12 19:29:54.843 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Index.cshtml".
+2018-05-12 19:29:54.951 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" in 6200.4789ms
+2018-05-12 19:29:54.973 +02:00 [Information] Request finished in 6238.812ms 200 text/html; charset=utf-8
+2018-05-12 19:29:57.665 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa/Edit/1  
+2018-05-12 19:29:57.755 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Edit (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-12 19:29:57.767 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-12 19:29:57.896 +02:00 [Information] Executed DbCommand ("82"ms) [Parameters=["@__id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [m].[ID], [m].[Address1], [m].[Address2], [m].[City], [m].[CustomerID], [m].[FirstName], [m].[LastName], [m].[PostalCode], [m].[PublisherID]
+FROM [Address] AS [m]
+WHERE [m].[ID] = @__id_0"
+2018-05-12 19:29:58.197 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/EditVM.cshtml".
+2018-05-12 19:29:58.494 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Edit (Domasno_2)" in 788.8797ms
+2018-05-12 19:29:58.524 +02:00 [Information] Request finished in 851.9337ms 200 text/html; charset=utf-8
+2018-05-12 19:30:08.998 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:40256/Adresa/Edit/1 application/x-www-form-urlencoded 233
+2018-05-12 19:30:09.092 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Edit (Domasno_2)" with arguments (["Domasno_2.Models.Address_ViewModel"]) - ModelState is Valid
+2018-05-12 19:30:12.191 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-12 19:30:12.253 +02:00 [Information] Executed DbCommand ("44"ms) [Parameters=["@__id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [m].[ID], [m].[Address1], [m].[Address2], [m].[City], [m].[CustomerID], [m].[FirstName], [m].[LastName], [m].[PostalCode], [m].[PublisherID]
+FROM [Address] AS [m]
+WHERE [m].[ID] = @__id_0"
+2018-05-12 19:30:26.897 +02:00 [Information] Executed DbCommand ("64"ms) [Parameters=["@p8='?', @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?', @p4='?' (Size = 35), @p5='?' (Size = 15), @p6='?' (Size = 10), @p7='?'"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Address] SET [Address1] = @p0, [Address2] = @p1, [City] = @p2, [CustomerID] = @p3, [FirstName] = @p4, [LastName] = @p5, [PostalCode] = @p6, [PublisherID] = @p7
+WHERE [ID] = @p8;
+SELECT @@ROWCOUNT;"
+2018-05-12 19:30:26.913 +02:00 [Information] Executing RedirectResult, redirecting to "/Adresa".
+2018-05-12 19:30:26.923 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Edit (Domasno_2)" in 17904.2851ms
+2018-05-12 19:30:26.943 +02:00 [Information] Request finished in 17933.305ms 302 
+2018-05-12 19:30:26.954 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa  
+2018-05-12 19:30:27.043 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-12 19:30:27.050 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-12 19:30:27.173 +02:00 [Information] Executed DbCommand ("93"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ID], [a].[Address1], [a].[Address2], [a].[City], [a].[CustomerID], [a].[FirstName], [a].[LastName], [a].[PostalCode], [a].[PublisherID]
+FROM [Address] AS [a]"
+2018-05-12 19:30:27.179 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Index.cshtml".
+2018-05-12 19:30:27.229 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" in 261.2782ms
+2018-05-12 19:30:27.251 +02:00 [Information] Request finished in 283.0999ms 200 text/html; charset=utf-8
+2018-05-12 19:58:50.438 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-12 19:58:51.221 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-12 19:58:51.619 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-12 19:58:54.946 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-12 19:58:55.524 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 3986.3215ms
+2018-05-12 19:58:55.559 +02:00 [Information] Request finished in 4339.445ms 200 text/html; charset=utf-8
+2018-05-12 19:59:07.745 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-12 19:59:07.954 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (["", "", "", ""]) - ModelState is Valid
+2018-05-12 19:59:08.175 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-12 19:59:13.232 +02:00 [Information] Executed DbCommand ("571"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Customer] AS [c]"
+2018-05-12 19:59:13.439 +02:00 [Information] Executed DbCommand ("122"ms) [Parameters=["@__p_0='?', @__p_1='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]
+ORDER BY [c].[FullName]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY"
+2018-05-12 19:59:14.278 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-12 19:59:14.384 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 6582.6558ms
+2018-05-12 19:59:14.409 +02:00 [Information] Request finished in 6657.9452ms 200 text/html; charset=utf-8
+2018-05-12 19:59:40.098 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Edit?id=1  
+2018-05-12 19:59:40.205 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Edit (Domasno_2)" with arguments (["1"]) - ModelState is Valid
+2018-05-12 19:59:46.558 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-12 19:59:46.627 +02:00 [Information] Executed DbCommand ("39"ms) [Parameters=["@__id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [m].[ID], [m].[Active], [m].[Age], [m].[FullName], [m].[Gender]
+FROM [Customer] AS [m]
+WHERE [m].[ID] = @__id_0"
+2018-05-12 20:00:07.357 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/EditVM.cshtml".
+2018-05-12 20:00:07.659 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Edit (Domasno_2)" in 27538.4045ms
+2018-05-12 20:00:07.677 +02:00 [Information] Request finished in 27569.3362ms 200 text/html; charset=utf-8
+2018-05-12 20:00:19.749 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:40256/Customer/Edit application/x-www-form-urlencoded 232
+2018-05-12 20:00:19.831 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Edit (Domasno_2)" with arguments (["Domasno_2.Models.Customer_VM"]) - ModelState is Valid
+2018-05-12 20:00:19.841 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-12 20:00:19.894 +02:00 [Information] Executed DbCommand ("40"ms) [Parameters=["@__id_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [m].[ID], [m].[Active], [m].[Age], [m].[FullName], [m].[Gender]
+FROM [Customer] AS [m]
+WHERE [m].[ID] = @__id_0"
+2018-05-12 20:00:20.066 +02:00 [Information] Executed DbCommand ("91"ms) [Parameters=["@p4='?', @p0='?', @p1='?', @p2='?' (Size = 4000), @p3='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Customer] SET [Active] = @p0, [Age] = @p1, [FullName] = @p2, [Gender] = @p3
+WHERE [ID] = @p4;
+SELECT @@ROWCOUNT;"
+2018-05-12 20:00:20.079 +02:00 [Information] Executing RedirectResult, redirecting to "/Customer/Index".
+2018-05-12 20:00:20.086 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Edit (Domasno_2)" in 317.7756ms
+2018-05-12 20:00:20.097 +02:00 [Information] Request finished in 346.2421ms 302 
+2018-05-12 20:00:20.107 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Customer/Index  
+2018-05-12 20:00:20.179 +02:00 [Information] Executing action method "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" with arguments (["", "", "", ""]) - ModelState is Valid
+2018-05-12 20:00:20.186 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-12 20:00:20.316 +02:00 [Information] Executed DbCommand ("121"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Customer] AS [c]"
+2018-05-12 20:00:20.360 +02:00 [Information] Executed DbCommand ("36"ms) [Parameters=["@__p_0='?', @__p_1='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Active], [c].[Age], [c].[FullName], [c].[Gender]
+FROM [Customer] AS [c]
+ORDER BY [c].[FullName]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY"
+2018-05-12 20:00:20.367 +02:00 [Information] Executing ViewResult, running view at path "/Views/Customer/Index.cshtml".
+2018-05-12 20:00:20.387 +02:00 [Information] Executed action "Domasno_2.Controllers.CustomerController.Index (Domasno_2)" in 270.8288ms
+2018-05-12 20:00:20.423 +02:00 [Information] Request finished in 301.2116ms 200 text/html; charset=utf-8

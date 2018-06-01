@@ -17,7 +17,6 @@ namespace Domasno_2.Models
 
         [Range(10, 40)]
         public int  Age { get; set; }
-
         public Boolean Active { get; set; }
         public ICollection<Address> Addresses { get; set; }
         public ICollection<Title> Titles { get; set; }

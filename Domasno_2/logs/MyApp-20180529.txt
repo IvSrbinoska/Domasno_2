@@ -1,0 +1,84 @@
+2018-05-29 13:32:48.733 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-29 13:32:50.457 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-29 13:32:51.009 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-29 13:32:55.338 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-29 13:32:56.000 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 5103.9875ms
+2018-05-29 13:32:56.014 +02:00 [Information] Request finished in 5563.1765ms 200 text/html; charset=utf-8
+2018-05-29 13:32:56.872 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/bootstrap/dist/css/bootstrap.css  
+2018-05-29 13:32:56.874 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/images/banner2.svg  
+2018-05-29 13:32:56.878 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/css/site.css  
+2018-05-29 13:32:56.930 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/images/banner1.svg  
+2018-05-29 13:32:57.038 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\wwwroot\lib\bootstrap\dist\css\bootstrap.css"'
+2018-05-29 13:32:57.038 +02:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\wwwroot\css\site.css"'
+2018-05-29 13:32:57.038 +02:00 [Information] Sending file. Request path: '"/images/banner2.svg"'. Physical path: '"C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\wwwroot\images\banner2.svg"'
+2018-05-29 13:32:57.038 +02:00 [Information] Sending file. Request path: '"/images/banner1.svg"'. Physical path: '"C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\wwwroot\images\banner1.svg"'
+2018-05-29 13:32:57.159 +02:00 [Information] Request finished in 307.8461ms 200 image/svg+xml
+2018-05-29 13:32:57.187 +02:00 [Information] Request finished in 318.0818ms 200 image/svg+xml
+2018-05-29 13:32:57.247 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/jquery/dist/jquery.js  
+2018-05-29 13:32:57.310 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/bootstrap/dist/js/bootstrap.js  
+2018-05-29 13:32:57.345 +02:00 [Information] Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\wwwroot\lib\jquery\dist\jquery.js"'
+2018-05-29 13:32:57.412 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.js"'. Physical path: '"C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\wwwroot\lib\bootstrap\dist\js\bootstrap.js"'
+2018-05-29 13:32:57.523 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/images/banner4.svg  
+2018-05-29 13:32:57.559 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/images/banner3.svg  
+2018-05-29 13:32:57.578 +02:00 [Information] Sending file. Request path: '"/images/banner4.svg"'. Physical path: '"C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\wwwroot\images\banner4.svg"'
+2018-05-29 13:32:57.607 +02:00 [Information] Request finished in 736.3194ms 200 text/css
+2018-05-29 13:32:57.638 +02:00 [Information] Sending file. Request path: '"/images/banner3.svg"'. Physical path: '"C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\wwwroot\images\banner3.svg"'
+2018-05-29 13:32:57.641 +02:00 [Information] Request finished in 605.9106ms 200 text/css
+2018-05-29 13:32:57.689 +02:00 [Information] Request finished in 225.6002ms 200 image/svg+xml
+2018-05-29 13:32:57.735 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot?  
+2018-05-29 13:32:57.793 +02:00 [Information] Request finished in 264.9979ms 200 image/svg+xml
+2018-05-29 13:32:57.878 +02:00 [Information] Request finished in 566.2071ms 200 application/javascript
+2018-05-29 13:32:57.903 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/js/site.js?v=ji3-IxbEzYWjzzLCGkF1KDjrT2jLbbrSYXw-AhMPNIA  
+2018-05-29 13:32:57.914 +02:00 [Information] Sending file. Request path: '"/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot"'. Physical path: '"C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.eot"'
+2018-05-29 13:32:57.920 +02:00 [Information] Request finished in 696.7624ms 200 application/javascript
+2018-05-29 13:32:57.941 +02:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\wwwroot\js\site.js"'
+2018-05-29 13:32:57.951 +02:00 [Information] Request finished in 68.6302ms 200 application/javascript
+2018-05-29 13:32:57.984 +02:00 [Information] Request finished in 269.9854ms 200 application/vnd.ms-fontobject
+2018-05-29 13:32:58.420 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/favicon.ico  
+2018-05-29 13:32:58.462 +02:00 [Information] Sending file. Request path: '"/favicon.ico"'. Physical path: '"C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\wwwroot\favicon.ico"'
+2018-05-29 13:32:58.567 +02:00 [Information] Request finished in 145.3224ms 200 image/x-icon
+2018-05-29 13:33:00.782 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show  
+2018-05-29 13:33:00.869 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments ([""]) - ModelState is Valid
+2018-05-29 13:33:03.791 +02:00 [Error] Get stock data failed
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.<GetWebResponseTaskAsync>d__112.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Net.WebClient.<DownloadBitsAsync>d__150.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Domasno_2.Controllers.TestWebApiController.<Show>d__10.MoveNext() in C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Controllers\TestWebApiController.cs:line 130
+2018-05-29 13:33:04.274 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Show.cshtml".
+2018-05-29 13:33:04.375 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 3550.9354ms
+2018-05-29 13:33:04.384 +02:00 [Information] Request finished in 3601.4017ms 200 text/html; charset=utf-8
+2018-05-29 13:33:14.630 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show/FB  
+2018-05-29 13:33:14.689 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments ([""]) - ModelState is Valid
+2018-05-29 13:33:15.481 +02:00 [Error] Get stock data failed
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.<GetWebResponseTaskAsync>d__112.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at System.Net.WebClient.<DownloadBitsAsync>d__150.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Domasno_2.Controllers.TestWebApiController.<Show>d__10.MoveNext() in C:\Users\Ivana Srbinoska\documents\visual studio 2017\Projects\Domasno_2\Domasno_2\Controllers\TestWebApiController.cs:line 130
+2018-05-29 13:33:15.499 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Show.cshtml".
+2018-05-29 13:33:15.508 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 864.3614ms
+2018-05-29 13:33:15.522 +02:00 [Information] Request finished in 889.1623ms 200 text/html; charset=utf-8
+2018-05-29 13:41:50.048 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/TestWebApi/Show?stockSymbol=FB  
+2018-05-29 13:41:50.086 +02:00 [Information] Executing action method "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" with arguments (["FB"]) - ModelState is Valid
+2018-05-29 13:41:51.175 +02:00 [Information] Executing ViewResult, running view at path "/Views/TestWebApi/Show.cshtml".
+2018-05-29 13:41:51.190 +02:00 [Information] Executed action "Domasno_2.Controllers.TestWebApiController.Show (Domasno_2)" in 1132.4055ms
+2018-05-29 13:41:51.200 +02:00 [Information] Request finished in 1149.2286ms 200 text/html; charset=utf-8

@@ -1,0 +1,6 @@
+2018-06-01 02:24:46.782 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-06-01 02:24:48.205 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-06-01 02:24:49.087 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-06-01 02:24:54.629 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-06-01 02:24:55.189 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 6289.5636ms
+2018-06-01 02:24:55.200 +02:00 [Information] Request finished in 7002.9689ms 200 text/html; charset=utf-8

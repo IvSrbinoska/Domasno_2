@@ -1,0 +1,45 @@
+2018-05-21 22:42:20.331 +02:00 [Information] User profile is available. Using '"C:\Users\Ivana Srbinoska\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-05-21 22:42:21.166 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/  
+2018-05-21 22:42:21.700 +02:00 [Information] Executing action method "Domasno_2.Controllers.HomeController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-21 22:42:25.237 +02:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-05-21 22:42:25.844 +02:00 [Information] Executed action "Domasno_2.Controllers.HomeController.Index (Domasno_2)" in 4321.5317ms
+2018-05-21 22:42:25.858 +02:00 [Information] Request finished in 4695.4415ms 200 text/html; charset=utf-8
+2018-05-21 22:42:26.168 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/bootstrap/dist/css/bootstrap.css  
+2018-05-21 22:42:26.203 +02:00 [Information] The file "/lib/bootstrap/dist/css/bootstrap.css" was not modified
+2018-05-21 22:42:26.213 +02:00 [Information] Request finished in 43.7631ms 304 text/css
+2018-05-21 22:42:26.221 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/css/site.css  
+2018-05-21 22:42:26.227 +02:00 [Information] The file "/css/site.css" was not modified
+2018-05-21 22:42:26.243 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/images/banner1.svg  
+2018-05-21 22:42:26.246 +02:00 [Information] Request finished in 23.7178ms 304 text/css
+2018-05-21 22:42:26.254 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/images/banner2.svg  
+2018-05-21 22:42:26.261 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/images/banner3.svg  
+2018-05-21 22:42:26.355 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/bootstrap/dist/js/bootstrap.js  
+2018-05-21 22:42:26.366 +02:00 [Information] The file "/images/banner2.svg" was not modified
+2018-05-21 22:42:26.375 +02:00 [Information] The file "/lib/bootstrap/dist/js/bootstrap.js" was not modified
+2018-05-21 22:42:26.400 +02:00 [Information] The file "/images/banner3.svg" was not modified
+2018-05-21 22:42:26.411 +02:00 [Information] Request finished in 155.4429ms 304 image/svg+xml
+2018-05-21 22:42:26.415 +02:00 [Information] The file "/images/banner1.svg" was not modified
+2018-05-21 22:42:26.478 +02:00 [Information] Request finished in 75.5196ms 304 application/javascript
+2018-05-21 22:42:26.481 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/js/site.js?v=ji3-IxbEzYWjzzLCGkF1KDjrT2jLbbrSYXw-AhMPNIA  
+2018-05-21 22:42:26.482 +02:00 [Information] Request finished in 125.5535ms 304 image/svg+xml
+2018-05-21 22:42:26.573 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot?  
+2018-05-21 22:42:26.601 +02:00 [Information] The file "/js/site.js" was not modified
+2018-05-21 22:42:26.623 +02:00 [Information] Request finished in 299.4116ms 304 image/svg+xml
+2018-05-21 22:42:26.683 +02:00 [Information] Request finished in 176.8072ms 304 application/javascript
+2018-05-21 22:42:26.747 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/images/banner4.svg  
+2018-05-21 22:42:26.752 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/lib/jquery/dist/jquery.js  
+2018-05-21 22:42:26.758 +02:00 [Information] The file "/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" was not modified
+2018-05-21 22:42:26.851 +02:00 [Information] The file "/images/banner4.svg" was not modified
+2018-05-21 22:42:26.891 +02:00 [Information] The file "/lib/jquery/dist/jquery.js" was not modified
+2018-05-21 22:42:26.925 +02:00 [Information] Request finished in 293.2881ms 304 application/vnd.ms-fontobject
+2018-05-21 22:42:26.940 +02:00 [Information] Request finished in 204.047ms 304 image/svg+xml
+2018-05-21 22:42:27.050 +02:00 [Information] Request finished in 331.0165ms 304 application/javascript
+2018-05-21 22:42:29.134 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:40256/Adresa  
+2018-05-21 22:42:29.306 +02:00 [Information] Executing action method "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" with arguments (null) - ModelState is Valid
+2018-05-21 22:42:29.539 +02:00 [Information] Entity Framework Core "2.0.2-rtm-10011" initialized '"Domasno_2Context"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-05-21 22:42:37.751 +02:00 [Information] Executed DbCommand ("237"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ID], [a].[Address1], [a].[Address2], [a].[City], [a].[CustomerID], [a].[FirstName], [a].[LastName], [a].[PostalCode], [a].[PublisherID]
+FROM [Address] AS [a]"
+2018-05-21 22:42:38.484 +02:00 [Information] Executing ViewResult, running view at path "/Views/Adresa/Index.cshtml".
+2018-05-21 22:42:38.575 +02:00 [Information] Executed action "Domasno_2.Controllers.AdresaController.Index (Domasno_2)" in 9420.5668ms
+2018-05-21 22:42:38.590 +02:00 [Information] Request finished in 9449.6285ms 200 text/html; charset=utf-8

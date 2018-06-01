@@ -8,6 +8,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using Domasno_2.Models;
+using AutoMapper;
+using Domasno_2.Services;
 
 namespace Domasno_2
 {
@@ -23,6 +25,9 @@ namespace Domasno_2
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            // automapper
+            services.AddAutoMapper(typeof(ClassMappings));
             services.AddMvc();
             services.AddDbContext<Domasno_2Context>(options =>options.UseSqlServer(Configuration.GetConnectionString("Domasno_2Context")));
             services.AddOptions();
@@ -52,6 +57,10 @@ namespace Domasno_2
 
             app.UseMvc(routes =>
             {
+                routes.MapRoute(
+                    name: "areasRoute",
+                    template: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+
                 //routes.MapRoute("title", "title/{*index}",defaults: new { controller = "Title", action = "Index" });
                 routes.MapRoute(
                     name: "default",
